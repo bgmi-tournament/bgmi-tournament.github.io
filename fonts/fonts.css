@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('fonts/ProximaNovaBold.eot');
+    src: url('fonts/ProximaNovaBold.eot') format('embedded-opentype'),
+         url('fonts/ProximaNovaBold.woff2') format('woff2'),
+         url('fonts/ProximaNovaBold.woff') format('woff'),
+         url('fonts/ProximaNovaBold.ttf') format('truetype'),
+         url('fonts/ProximaNovaBold.svg#ProximaNovaBold') format('svg');
+}
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('fonts/ProximaNovaRegular.eot');
+    src: url('fonts/ProximaNovaRegular.eot') format('embedded-opentype'),
+         url('fonts/ProximaNovaRegular.woff2') format('woff2'),
+         url('fonts/ProximaNovaRegular.woff') format('woff'),
+         url('fonts/ProximaNovaRegular.ttf') format('truetype'),
+         url('fonts/ProximaNovaRegular.svg#ProximaNovaRegular') format('svg');
+}
+@font-face {
+    font-family: 'ProximaNovaAltLight';
+    src: url('fonts/ProximaNovaAltLight.eot');
+    src: url('fonts/ProximaNovaAltLight.eot') format('embedded-opentype'),
+         url('fonts/ProximaNovaAltLight.woff2') format('woff2'),
+         url('fonts/ProximaNovaAltLight.woff') format('woff'),
+         url('fonts/ProximaNovaAltLight.ttf') format('truetype'),
+         url('fonts/ProximaNovaAltLight.svg#ProximaNovaAltLight') format('svg');
+}
+@font-face {
+    font-family: 'AkrobatSemiBold';
+    src: url('fonts/AkrobatSemiBold.eot');
+    src: url('fonts/AkrobatSemiBold.eot') format('embedded-opentype'),
+         url('fonts/AkrobatSemiBold.woff2') format('woff2'),
+         url('fonts/AkrobatSemiBold.woff') format('woff'),
+         url('fonts/AkrobatSemiBold.ttf') format('truetype'),
+         url('fonts/AkrobatSemiBold.svg#AkrobatSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'bitsumishiregular';
+    src: url('fonts/bitsumis.woff2') format('woff2'),
+         url('fonts/bitsumis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ShentoxSemiBold';
+    src: url('fonts/ShentoxSemiBold.eot');
+    src: url('fonts/ShentoxSemiBold.eot') format('embedded-opentype'),
+         url('fonts/ShentoxSemiBold.woff2') format('woff2'),
+         url('fonts/ShentoxSemiBold.woff') format('woff'),
+         url('fonts/ShentoxSemiBold.ttf') format('truetype'),
+         url('fonts/ShentoxSemiBold.svg#ShentoxSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'AprilFools_Day';
+    src: url('fonts/AprilFools_Day.eot');
+    src: url('fonts/AprilFools_Day.eot') format('embedded-opentype'),
+         url('fonts/AprilFools_Day.woff2') format('woff2'),
+         url('fonts/AprilFools_Day.woff') format('woff'),
+         url('fonts/AprilFools_Day.ttf') format('truetype'),
+         url('fonts/AprilFools_Day.svg') format('svg');
+}
+@font-face {
+    font-family: 'BOLD_DOT_DIGITAL7';
+    src: url('fonts/BOLD_DOT_DIGITAL7.eot');
+    src: url('fonts/BOLD_DOT_DIGITAL7.eot') format('embedded-opentype'),
+         url('fonts/BOLD_DOT_DIGITAL7.woff2') format('woff2'),
+         url('fonts/BOLD_DOT_DIGITAL7.woff') format('woff'),
+         url('fonts/BOLD_DOT_DIGITAL7.ttf') format('truetype'),
+         url('fonts/BOLD_DOT_DIGITAL7.svg#BOLD_DOT_DIGITAL7') format('svg');
+}
+
+@font-face {
+    font-family: 'Shentox Medium';
+    src: url('Shentox Medium.ttf');
+}
+@font-face {
+    font-family: 'Shentox Light';
+    src: url('Shentox Light.ttf');
+}
+@font-face {
+    font-family: 'ds-digitalnormal';
+    src: url('ds-digi.woff2') format('woff2'),
+         url('ds-digi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

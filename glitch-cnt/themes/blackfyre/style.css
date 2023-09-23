@@ -1,0 +1,245 @@
+/*
+Theme Name: Blackfyre
+Theme URI: http://www.skywarriorthemes.com/blackfyre/
+Author: Skywarrior themes
+Author URI: http://www.skywarriorthemes.com/
+Description: Blackfyre gives you the power to create massive gaming communities. Users can create clans and challenge each others, keeping track of the matches, share content and much more!
+Version: 1.4.2
+License: Skywarrior Themes. All rights reserved.
+License URI: http://themeforest.net/user/Skywarrior
+Tags: dark, gaming, game, black, dark, music, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: blackfyre
+*/
+/*@import url('css/main.css');*/
+@import url('css/font-awesome.css');
+@import url('css/shadowbox.css');
+/*@import url('css/bbpress.css');*/
+/*@import url('css/woocommerce.css');*/
+@import url('css/buddypress.css');
+@import url('css/clanwars.css');
+@import url('css/easy-slider.css');
+@import url('css/tooltip.css');
+@import url('css/bootstrap4.min.css');
+@import url('css/ubnew.css');
+@import url('css/meanmenu.css');
+@import url('css/animate.css');
+@import url('css/nivo-slider.css');
+@import url('fonts/fonts.css');
+@import url('css/owl.carousel.css');
+@import url('css/basictable.css');
+@import url('css/jquery.ui.css');
+@import url('css/tbl-style.css');
+@import url('css/easy-responsive-tabs.css');
+@import url('js/scroll/jquery.jscrollpane.css');
+.events-wrap{ max-width:914px; margin:0 auto;}
+.tournamentgame{ width:100%; float:left; background:#0d0d0d url(img/tournament_bg3.jpg) center -4px no-repeat; background-size:100%;}
+.bx-logo{ text-align:center; width:100%; float:left; position:relative;}
+.bx-logo span.plys{ position:absolute; right:0px; top:62px;}
+.bx-logo span.ul-logo{ position:absolute; left:0px; top:62px;}
+.gamecategory{ width:100%; float:left; }
+.gamecategory ul{width:100%; float:left; list-style:none; margin:0px; padding:0px 0px 0 0px;}
+.gamecategory ul li{ width:49%; float:left; position:relative; border:2px solid rgba(251, 251, 251, 0.74); margin:0 0.5%;}
+.gamecategory ul li:hover{ border:2px solid rgba(192, 99, 38, 0.8) }
+.gamecategory ul li figure{width:100%; float:left; padding:0px; margin:0px; overflow:hidden;}
+.gamecategory ul li figure:hover img{transform: scale(1.1); -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1);}
+.gamecategory ul li figure img{ width:100%; height:auto; transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-webkit-transition:.5s ease-in-out;}
+.csbtnarea{ position:absolute; left:0px; width:100%; z-index:123; bottom:20px; text-align:center; }
+.csbtnarea a{ background:rgba(192, 99, 38, 0.8); padding:13px 30px; display:block; margin:0px 14px; text-decoration:none;  border:2px solid rgba(255, 255, 255, 0.46); color:#fff; text-transform:uppercase; font-size:18px;}
+.csbtnarea a span{ background:url(img/cs-arr.png) right 5px no-repeat; padding-right:21px;}
+.csbtnarea a.ps3{ background:rgba(192, 99, 38, 0.8) url(img/ps3-ic.jpg) no-repeat 0px 0px; padding:11px 0px 9px 72px;}
+.csbtnarea a.ps4{ background:rgba(192, 99, 38, 0.8) url(img/ps4-ic.jpg) no-repeat 0px 0px; padding:11px 0px 9px 72px; margin-bottom:10px; }
+.csbtnarea a.steam{ background:rgba(192, 99, 38, 0.8) url(img/steam-icon2.png) no-repeat 0px 0px; padding:11px 0px 9px 72px;}
+.csbtnarea a.bspace{ margin-bottom:10px;}
+.prizebox{width:100%; float:left; margin:30px 0 0 0; padding:0px 70px;}
+.prizebox ul{width:100%; float:left; list-style:none;}
+.prizebox ul li{ width:280px; height:280px; float:left; position:relative; border:16px solid rgba(255, 255, 255, 0.14); margin:0px 10px; border-radius:100%; padding-top:60px; text-align:center; background:rgba(0, 0, 0, 0.68);}
+.prizebox ul li.mid{width:330px; height:330px;}
+.prizebox ul li a.retr{ color:#fff; text-transform:uppercase; font-size:22px; background:url(img/edit-ic.png) top center no-repeat; padding-top:59px; display:block;}
+.prizebox ul li a.prj{ color:#fff; text-transform:uppercase; font-size:22px; background:url(img/ic_prize.png) top center no-repeat; padding-top:93px; display:block;}
+.prizebox ul li a.event{    color: #fff; text-transform: uppercase;   font-size: 22px;   background: url(img/ic_cale.png) top center no-repeat;   padding-top: 59px;   display: block;}
+.prizebox ul li span{ line-height:32px; font-family: Roboto; color:#db7028; font-size:30px; font-weight:bold; text-transform:uppercase; display:block; margin:0px 0 0 0;}
+.livestreaming{width:100%; float:left; margin:30px 0 0 0;}
+.livestreaming ul{width:100%; float:left; list-style:none;  margin-bottom:45px; padding:0px;}
+.livestreaming ul li{ float:left; width:auto; margin-left:14%;}
+.livestreaming ul li:first-child{ margin:0px!important;}
+.livestreaming ul li .bx-game-col{ text-align:center; float:left; }
+.livestreaming ul li .bx-game-col span{ padding:22px 0 0 0; width:90px; height:90px; display:inline-block;   background:#000; border:3px solid #393939; border-radius:100%;}
+.livestreaming ul li .bx-game-col .gm-text{ font-size:23px; color:#fff; text-transform:uppercase; margin-top:10px; line-height:24px;} 
+.livestreaming ul li:hover .bx-game-col span{border:3px solid #b40303;}
+.livestreaming ul li .icon2 span,.livestreaming ul li .icon4 span{padding:28px 0 0 0;}
+.co_sponsers{ width:100%; float:left; text-align:center;}
+.fifabanner{ width:100%; float:left;  border:2px solid rgba(251, 251, 251, 0.74);overflow:hidden;}
+.tournamentbanenrinfo{position:relative; float:left; width:100%;}
+.fifabanner figure { width:100%; float:left; position:0px; margin:0px; }
+.fifabanner figure img{ width:100%; float:left; height:auto;transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-webkit-transition:.5s ease-in-out;}
+.fifabanner:hover{ border:2px solid rgba(192, 99, 38, 0.8)}
+.fifabanner figure:hover img{ transform: scale(1.1); -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1);}
+.tournamentbanenrinfo .csbtnarea a{ display:inline-block; margin:0 10px; width:280px;}
+.tournamentbanenrinfo .csbtnarea { width:100%; float:left; text-align:center;}
+.tournamentbanenrinfo .csbtnarea a:hover,.gamecategory ul li .csbtnarea a:hover{ border:2px solid #8c400d;}
+.pc_head{ width:100%; float:left; margin:20px 0px; position:relative; text-align:center;background:url(img/portronics-logo.png) center top no-repeat; padding-top:50px; }
+.pc_head span{font-family: 'BebasNeue'; color:#fff; font-size:27px; background:url(img/pc_game_icon.png) 0px 7px no-repeat; padding-left:35px; display:inline-block; position:relative;}
+.pc_head:before{ width:42%; left:0px; height:1px; background:rgba(204, 204, 204, 0.35); content:''; position:absolute; top:67px;}
+.pc_head:after{ width:42%; right:0px; height:1px; background:rgba(204, 204, 204, 0.35); content:''; position:absolute; top:68px;}
+.gamecategory ul li .csbtnarea a{ height:49px; display: inline-block;   width: auto;   width: 48%;   font-size: 12px; padding:10px 0 0 75px;   margin: 0px 0.5%;}
+.gamecategory ul li .csbtnarea a span {background: url(img/cs-arr.png) right 2px no-repeat; padding-right: 16px; }
+.gamecategory ul li .csbtnarea a small{ line-height:10px; font-size:12px; display:block; text-align:center; background:none;}
+.gamecategory ul li .csbtnarea a.steam-dota {font-size: 16px; padding: 12px 15px 13px 90px; width: 62%; }
+.gamecategory ul li .csbtnarea a.steam-dota span{    background: url(img/cs-arr.png) right 5px no-repeat;}
+.bx-col-wrap{ width:100%; float:left; height:92px;}
+.bx-col-wrap ul{ width:100%; float:left; list-style:none; padding:10px 0 0 0; margin:0px;}
+.bx-col-wrap ul li{ float:left; font-size:32px; color:#fff; font-family: 'ProximaNovaBold'; width:auto;}
+.bx-col-wrap ul li.free{     background: url(img/user-ico.png) no-repeat 20px 0px; height: 39px; padding: 0 0 0 70px; margin: 20px 0 0 0px;}
+.bx-col-wrap ul li.prze12{background: url(img/prize-ico.png) no-repeat 3px 0; height: 68px; padding: 12px 0 0 45px; line-height: 27px; margin: 0px 12%; font-size: 37px;}
+.bx-col-wrap ul li.ven span{ background:url(img/location-track.png) no-repeat; height:40px; padding:4px 0 0 31px;}
+.bx-col-wrap ul li.prze12 span{ display:block; font-size:18px;}
+.bx-col-wrap ul li.ven{text-align: right; margin-top: 24px; padding-right: 30px; margin-left: 23px;}
+.chatbox{ width:320px;}	
+.chatbox .panel-body{ background:#fff;}
+.chatbox .panel-body .primary-font{ display:none;}
+.chatbox .panel-body .chat-body{ width:189px; border:1px solid #f2f2f2; padding:5px;}
+.chatbox .panel-body .chat-body .primary-font{ font-size:12px; width:100%; color:#000; float:left;}
+.chat-line small.text-muted{ width:100%; float:left; text-align:right; font-size:9px!important; color:#888; }
+.chat-info-wrap{ width:100%; float:left; position:relative; margin-bottom:10px;}
+.msg-sender .chat-line{background-color: #f2c7c7;}
+.chat-line{width: 185px; display: inline-block; background-color: white; padding: 5px; border-radius: 4px;position: relative;border-width: 1px; border-style: solid; border-color: #f2f2f2; float: left; margin-left: 10px; font-size:13px; color:#777;}
+.chat-line:after{ width:10px; height:14px; background:url(img/chat-arrow-a.png) no-repeat; position:absolute; right:-10px; top:10px; content:''; z-index:23;}
+.msg-sender .chat-line:after { width:10px; height:14px; background:url(img/chat-arrow-c.png) no-repeat; position:absolute; left:-10px; top:10px; content:''; z-index:23;}
+.co_sponsers{ width:100%; float:left; border-top:1px solid rgba(57, 57, 57, 0.51); padding-top:3px;}
+.co_sponsers .co_spbox{ float:left; width:100%;}
+.co_sponsers .co_spbox h4{ font-size: 19px;  text-transform: uppercase;  margin: -29px 0 0 0;  font-family: Roboto;  color: #d9712b;  font-weight: normal; padding: 6px 0 11px 0;}
+.co_sponsers .co_spbox h4 span{ display:inline-block; background:rgba(57, 57, 57, 0.54); padding:9px 13px; border-radius:25px;}
+.co_sponsers .sponsor-logo{ width:100%; float:left; margin:2px 0 1px 0; }
+.co_sponsers .sponsor-logo span{ display:inline-block; margin:0px 8px;}
+.event-registration-info{ width: 100%; float: left; margin: 15px 0px 0px 0px; background: rgba(0, 0, 0, 0.58);}
+.event-registration-info h4{ text-align:center;font-size: 18px; text-transform: uppercase; padding: 13px 17px; margin:0 0 9px 0; font-family: Roboto; background:rgba(0, 0, 0, 0.11); color: #fba66d; font-weight: 800;}
+.evnt-tbl-list{ width:100%; float:left;font-family: Roboto; font-weight: 800; color:#fff; }
+.evnt-tbl-list tr td{ text-align:center; }
+.event_head{ width:100%; float:left; padding:20px 0px;  position:relative; text-align:center; }
+.event_head span{    font-family: "ProximaNovaBold"; color:#fff; font-size:27px; background:url(img/enent-registration-icon.png) 0px 7px no-repeat; padding-left:35px; display:inline-block; position:relative;}
+.event_head:before{ width:37%; left:0px; height:1px; background:rgba(204, 204, 204, 0.35); content:''; position:absolute; top:38px;}
+.event_head:after{ width:37%; right:0px; height:1px; background:rgba(204, 204, 204, 0.35); content:''; position:absolute; top:38px;}
+.winner-title{    width: 100%; text-align: center; padding: 30px; float: left; background: rgba(0, 0, 0, 0.53) url(img/bx23.png) repeat-x scroll 0 0; height: 81px; background-position: 1px -14px;}
+.winner-title span {background: rgba(0, 0, 0, 0) url("img/winner-icon-bx.png") no-repeat scroll 0 2px; color: #fff;    font-family: "ProximaNovaBold"; font-size: 35px; padding-bottom: 40px; padding-left: 35px; padding-top: 17px; position: relative; }
+.participant-count{font-size: 20px; font-weight: normal; margin-top: 3px;}
+.android-app-btn-wrap{ width:100%; float:left;}
+.android-app-btn-wrap button, .android-app-btn-wrap .button-small{ width:100%; float:left; text-align:center;}
+.android-app-btn-wrap .android-app-or{width: 100%; float: left; text-align: center; font-size: 14px; margin-top: 7px; color: #fff;font-weight: bold;}
+.headerfixinfoarea{ width:100%; position:fixed; z-index:9999; left:0px; top:0px;}
+.pagewrapinfo{ margin-top:139px;}
+.headerfixed .logo img{ max-width: 214px; margin-top: 5px; -webkit-transition: all .5s ease; /* Safari and Chrome */ -moz-transition: all .5s ease; /* Firefox */ -ms-transition: all .5s ease; /* IE 9 */ -o-transition: all .5s ease; /* Opera */ transition: all .5s ease;}
+.headerfixed .navbar-wrapper .login-info{ height:60px; line-height:51px;}
+.headerfixed .navbar-wrapper { background:#1c1c1c;}
+.headerfixed .navbar-inverse .navbar-nav>li>a:before{ background:#1c1c1c; background-image:none;}
+.winner-tableinforarea{ width:100%; float: left; }
+.winner-tableinforarea ul{ width:100%; float: left; list-style:none; padding:0px; margin:0px;}
+.winner-tableinforarea ul li{ float: left;height:266px; margin-bottom:12px; width:25%; text-align:center; border-left:1px solid #3a3a3a;border-top:1px solid #999999; border-bottom:1px solid #999999; background:#000;} 
+.winner-tableinforarea ul li.first{border-left:1px solid #999999;}
+.winner-tableinforarea ul li.last{border-right:1px solid #999999;}
+.winner-tableinforarea ul li .winner-profilepic{ width:100%; float:left;}
+.winner-tableinforarea ul li .winner-profilepic img {border: 3px solid #fff; border-radius: 100%; height: 110px; width: 110px;}
+.winner-tableinforarea ul li  .tournament-winner-name {float: left; margin-left: 0; width: 100%; margin-top:15px;}
+.winner-tableinforarea ul li .tournament-winner-name p { border-bottom:0;float: left; font-size: 14px; margin: 0; padding: 0 0 6px; width: 100%;}
+.winner-tableinforarea ul li .tournament-winner-name p span.winner-name{ text-align:left; font-size:20px; line-height:18px;}
+.winner-tableinforarea ul li .tournament-winner-name p span.winner-name i {display: block; font-size: 16px; font-weight: bold; margin-bottom: 0px; text-align: center; }
+.winner-tableinforarea ul li figure img{ width:100%;}
+.winner-tableinforarea ul li h4 {color: #fff; font-family: "BebasNeue"; font-size: 25px; font-weight: normal; margin: 5px 0; padding: 0; }
+.winner-tableinforarea ul li h4 sup {display: inline-block; font-size: 12px; text-transform: lowercase; top: -0.8em; font-family: arial; font-weight: bold; }
+.tournamentgame .winner-profilepic > a > span {margin: 0 auto; border-radius: 50%; }
+.clan-a .avatar-letter {height: 114px !important; line-height: 114px !important; }
+.clan-b .avatar-letter, .clan-c .avatar-letter{height: 101px !important; line-height: 101px !important}
+#matches .clan-a .avatar-letter, #matches .clan-b .avatar-letter {width: 100px !important; height: 100px !important; font-size: 64px !important; line-height: 100px !important; }
+#matches .clan-a .clanimgw a img, #matches .clan-b .clanimgw a img{width: 100px !important; height: 100px !important}
+.faqinfo h6 {float: left;cursor:pointer; color:#eee; font-size: 18px; margin: 0; padding: 10px 0; position: relative; width: 100%; }
+.faqinfo h6:before {background: rgba(0, 0, 0, 0) url("img/ul-plus-minus-btn.png") no-repeat scroll 0 0; content: ""; height: 30px; position: absolute; right: 0; top: 2px; width: 30px; cursor: pointer; }
+.faqinfo h6.active:before {background: rgba(0, 0, 0, 0) url("img/ul-plus-minus-btn.png") no-repeat 0px -30px;}
+ .faqinfo h6.active{ color:#b20505;} 
+.faqinfo .faqtxt .h4_title {float: left; font-size: 18px; margin-bottom: 1px; width: 100%; }
+.faqinfo .faqtxt ul li {background: rgba(0, 0, 0, 0) url("img/dot-123.png") no-repeat scroll 0 13px; float: left; font-size: 17px; margin: 0; padding: 9px 0 2px 27px; width: 100%; }
+.faqinfo .faqtxt ul { margin-bottom: 23px;}
+.widget #slider5 li{ padding:0px!important;}
+.side-head-title h5 { margin-top:1px; border-bottom: 1px solid #fff; border-top: 1px solid #fff; background:#1a1c20; color: #fff; float: left; font-size: 18px; padding: 6px 0; text-align: center; width: 100%; }
+.text-center.side-head-title {padding: 0; }
+.widget #slider5 li .table.table-bordered.table-leaderboard td,.widget #slider5 li .table.table-bordered.table-leaderboard th,.table.table-bordered.table-leaderboard{ border:0px;}
+.widget .table-leaderboard th{ background:#000; color:#fff;}
+.widget .table-leaderboard tr:nth-child(odd)		{ background-color:#131313; }
+.widget .table-leaderboard tr:nth-child(even)		{ background-color:#000000; }
+.table.table-bordered.table-leaderboard a {font-size: 14px; font-weight: bold; }
+.widget .callback_container .callbacks_nav.callbacks2_nav.prev{ position:absolute; left:0px; top:50%; z-index:9999; background:url("img/controls2.png") no-repeat scroll 0px 0px; width:14px; height:18px; text-indent:-9999px;}
+.widget .callback_container .callbacks_nav.callbacks2_nav.next{ position:absolute; right:0px; top:50%; z-index:9999; background:url("img/controls2.png") no-repeat scroll -16px 0px;width:14px; height:18px; text-indent:-9999px;}
+.widget .callback_container {float: left; position: relative; width: 100%; background-color: rgba(0, 0, 0, 0.4)}
+.reg-btn-wrap {width: 100%;position: relative;}
+.reg-btn-wrap .ub-tooltip {background: #000 none repeat scroll 0 0; border-radius: 20px; bottom: -35px; left: 30%; padding: 4px 20px; position: absolute; z-index: 123; display:none; }
+.reg-btn-wrap:hover .ub-tooltip{ display:block;}
+/*event page design*/
+.single-event-left{float: left;width: 60%}
+.wcontainer.event-design-info {margin: 1% 0 1% 1%; padding:0px;}
+.event-date{ width:96%; float:left; margin:2%; }
+.event-date .dt-bx23{ background:#15181b; border:1px solid #a0a0a0; border-radius:10px; padding:12px; color:#e9e9e9; font-size:18px; float:left; line-height:23px;}
+.event-date .dt-bx23 span{ display:block; font-size:21px; font-weight:bold; text-transform:uppercase; color:#f7f7f7;}
+.event-head-bx { float: none; margin-left: 134px; width: auto;}
+.event-head-bx h4{ font-size:27px; font-weight:normal; margin:0px; padding:0 0 6px 0; color:#f7f7f7; margin-top:6px;}
+.event-head-bx span {background: #a6a6a6 none repeat scroll 0 0; border: 1px solid #717274; border-radius: 20px; color: #121518; cursor: default; display: inline-block; font-size:10px; margin-bottom: 4px; margin-right: 4px; padding: 2px 8px 1px; }
+.event-profile-bx {width: 100%;float: left;background: #181c1f;}
+.event-profile-bx ul{ width:100%; float:left; list-style:none; padding:0px 10px; margin:20px 0px;}
+.event-profile-bx ul li{ float:left; width:50%; }
+.event-profile-bx ul li .ev-game-bx{ width:100%; float:left; min-height:45px; padding-top:12px;}
+.event-profile-bx ul li .ev-game-bx span { float: left; font-size: 20px; font-weight: normal; line-height: 19px; margin-right: 10px; padding-bottom: 11px;}
+.event-profile-bx ul li .ev-game-bx span.icon1{ background:url(img/ev-ic12.png) no-repeat 0px 1px; padding-left:29px }
+.event-profile-bx ul li .ev-game-bx span.icon3{ background:url(img/ev-ic13.png) no-repeat 0px 1px; padding-left:27px }
+.event-profile-bx ul li .ev-game-bx span.icon2{ background:url(img/ev-ic14.png) no-repeat 0px 1px; padding-left:27px }
+.event-profile-bx ul li .ev-game-bx span.icon4{ background:url(img/ev-ic15.png) no-repeat 0px 1px; padding-left:27px }
+.single-event-right{float: left;width: 40%}
+.event-register {background:#202021; padding:20px; min-height:342px;}
+.event-register-btn{ width:100%; float:left; text-align:center; margin:10px 0px 20px 0px;}
+.event-register p {color: #f7f7f7; font-size: 15px; line-height: 20px; margin-bottom: 21px; }
+.event-register h4 a{ background:url(img/event-lister-icon.png) no-repeat 0px 0px; color:#a9a9a9; font-size:21px; margin-bottom:12px; padding-left:30px; display:inline-block; }
+.event-register h4 a:hover{ color:#b20405;}
+.se-rules-wrap {padding: 8px; margin-bottom: 4px}
+.se-rules-wrap .tournament-list-tab {padding-top: 0}
+.design-banner img {width: 100%; height: 310px}
+.gm-reg a {color: #FFF; font-weight: normal; font-size: 16px;transition-duration: 0.25s}
+.gm-reg a:hover {color: #C30303}
+.gamelist ul li {transition-duration: 0.25s}
+.gamelist ul li:hover {border-color: #FFF;}
+.clear-event-filter {color: #AAA; text-decoration: underline; letter-spacing: 0.5px; line-height: 38px; margin-left: 7px; cursor: pointer; transition-duration: 0.25s}
+.clear-event-filter:hover{color: #CCC}
+.add-event-wrap {position: absolute; margin-top: -60px; right: 13px; }
+.tournament-join-options label {width: 100%; background-color: #EEE; padding: 5px 6px; cursor: pointer}
+.tournament-join-options label small {float: right; font-weight: normal; margin-top: 5px; }
+#tournament_subscription_form table.table tr td {cursor: pointer;}
+.play-chess-chat-button2 {position: fixed; top: 45%; right: -96px; background-color: #DDD; color: #222; width: 230px; height: 40px; display: flex; justify-content: center; align-items: center; text-transform: uppercase; font-weight: bold; transform: rotate(270deg); word-spacing: 5px}
+.play-chess-chat-button2 i {margin-right: 6px}
+
+@media screen and ( max-width:768px) {
+  .gamecategory ul li{ width:99%;}
+  .csbtnarea {bottom: 0px; left: 0; position: relative;}
+  .gamecategory ul li .csbtnarea a,.gamecategory ul li .csbtnarea a.steam-dota{ width:96%; margin-left:2%; margin-right:2%; margin-bottom:7px;}
+  .livestreaming ul li { float: left; margin-left: 0; width: 50%; margin-bottom: 28px;}
+  .fifabanner .csbtnarea a { margin:0 2% 10px 2%;width: 96%;}
+  .tournamentbanenrinfo .csbtnarea a { margin:0 0% 10px 0%;width: 100%;}
+  .bx-col-wrap{ height:auto;}
+  .bx-col-wrap ul li.free{background: url(img/user-ico.png) no-repeat center top;  padding: 30px 0 0 0px; height:auto;  margin: 0px 0 0 0px;}
+  .bx-col-wrap ul li.prze12{background: url(img/prize-ico.png) no-repeat center top; height: auto; padding: 75px 0 0 0px; line-height: 27px;  margin: 0px 0%; font-size: 37px;}
+  .bx-col-wrap ul li{ width:100%; text-align:center; margin-bottom:10px!important;}
+  .bx-col-wrap ul li.ven{ text-align:center;}
+}
+@media screen and ( max-width:767px) {
+  .headerfixinfoarea {left: 0; position: relative; top: 0; width: 100%; }
+  .pagewrapinfo {margin-top:0px; }
+  .play-chess-chat-button2 { top: auto!important; left: 1%; bottom: 12px; right: 0; transform: rotate(0deg); width: 97%;}
+  .winner-tableinforarea ul li .winner-profilepic img { border: 2px solid #fff; height: 60px; width: 60px;}
+.winner-profilepic { height: 66px;}
+.winner-tableinforarea ul li .tournament-winner-name p { font-size: 10px;}
+.winner-tableinforarea ul li .tournament-winner-name p span.winner-name { font-size: 13px; line-height: 12px;}
+.tournament-winner-name p.wi span, .tournament-winner-name p.wi2 span, .tournament-winner-name p.wi3 span {font-size: 13px;}
+.winner-profilepic .avatar-letter{  width: 60px!important; height: 60px!important; font-size: 15px!important; line-height: 60px!important;}
+.csbtnarea { z-index: 4;}
+}
+@media screen and ( max-width:640px) {
+  .livestreaming ul li .bx-game-col .gm-text { font-size:18px; line-height: 21px;}
+  #buddypress #members-list-fn li{ width:48%;}
+}
+@media screen and ( max-width:480px) {
+  #buddypress #members-list-fn li{ width:99%;}	
+}	

@@ -1,0 +1,79 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{float:left;
+	display: none;margin-top: 8px;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{overflow: hidden;  position: relative; z-index: 1s;}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+
+
+.tournament-button-controll  .owl-controls{ position:absolute; left:0px; top:25%; width:100%; z-index:8521;}
+
+
+#owl-demo7   .owl-controls .owl-buttons .owl-prev,#owl-demo6   .owl-controls .owl-buttons .owl-prev{ background:url(../images/left-arrow.png) no-repeat; width:15px; height:27px; margin-left:0px; text-indent:-9999px; float:left; }
+#owl-demo7  .owl-controls .owl-buttons .owl-next,#owl-demo6  .owl-controls .owl-buttons .owl-next{ background: url(../images/right-arrow.png) no-repeat; width:15px; height:27px; margin-right:0px; text-indent:-9999px;float:right; }
+
+#owl-demo7 .owl-controls,#owl-demo6 .owl-controls{ position:absolute; left:0px; top:50%; margin-top:-20px; width:100%; z-index:8521;}
+#owl-demo6 .item { margin: 0 50px; position: relative;  text-align: center;}
+
+
+
+.newsinfo   .owl-controls .owl-buttons .owl-prev{ background:url(../images/left-arrow2.png) no-repeat; width:15px; height:27px; margin-left:0px; text-indent:-9999px; float:left; }
+.newsinfo   .owl-controls .owl-buttons .owl-next{ background: url(../images/right-arrow2.png) no-repeat; width:15px; height:27px; margin-right:0px; text-indent:-9999px;float:right; }
+
+ .newsinfo  .owl-controls{ position:absolute; left:0px; top:50%; margin-top:-20px; width:100%; z-index:8521;}
+.newsinfo  .item { margin: 0 50px; position: relative;  text-align: center;}
+
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+.item{  text-align:center;}
+.item img{ max-width:100%;}

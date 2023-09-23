@@ -1,0 +1,1327 @@
+/* CSSTidy 1.5.2: Fri, 11 Feb 2022 06:30:02 +0000 */
+:root{
+--white:#fff;--bold:ProximaNovaBold;
+	
+	}
+.nvbar__{ display:none}
+.ub-tournament-game-table333 table{background:#fff;border-collapse:collapse;margin:1.25em 0 0;width:100%}
+.ub-tournament-game-table333 table tr,.ub-tournament-game-table333 table th,.ub-tournament-game-table333 table td{border:none;border-bottom:1px solid #f3f3f3}
+._gt-row .mode-assets{text-transform:uppercase;font-size:11px;font-family:'ShentoxSemiBold';display:inline-block;padding:1px 10px;border-radius:5px;border:1px solid #b9785b;width:68px;text-align:center;position:relative}
+._gt-row._gt-fun .mode-assets{border:1px solid #b9785b;color:#fff;background:#b9785b}
+._gt-row._gt-pro .mode-assets{border:1px solid #efb947;color:#fff;background:#efb947}
+._gt-row._gt-amr .mode-assets{border:1px solid #b9785b;color:#fff;background:#b9785b}
+._gt-row .mode-assets:before{position:absolute;left:2px;top:5px;content:'';border:1px solid #fff;width:6px;height:6px;border-radius:100%;background:#fff}
+.ub-tournament-game-table333 table th,.ub-tournament-game-table333 table td{padding:7px 3px;text-align:left}
+._nm{font-family:'ProximaNovaBold'}
+.organizer-haed-info .dx img{width:100%}
+.ub-tournament-game-table333 table th{background:#e5e7ea;color:#111;text-transform:uppercase;font-size:13px;padding:13px 7px}
+.ub-tournament-game-table333 table td .more-view-link{background:#A00404;border:1px solid #A00404;color:#fff;display:inline-block;font-size:14px;padding:2px 0;transition:ease all .25s;font-family:"ProximaNovaBold";width:80px;text-align:center;text-transform:capitalize;border-radius:5px}
+.ub-tournament-game-table333 table td .more-view-link:hover{background:#fff;color:#A00404}
+.ub-tournament-game-table333 table td .more-view-link.Live{background:#089000;border:1px solid #089000;color:#fff}
+.ub-tournament-game-table333 table td .more-view-link:.disabled{background:gray;border-color:gray;cursor:pointer}
+.ub-tournament-game-table333 table tr td{color:#514e4e;font-size:14px}
+.ub-tournament-game-table333 table tr td.tbl-td-6.start-time-d{font-family:"ProximaNovaBold";color:#089000}
+.ub-tournament-game-table333 table tr td.tbl-td-7.fee-d{font-size:14px}
+.ub-tournament-game-table333 table tr td.tbl-td-8.prize-d{color:#A00404}
+.ub-tournament-game-table333 tbody{border:1px solid #f2f2f2}
+.ub-tournament-game-table333{margin-bottom:25px}
+.ub-tournament-game-table333 table.bt tfoot th,.ub-tournament-game-table333 table.bt tfoot td,.ub-tournament-game-table333 table.bt tbody td{font-size:14px;padding:0;width:100%;float:left}
+.ub-tournament-game-table333 table.bt tfoot th:before,.ub-tournament-game-table333 table.bt tfoot td:before,.ub-tournament-game-table333 table.bt tbody td:before{background:#fff1f1;color:#a10303;text-align:left;font-size:14px;margin-right:5px;width:132px;padding:2px 10px}
+.ub-tournament-game-table333 table.bt tfoot th .bt-content,.ub-tournament-game-table333 table.bt tfoot td .bt-content,.ub-tournament-game-table333 table.bt tbody td .bt-content{display:inline-block;padding:2px 5px}
+.ub-tournament-game-table333 table.bt tfoot th:first-of-type:before,.ub-tournament-game-table333 table.bt tfoot th:first-of-type .bt-content,.ub-tournament-game-table333 table.bt tfoot td:first-of-type:before,.ub-tournament-game-table333 table.bt tfoot td:first-of-type .bt-content,.ub-tournament-game-table333 table.bt tbody td:first-of-type:before,.ub-tournament-game-table333 table.bt tbody td:first-of-type .bt-content{padding-top:10px}
+.ub-tournament-game-table333 table.bt tfoot th:last-of-type:before,.ub-tournament-game-table333 table.bt tfoot th:last-of-type .bt-content,.ub-tournament-game-table333 table.bt tfoot td:last-of-type:before,.ub-tournament-game-table333 table.bt tfoot td:last-of-type .bt-content,.ub-tournament-game-table333 table.bt tbody td:last-of-type:before,.ub-tournament-game-table333 table.bt tbody td:last-of-type .bt-content{padding-bottom:10px}
+.ub-tournament-game-table333 table ._gt-row._paid .fee-d .tbl-fee{color:#ff5a5a;border-radius:5px;padding:7px 0 7px 3px;font-size:16px;font-family:"ProximaNovaBold"}
+.app-qr-code{width:100%;float:left;margin:0;text-align:center}
+.app-qr-code a{background:#a00404;color:#fff;padding:8px 16px;transition:ease all .3s;text-transform:uppercase;border-radius:30px;display:none;font-size:14px;margin:10px 0 17px;border:1px solid #a00404;font-family:"ProximaNovaBold"}
+.app-qr-code a:hover{background:#fff;color:#a00404}
+.scan-code-bx h4{font-size:16px;margin-bottom:9px!important}
+.game-tab-component{width:100%;float:left;margin:30px 0 0}
+.game-tab-component .nav-tabs{text-align:center}
+.game-tab-component .nav-tabs>li{float:left;margin-bottom:-1px;display:inline-block;margin-right:4px}
+.game-tab-component .nav-tabs>li a{position:relative;font-family:"ProximaNovaBold";border:1px solid #eaeaea;background:#efefef;display:inline-block;float:left;color:#111;font-size:18px;padding:14px 13px 14px 45px;text-transform:uppercase;border-radius:5px 5px 0 0;text-decoration:none}
+.game-tab-component .nav-tabs{border-bottom:1px solid #e6e6e6}
+.game-tab-component .nav-tabs li a.activelink{background:#900;color:#fff}
+.game-tab-component .nav-tabs>li a:before{background:url(../images/ub-sprite-ic.png) -9px -6px no-repeat;position:absolute;left:7px;top:2px;width:30px;height:30px;content:'';z-index:2}
+.game-tab-component .nav-tabs>li:nth-child(1) a:before{background-position:-9px -6px}
+.game-tab-component .nav-tabs>li:nth-child(2) a:before{background-position:-61px -7px;top:8px;width:34px;height:34px}
+.game-tab-component .nav-tabs>li:nth-child(3) a:before{background-position:-110px -7px;top:6px}
+.game-tab-component .nav-tabs>li:nth-child(1) a.activelink:before{background-position:-9px -40px}
+.game-tab-component .nav-tabs>li:nth-child(2) a.activelink:before{background-position:-61px -43px;top:6px;width:34px;height:34px}
+.game-tab-component .nav-tabs>li:nth-child(3) a.activelink:before{background-position:-110px -43px;top:6px}
+.game-tab-component #game_online_players{margin-top:0}
+#game_online_players{margin-top:0;padding-top:0}
+.game-tab-component .quick-face-bx{margin-bottom:30px}
+.gamecmpComponemt.hide3{display:none}
+.gamecmpComponemt.active{display:block}
+#home6 h2{font-size:38px;text-align:center;padding-bottom:25px;padding-top:30px;font-family:'bitsumishiregular'}
+#home6 h2 span{color:#a00404}
+#stp3 p._chk_{position:absolute;bottom:64px}
+.modal-content.wh #pre_btn0,.modal-content.wh #pre_btn1,.modal-content.wh #pre_btn2{border:1px solid #dcdcdc;background:#dcdcdc;color:#000}
+.radio-toolbar{margin:0;padding:0;list-style:none}
+.radio-toolbar li{width:32.333%;margin:1px;float:left}
+.radio-toolbar input[type="radio"]{opacity:0;position:fixed;width:0}
+.radio-toolbar label{display:block;background-color:#000;padding:5px 20px;cursor:pointer;font-size:14px;border:1px solid #c3c3c3;border-radius:4px;text-align:center;text-transform:uppercase;font-family:'ProximaNovaBold';height:54px}
+.radio-toolbar label span img{height:35px;padding-top:3px; filter:drop-shadow(1px 2px 2px #000)}
+.radio-toolbar input[type="radio"]:checked + label{    background-color: #f79e1a; border-color: #f79e1a; color: #fff;}
+.radio-toolbar label span{white-space:nowrap;text-overflow:ellipsis;display:block;overflow:hidden}
+.radio-toolbar label.error{display:none!important}
+.tournament-create .org-form-step-wrap h3.gm span.game-error{text-transform:none;font-family:'ProximaNovaRegular';color:#fff;font-size:16px;float:right;display:block;width:100%;text-align:center;margin-bottom:12px}
+.ub-tournament-game-table333 table ._gt-row .fee-d{font-size:13px;text-transform:uppercase;color:#5a5959;font-family:"ProximaNovaBold";background:#fdf5eb}
+.ub-tournament-game-table333 table ._gt-row .type-d{font-family:"ProximaNovaBold";font-size:15px}
+.ub-tournament-game-table333 table ._gt-row .prize-d{background:#ffedad;color:#000;font-size:16px;padding-left:7px}
+.ub-tournament-game-table333 table ._gt-row .prize-d strong{font-weight:400}
+.ub-tournament-game-table333 table ._prize-cash{color:#000;font-size:16px;text-align:left;padding-left:8px;font-family:"ProximaNovaBold"}
+.ub-tournament-game-table333 table ._prize-coins{color:#000;font-size:16px;font-family:"ProximaNovaBold"}
+.total-game-prize-pull-left sub{font-size:14px;color:#111;margin:0 0 0 6px;bottom:0}
+.ub-tournament-game-table333 table ._prize-qualifier{color:#fff;font-size:15px;text-transform:uppercase;background:#bb740a;border-radius:5px;padding:3px 7px}
+.ub-tournament-game-table333 table tr td.title-d a{font-family:"ProximaNovaBold";color:#000}
+.ub-tournament-game-table333 table tr td.title-d a:hover{color:#9E0404}
+.ub-tournament-game-table333 table tr td.tbl-td-6.start-time-d{color:#9E0404}
+#createClanModal button.close{position:absolute;top:5px;right:6px;font-size:30px}
+#createClanModal h5{font-size:18px;float:left;font-weight:700;margin:6px 0 10px}
+#createClanModal .form-control{margin-bottom:7px}
+#createClanModal #clan_availability,#createClanModal p{font-size:16px}
+#createClanModal .table > thead > tr > th,#createClanModal .table > tbody > tr > th,#createClanModal .table > tfoot > tr > th,#createClanModal .table > thead > tr > td,#createClanModal .table > tbody > tr > td,#createClanModal .table > tfoot > tr > td{padding:2px}
+#alertModal .alert.alert-danger{color:#a94442;background-color:#f2dede;border-color:#ebccd1;text-align:center;font-size:20px;padding:40px 0;margin-bottom:0}
+#alertModal button.close{color:#000}
+.normal-page .bb-press-profile-tab ul.nav li a{border:1px solid #cecece;border-bottom:0}
+.ub-model-form .modal-header p{font-size:15px;padding:0 30px}
+.ub-model-form .modal-header .close{margin-top:0;position:absolute;top:7px;right:4px;color:#fff;font-size:30px;font-weight:400}
+.ub-model-form .modal-header{padding:15px;border-bottom:0;background:#a00404;color:#fff}
+.ub-model-form ._user-clan-name{font-size:25px;margin-bottom:20px;font-family:"ProximaNovaBold"}
+.ub-model-form .model-note{font-size:14px;font-family:"ProximaNovaBold"}
+.ub-model-form ._clan-member-details{font-size:14px;font-family:"ProximaNovaBold";color:#a00404}
+.ub-model-form .form-control{width:98%}
+.ub-model-form .table > tbody > tr > td,.ub-model-form .table > thead > tr > th{padding:8px 0}
+#gamerIdHelp .modal-body > p.hlp-txt{padding-bottom:0;margin-top:22px;font-size:17px;font-family:"ProximaNovaBold"}
+#gamerIdHelp .modal-body{position:relative;padding:0 15px}
+._ubssingleinfo._bannerComponent{height:auto}
+._bannerComponent .fa-angle-left{font-size:40px;position:absolute;left:50px;top:45%}
+._bannerComponent .fa-angle-right{font-size:40px;position:absolute;right:50px;top:45%}
+._ubssingleinfo._bannerComponent .item img{width:100%}
+._ft-filters{width:100%;float:left;margin-bottom:20px}
+._ft-filter{float:left;margin-right:20px}
+._ft-filter input[type="radio"]+label:hover{background-color:#e2e2e2}
+._ft-filter input[type="radio"]+label{background-color:#e2e2e2;border:2px solid #e2e2e2;color:#111!important;padding:3px 10px;font-family:"ProximaNovaBold";font-weight:400;display:inline-block;cursor:pointer;text-transform:uppercase;text-align:center;font-size:15px;margin-right:1px}
+._ft-filter input[type="radio"]{padding:0 10px;border:1px solid #ccc;border-radius:0;font-size:14px;height:40px;width:100%;display:none}
+._ft-filter input[type="radio"]:checked + label{background-color:#a00404;border:2px solid #a00404;color:#FFF!important;box-shadow:0 3px 5px rgba(0,0,0,0.125) inset}
+._ft-filter label{display:inline-block;font-size:15px;text-transform:uppercase;color:#a00404;margin-right:10px}
+.ub-home-feature-component{width:100%;float:left;margin-bottom:25px}
+.jspContainer{height:288px!important}
+.ub-home-feature-component ul{width:100%;list-style:none;padding:0;margin:0 0 31px}
+.ub-home-feature-component ul li{position:relative;width:23%;margin:10px 1% 10px;height:314px;box-shadow:0 0 4px rgb(0 0 0 / 65%);border-radius:3px;float:left;display:inline-block;overflow:hidden}
+.ub-home-feature-component ul li img{transition:ease all .5s;-webkit-transition:ease all .5s;-moz-transition:ease all .5s;-o-transition:ease all .5s;overflow:hidden;width:100%}
+.ub-home-feature-component ul li:hover img{ transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -ms-transform:scale(1.1); -o-transform:scale(1.1); }
+.footer-appliction .ubapp-dwn{display:none}
+.ub-home-feature-component ul li a h3{font-family:ShentoxSemiBold;position:absolute;left:0;bottom:0;background:url(../images/patern-bg2.png) center no-repeat;padding:0 10px;width:100%;text-align:center;font-size:19px;height:47px;background-size:100%;line-height:47px}
+.ub-home-feature-component ul li a h3 span{background:-webkit-linear-gradient(#9E0205,#111);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.ubs-component2{width:100%;float:left;margin:0;border-bottom:1px solid #cecece;padding:14px 0}
+.p_left{float:left;width:50%}
+.p_right{float:right;width:50%}
+.feature-cmp_{text-align:center}
+._ubs_info_cnt h2{font-size:35px;color:#1F1F1F;position:relative;margin-bottom:39px;font-family:ShentoxSemiBold}
+._ubs_info_cnt h2:before{height:6px;background:#9E0205;content:'';position:absolute;left:0;bottom:-14px;width:70px;border-radius:25px}
+._ubs_info_cnt p{font-size:18px;color:#5D5D5D}
+._u_btn a{background:#9E0205;border:1px solid #9E0205;color:#fff;padding:12px 25px 7px;text-transform:uppercase;font-size:18px;border-radius:6px;margin-top:22px;display:inline-block;font-family:ShentoxSemiBold}
+.p_40{padding-top:40px}
+.p_60{padding-top:60px}
+.p_80{padding-top:80px}
+.p_100{padding-top:100px}
+._u_btn a:hover{background:#fff;color:#9E0205;text-decoration:none}
+.ourjourney-component{width:100%;float:left;padding:29px 0 47px;background:url(../images/game-journey-bg3.jpg) center top no-repeat;background-attachment:fixed;background-size:100% 100%}
+.ourjourney-component .h2_heading,.ourjourney-component .h2_heading span,.ourjourney-component .h2_heading > small{color:#fff}
+.ourjourney-component .sw-row .sw-num span small{color:#fff;font-family:"ProximaNovaRegular";text-transform:uppercase}
+.ourjourney-component .sw-row .sw-num{font-family:"ShentoxSemiBold";font-size:40px;margin-top:39px;width:100%;line-height:31px}
+.ourjourney-component .bx-frame{float:left;width:100%;position:relative;border-right:1px solid #fff;padding-bottom:31px}
+.ourjourney-component .bx-frame.last{border:0}
+.ubs-component2_wrap{width:100%;float:left;}
+.featuredgame.P0{padding:40px 0 0}
+.ub2-game-rebx .ub_2_btn.full a{background:#b5b5b5;transition:ease all .3s;border:1.5px solid #b5b5b5;color:#000}
+.ub2-game-rebx .ub_2_btn.full a span,.ub2-game-rebx .ub_2_btn.full a:hover span i{color:#000}
+.game-changer-bx{min-height:459px;width:100%;float:left;text-align:center;position:absolute;left:0;top:0;transition:ease all .4s}
+.slide-component-btn{position:absolute;left:0;bottom:0;background:#ececec;padding:10px;width:100%}
+#stp0{left:0}
+#stp1,#stp2,#stp3{left:600px}
+.op1#stp1{left:0}
+.op1#stp1 #pre_btn0{display:none}
+.game-changer-bx ul{list-style:none;padding:0;margin:14px 0 0}
+.game-changer-bx ul li{font-size:16px;padding:11px 10px;float:left;width:100%}
+#stp0 ._umg{margin-top:66px}
+.game-changer-bx .table tr th{font-size:16px;text-align:center!important;background:#A00405;color:#fff;border:0;text-transform:uppercase}
+.game-changer-bx .table tr td{font-size:16px;color:#111}
+.game-changer-bx ._umg{width:auto;float:none;margin-bottom:20px;margin-top:26px;display:inline-block}
+.game-changer-bx ._umg img{display:inline-block;width:130px}
+.game-changer-bx h3{width:auto;float:none;font-size:29px;font-family:"ProximaNovaBold";margin-bottom:0;text-transform:uppercase;color:#000;display:inline-block;margin-left:13px}
+.game-changer-bx h3 span{color:#A00405}
+.game-changer-bx p{line-height:30px;padding:0 44px 8px;font-size:18px;width:100%;float:left;color:#111}
+.game-changer-bx p strong{font-size:18px;margin-bottom:10px;display:block;text-transform:uppercase}
+.game-changer-bx p span{color:#A00405}
+.modal-content.wh{width:100%;float:left;position:relative;min-height:460px;overflow:hidden}
+.modal-content.wh button{border:1px solid #A00405;background:#A00405;font-size:16px;color:#fff;padding:4px 26px;text-transform:uppercase;transition:ease all .4s;border-radius:30px}
+.modal-content.wh button:hover{background:#fff;color:#A00405}
+#tournamentJoinModal .close{margin-right:10px;margin-top:7px;color:#A00404;opacity:.5;width:auto;display:inline-block;float:right;position:absolute;right:0}
+#tournamentJoinModal .join_now_model{padding:0}
+#tournamentJoinModal ._ubs_model_head{margin-bottom:0}
+._side-challenge-lobby p{font-size:14px}
+.page-head-component-app h5{font-size:15px;font-family:'ProximaNovaBold';margin:0}
+.ub-header-slide-component{width:100%;float:left;text-align:center}
+.ub-bonus-cash-icon{background:url(../images/cashmoney-icon.png) right no-repeat;padding-right:21px;background-size:16px;width:22px;height:17px}
+.page-head-component-app{width:100%;float:left;margin:16px 0 0;text-align:center}
+.page-head-component-app h1{font-size:38px;font-family:'bitsumishiregular';color:#a00404}
+.venue-tid--,.tour-id{display:inline-block;width:auto;font-family:'ProximaNovaBold'}
+.venue-tid--{margin-right:10px}
+.venue-tid-- span{color:#008001;text-decoration:underline;margin-right:3px}
+.venue-tid-wrap{width:100%;float:left;text-align:left;margin-top:9px}
+.tour-id{font-size:13px;font-family:"ProximaNovaBold";background:#740505;color:#fff;padding:2px 18px;display:inline-block;border-radius:30px}
+button[data-target="#reportIssueModal"]{margin-top:10px}
+.page-head-component-app.m2{margin:28px 0 0}
+.league-banner .csgo-league-banner{margin:0}
+.badge-skill-rating ul li{font-size:35px}
+.modal-header{display:block}
+#challengeForm .ch-tbl1{padding-left:0;width:60%;float:left}
+#challengeForm .ch-tbl-text{float:none;width:auto;margin-left:85px;margin-top:12px}
+#challengeForm .ch-tbl-text h4{width:100%}
+#challengeForm .ub_challenge_profile_header .ch-tbl-text span{color:#fff;font-size:13px;float:left;display:block;width:100%}
+#challengeForm h4{font-size:17px}
+#challengeForm p{margin:8px 0}
+#challengeForm .challenge_form_bx_area h2{font-size:14px}
+.ub_challenge_profile_header{background:#750102}
+.ch-tbl-text h4{width:211px;margin-top:5px}
+.game-changer-bx#stp2 ul{text-align:left;padding:0 0 0 16px}
+#stp2 .ub-header-slide-component,#stp1 .ub-header-slide-component{text-align:left;padding-left:22px}
+.game-changer-bx#stp1 .table tr th{text-align:left!important;padding-left:30px}
+.game-changer-bx#stp1 .table tr td{text-align:left;padding-left:30px}
+.alert-warning{clear:both;margin:18px 0 0;width:100%;float:left}
+.alert-warning h4{font-size:15px;margin:0}
+#pool_checkin{float:left;width:100%}
+.bonuscard-strip{display:none}
+.ub-game-free ._tjb{position:relative}
+.open-qualifiers .btn.full{background:#bbb;border:1px solid #bbb;color:#000}
+.open-qualifiers .btn.registered{background:#a00404;border:1px solid #a00404;color:#fff}
+.open-qualifiers .btn{width:105px;font-family:'ProximaNovaBold'}
+.onboarding-model-app-wrap{border-radius:4px;width:360px;position:relative;background:#000;height:500px;float:left;overflow:hidden}
+.onboarding-model-app{width:360px;float:left;position:absolute;padding:33px 30px 20px;transition:cubic-bezier(0.25,0.1,0.77,0.68) all .4s}
+#m0{left:0}
+#m1,#m2,#m3{left:-500px}
+.op1#m1{left:0}
+.onboarding-model-app h2{font-size:25px;margin:0 0 20px;text-align:center;text-transform:uppercase;color:#fff;font-weight:600}
+.onboarding-model-app h2 span{display:inline-block;position:relative}
+.onboarding-model-app h2 span:before{width:95px;height:8px;background:#FD3031;position:absolute;left:50%;margin-left:-47px;bottom:-12px;content:'';border-radius:30px}
+.eng-cf{width:100%;float:left;list-style:none;padding:0;margin:0}
+.eng-cf li{width:100%;float:left;margin:25px 0}
+.eng-cf li h3{width:100%;float:left;color:#fff;font-size:25px;text-transform:uppercase}
+.eng-cf li h3 span{color:#FD3031}
+.eng-cf li p{color:#EFB947;font-size:16px;float:left;text-transform:uppercase}
+.eng-cf li p span{font-weight:600}
+.eng-cf li.f1{background:url(../images/ub-crown-img.png) no-repeat;padding-left:60px}
+.eng-cf li.f2{background:url(../images/ub-free-img.png) no-repeat;padding-left:60px}
+.eng-cf li.f3{background:url(../images/ub-bonus-card.png) no-repeat;padding-left:60px}
+.eng-cf li.f1v1{background:url(../images/1-v-1-icon.png) no-repeat;padding-left:60px}
+.eng-cf li.f1 p{background:url(../images/ub-pr-gift.png) right no-repeat;padding-right:50px;display:inline-block;padding-bottom:0;padding-top:6px}
+.eng-cf li.f2 p,.eng-cf li.f3 p{background:url(../images/ub-coins_.png) right no-repeat;padding-right:32px;display:inline-block;padding-bottom:0;padding-top:6px}
+.reward-system-app{width:100%;float:left;list-style:none;padding:0;margin:0}
+.reward-system-app li{width:100%;float:left;margin:12px 0}
+.reward-system-app li h3{width:100%;border-bottom:1px solid #fff;padding-bottom:5px;margin-bottom:8px;float:left;color:#fff;font-size:25px;text-transform:uppercase}
+.reward-system-app li h3 span{color:#FD3031;position:relative}
+.reward-system-app li p{color:#EFB947;font-size:14px;float:left;text-transform:uppercase}
+.reward-system-app li h3 span:before{background:#FD3031;height:1px;content:'';position:absolute;left:0;bottom:-6px;width:100%}
+.reward-system-app li.f1{background:url(../images/real-money-ic.png) no-repeat;padding-left:80px}
+.reward-system-app li.f2{background:url(../images/redeem-shop-img.png) no-repeat;padding-left:80px}
+.reward-system-app li.f3{background:url(../images/ub-coins45.png) no-repeat 8px 3px;padding-left:80px}
+.ub-redeem-game{background:#bb0828 url(../images/ub-coins-icon-yellow.png) no-repeat 17px 6px;padding:9px 10px 7px 54px;font-size:13px;text-transform:uppercase;color:#fdbf31;border-radius:3px;background-size:34px}
+.ub-redeem-game span{color:#fff}
+.ub-coins-img{text-align:center}
+.ub-coins-img img{width:234px}
+.onboarding-model-app h4{color:#fff;text-align:center;text-transform:uppercase;margin:23px 0 15px;font-size:20px}
+.ub-coins-three-img{margin-bottom:20px}
+.ptm-or-b img{width:180px}
+.ptm-or-b{text-align:center;margin:21px 0 20px}
+.onboarding-model-app h2.let{font-size:32px;margin:0 0 20px;text-align:center;text-transform:uppercase;color:#fff;font-weight:600;border-bottom:1px solid #fff;padding:0;display:inline-block;float:none}
+.onboarding-model-app h2.let span{color:#EFB947}
+.onboarding-model-app h2.let:before{display:none}
+.onboarding-model-app h2.let span:before{width:100%;height:1px;background:#EFB947;position:absolute;left:0;margin-left:0;bottom:-1px;content:'';border-radius:30px}
+.be-ub{width:100%;float:left;text-align:center}
+.be-ub img{width:170px}
+.dn{width:100%;text-align:center;font-size:16px;color:#fff;margin-top:12px;float:left}
+._ub-dots{width:100%;text-align:center;float:left;margin-top:10px}
+._ub-dots span{width:10px;height:10px;margin:0 2px;background:#fff;border-radius:100%;display:inline-block}
+._ub-dots span.ac{background:#EFB947}
+.-ub-cntrl{float:left;width:100%;position:absolute;bottom:10px;left:0}
+.-ub-cntrl .ne{background:none;color:#a3a1a1;border:0;text-transform:uppercase;float:right;font-size:16px;text-decoration:underline;margin:0 12px 0 0}
+.-ub-cntrl .pre{background:none;color:#a3a1a1;border:0;text-transform:uppercase;float:left;font-size:16px;text-decoration:underline;margin:0 0 0 12px}
+.bonus-cart{width:100%;float:left;text-align:center;margin:20px 0 41px}
+.bonus-cart figure{margin-bottom:20px}
+.bonus-cart figure img{width:71px}
+.bonus-cart .bonus-price{font-size:46px;color:#EEB949;font-weight:600;text-transform:uppercase}
+.bonus-cart .bonus-price span{display:block;font-size:21px}
+.credit-wallet--{font-size:23px;color:#dad8d8;margin:48px 0 18px;text-transform:uppercase}
+._game_ch.face-off-wrapper h2{font-size:25px;text-align:center;padding-bottom:25px;font-family:'ProximaNovaBold'}
+._game_ch.face-off-wrapper{padding-top:0}
+.gametab-list-container h2{font-size:34px;text-align:center;padding-bottom:25px;font-family:'ProximaNovaBold'}
+.gametab-list-container h2 span{color:#a00404}
+.quick-face-bx{margin-bottom:25px}
+._game_ch h2{font-size:25px}
+.tab-info-app-container .nav-tabs .nav-link{font-family:"ProximaNovaBold";font-size:18px;text-transform:uppercase;color:#111;background:#efefef;margin-right:3px}
+.tab-info-app-container .nav-tabs .nav-item.show .nav-link,.tab-info-app-container .nav-tabs .nav-link.active{color:#fff;background-color:#8c0303}
+.ub-shedule-app{margin-top:18px}
+.postid-19292 h1.game-title{margin:0 0 30px}
+.tournament-section,#gameTitle,#rglv{width:100%;float:left}
+.featured-game-wrap{clear:both}
+.leaderboard-shedule .nav-tabs .nav-item{text-align:center}
+.leaderboard-shedule .nav-tabs .nav-item span{display:block;font-size:13px;font-family:'ProximaNovaRegular'}
+.leaderboard-table-shorting table th{font-family:"ProximaNovaBold";background:#fff;text-align:center;font-size:15px;text-transform:uppercase;color:#a20401;padding:5px}
+.leaderboard-table-shorting table td{font-size:14px;text-align:center;padding:4px;border-top:1px solid #e0dddd}
+.leaderboard-table-shorting table tr td:nth-child(1){font-family:"ProximaNovaBold"}
+.woocommerce ul.products li.product,.woocommerce-page ul.products li.product{float:left;padding:0;margin-right:1.8%!important;min-height:345px;margin-bottom:1.992em!important;position:relative;width:23.2%!important;margin-left:0;border:1px solid #c2c2c2;padding:4px!important;text-align:center;clear:none!important}
+._woo-product-game{font-size:13px;font-family:'ProximaNovaBold';color:#428BCA}
+.woocommerce ul.products li.product:last-child,.woocommerce-page ul.products li.produc:last-child{margin-right:0!important}
+.woocommerce ul.products li.product .woocommerce-loop-product__title{color:#a00405!important;font-family:"ProximaNovaBold";font-size:20px!important;margin:0 0 9px!important;padding:0!important;white-space:nowrap;text-overflow:ellipsis;display:block;overflow:hidden}
+.woocommerce-products-header h1.woocommerce-products-header__title{text-align:left;margin:19px 0 15px;font-family:"bitsumishiregular";font-size:43px;border-bottom:1px solid #dadada;padding-bottom:12px}
+.woocommerce ul.products li.product .price{color:#000!important}
+.woocommerce ul.products li.product .button.btn-primary{color:#fff!important;background-color:#a00405;border-color:#a00405;padding:2px 20px;text-transform:uppercase;font-size:14px;margin:5px 0 7px!important}
+.woocommerce ul.products li.product .button.btn-primary:hover{background:#111!important}
+.woocommerce .woocommerce-breadcrumb{margin:9px 0 1em!important;color:#000!important}
+.woocommerce span.onsale{min-height:auto!important;min-width:auto!important;padding:6px 9px 6px 5px !important;font-weight:700;position:absolute;text-align:center;line-height:initial!important;border-radius:0!important;background-color:#fbb948!important;color:#000!important;font-size:14px!important;z-index:9;font-family:'ProximaNovaBold';position:relative}
+.woocommerce ul.products li.product .onsale{top:12px!important;right:auto!important;left:4px!important;margin:0!important}
+.woocommerce ul.products li.product .onsale:before{background:url(../images/sale-right-agnle-bg.png) no-repeat;width:16px;height:29px;background-size:100% 100%;content:'';position:absolute;right:-15px;top:0}
+.woocommerce ul.products li.product a img{height:172px!important;object-fit:cover}
+.related.products{clear:both;border-top:1px solid #a00405;padding-top:20px}
+.related.products h2{font-size:21px;font-family:"ProximaNovaBold";margin-bottom:22px}
+.woocommerce div.product .product_title{font-size:33px}
+.related.products ._p-game-filter{display:none}
+.single-product .product .onsale{display:none}
+.single-product.woocommerce div.product{margin-top:70px}
+.single-product.woocommerce div.product.product-type-simple .summary p.price,.single-product.woocommerce div.product.product-type-simple .summary span.price{color:#000!important;font-size:1.25em}
+.single-product.woocommerce div.product.product-type-simple .summary p.price del,.single-product.woocommerce div.product.product-type-simple .summary span.price del{opacity:1!important;display:block!important;font-size:16px!important;margin-top:17px!important}
+.single-product.woocommerce div.product.product-type-simple .summary p.price ins,.single-product.woocommerce div.product.product-type-simple .summary span.price ins{text-decoration:none;color:#9e0404;font-family:"ProximaNovaBold";font-size:26px;margin-bottom:28px}
+.single-product.woocommerce div.product .summary label[for="ingameid"]{display:block;font-size:16px;margin-bottom:0;color:#8a0302;font-family:'ProximaNovaBold'}
+.single-product.woocommerce div.product .summary input[type="text"]{width:50%;border:1px solid #ccc9c9;height:35px;padding:5px;margin-bottom:10px}
+.single-product.woocommerce div.product .quantity{float:left;margin-right:10px!important;margin-top:1px;width:auto;margin-bottom:12px}
+.single-product.woocommerce .quantity .qty{width:92px!important;border:1px solid #9f0404;height:46px;padding:10px;text-align:center}
+.woocommerce ul.products li.product .price del{opacity:1!important;display:block!important;font-size:13px!important;margin-top:7px}
+.woocommerce ul.products li.product .price ins,.woocommerce ul.products li.product .price{background:0 0;font-weight:700;display:inline-block;font-size:20px!important;text-decoration:none;color:#000!important;font-family:"ProximaNovaBold"}
+.single_add_to_cart_button{color:#fff!important;background-color:#a00405!important;border-color:#a00405!important;text-transform:uppercase;font-size:14px!important;padding:16px 58px 15px!important;margin-top:2px!important}
+.woocommerce-product-details__short-description p{font-size:14px;margin-bottom:10px}
+.woocommerce-result-count{display:none}
+.woocommerce select[name="productgamefilter"]{text-transform:none;border:1px solid #ac1409;height:30px;font-size:14px;margin:0 0 14px;color:#a00404}
+.woocommerce select[name="orderby"]{position:relative;left:0;text-transform:none;border:1px solid #ac1409;height:31px;font-size:14px;margin:0 0 14px;background:#fff;color:#9d0404;padding:0 0 1px 8px}
+.woocommerce select[name="productgamefilter"]{margin-right:10px}
+.ballance-coins{float:left;font-size:16px;text-transform:uppercase;color:#fff;background:#ac1409 url(../img/b-coins.png) no-repeat 4px 1px;border-radius:3px;padding:6px 7px 6px 41px}
+.ballance-coins span{color:#fff;font-family:"ProximaNovaBold"}
+.wp-orders{float:left;width:auto;margin-left:20px}
+.wp-orders a{float:left;font-size:16px;text-transform:uppercase;color:#ac1409;background:url(../img/order-cart.jpg) no-repeat;padding-left:38px;padding-bottom:2px;padding-top:6px}
+.redeem-coins{float:right;width:auto;margin:5px 0 0}
+.single-product .redeem-coins{float:right;width:auto;margin:-54px 0 1px;width:100%}
+.shedule-prize-bx ._challenge_link_btn a span{font-size:12px}
+.shedule-prize-bx ._challenge_link_btn{margin-top:-10px}
+.redeem-shop-order-component{width:100%;float:left}
+.redeem-shop-order-component table tbody{border:1px solid #f2f2f2;border-radius:5px}
+.redeem-shop-order-component table tbody.none{border:0}
+.redeem-shop-order-component table tr .product-record-img{width:174px;box-shadow:0 0 4px #c30000;padding:2px;height:120px!important;object-fit:cover!important}
+.redeem-shop-order-component table td{padding:10px}
+.redeem-shop-order-component table td h3{text-transform:uppercase;font-size:15px;font-family:"ProximaNovaBold";color:#464646;margin:7px 0 3px}
+.redeem-shop-order-component table td p{text-transform:uppercase;font-size:14px;color:#7c7c7c;margin:7px 0 0}
+.redeem-shop-order-component table td p span{text-transform:uppercase;color:#d80c0c;font-family:"ProximaNovaBold"}
+.order-status.accepted,.order-status.processing{color:green}
+.order-status.cancelled{color:red}
+.banner_org{background:#f2f2f2;width:100%;float:left;padding:12px 0 25px}
+.redeem-shop-order-component table tr td table tbody{border:0}
+.redeem-shop-order-component table tr td table tbody td{padding:0 2px}
+.record_cancle{border:1px solid #d80c0c;background:#d80c0c;color:#fff;border-radius:30px;font-family:"ProximaNovaBold";padding:3px 12px;cursor:pointer}
+.show-data{border:1px solid #ccc;background:#333;color:#fff;border-radius:30px;font-family:"ProximaNovaBold";padding:3px 12px}
+.record_cancle:focus,.show-data:focus{outline:none}
+.toggle-record-status{display:none}
+#gameOnlinePlayers .leaderboard-tbl table td{padding:5px 15px}
+#gameOnlinePlayers .leaderboard-tbl>h3{font-size:15px;background:#000;padding:3px 15px;color:#fff;font-family:'ProximaNovaBold'}
+#gameOnlinePlayers .leaderboard-tbl table th{font-size:15px;background:#000;padding:3px 15px;color:#fff;font-family:'ProximaNovaBold'}
+#gameOnlinePlayers{margin-bottom:40px}
+.active-challenge-wrap{height:246px;overflow-y:hidden}
+.active-challenge-wrap:hover{overflow-y:scroll}
+.active-challenge-wrap table{margin-bottom:0}
+.active-challenge-wrap::-webkit-scrollbar{width:5px}
+.active-challenge-wrap::-webkit-scrollbar-track{background:#f1f1f1}
+.active-challenge-wrap::-webkit-scrollbar-thumb{background:#888}
+.active-challenge-wrap::-webkit-scrollbar-thumb:hover{background:#555}
+p.clan-size-p{clear:both;padding-top:13px}
+#gameOnlinePlayers figure._lb-avatar,#gameOnlinePlayers .leaderboard-tbl table td img{width:35px;height:35px}
+#gameOnlinePlayers  .leaderboard-tbl table td h3{margin-left:46px;font-size:16px;margin-top:0}
+#gameOnlinePlayers  .leaderboard-tbl table td h3 span{font-family:'ProximaNovaRegular'}
+._ogp-chat{width:34px;height:20px;background:url(../images/sprites-icons.png) -23px -75px;margin:9px 5px 0 4px;display:inline-block}
+.product-record-img img{height:120px!important;object-fit:cover}
+.ub-apk-app{position:fixed;bottom:-1000px;background:#000;width:100%;height:100%;z-index:122;color:#fff;padding:20px;transition:ease .4s all}
+.ub-apk-app.open{bottom:0}
+.ub-apk-app button{background:#fff;width:40px;height:40px;font-size:20px;font-family:'ProximaNovaBold';border-radius:100%;position:absolute;right:6px;top:5px}
+.ub-apk-app h3{font-size:25px;font-family:'ProximaNovaBold';text-transform:uppercase;margin:24px 0 40px}
+.ub-apk-app h3 span{color:#a00404}
+.ub-apk-app ul{list-style:none;padding:0;margin:0}
+.ub-apk-app ul li{font-size:19px;position:relative;padding-left:50px;margin:26px 0;line-height:22px;font-family:'ProximaNovaBold'}
+.ub-apk-app ul li span{width:40px;height:40px;display:inline-block;background:#a00404;text-align:center;font-family:'ProximaNovaBold';position:absolute;left:0;border-radius:6px;font-size:27px;padding-top:8px;top:-5px}
+ub-apk-app{position:fixed;bottom:-1000px;background:#000;width:100%;height:100%;z-index:122;color:#fff;padding:20px;transition:ease .4s all}
+.ub-apk-app.open{bottom:0}
+.ub-apk-app button{background:#fff;width:40px;height:40px;font-size:20px;font-family:'ProximaNovaBold';border-radius:100%;position:absolute;right:6px;top:5px}
+.ub-apk-app h3{font-size:25px;font-family:'ProximaNovaBold';text-transform:uppercase;margin:24px 0 40px}
+.ub-apk-app h3 span{color:#a00404}
+.ub-apk-app ul{list-style:none;padding:0;margin:0}
+.ub-apk-app ul li{font-size:19px;position:relative;padding-left:50px;margin:26px 0;line-height:22px;font-family:'ProximaNovaBold'}
+.ub-apk-app ul li span{width:40px;height:40px;display:inline-block;background:#a00404;text-align:center;font-family:'ProximaNovaBold';position:absolute;left:0;border-radius:6px;font-size:27px;padding-top:8px;top:-5px}
+.footer-appliction{width:100%;float:left;background:#dedede url(../img/trim-ft-bg.png) bottom no-repeat;padding:30px 0 0}
+.footer-appliction ._mbapp img{max-width:440px}
+._ub-app-ft h3{background:url(../img/ub-pro-app.jpg) no-repeat;border-bottom:1px solid #9d0205;padding-top:46px;padding-bottom:13px;float:left;width:63%}
+._ub-app-ft h3 span{display:block;font-size:18px;color:#000;text-transform:uppercase}
+._ub-app-ft{width:100%;float:left;margin:5px 0 0}
+._ub-app-ft ul{width:100%;float:left;list-style:none;padding:0;margin:0}
+._ub-app-ft ul li{font-size:18px;padding:12px 0 11px 46px;color:#000}
+.scanbar{width:110px;border:4px solid #ccbe99;float:left}
+._ub-app-ft ul li.wn{background:url(../img/strip-img.jpg) no-repeat -1px 0}
+._ub-app-ft ul li.acf{background:url(../img/strip-img.jpg) no-repeat -1px -51px}
+.ubapp-dwn{width:50%;float:left;margin:12px 0 0}
+.ubapp-dwn .ub2-app-download{border:0;padding:14px 39px 15px;border-radius:10px;background:#a00404;color:#fff;font-size:24px;margin-right:0;margin-top:7px;font-family:"ProximaNovaRegular";text-align:center}
+.ubapp-dwn .ub2-app-download:hover{background:#860609}
+.vip_subscription-popup{background:url(../images/vip-subs-img.jpg) no-repeat;background-size:100%;text-align:center;padding:0 30px 50px}
+.vip-logo img{width:130px}
+.vip_subscription-popup h4.modal-title{font-size:41px;color:#ddb43e;font-family:'ProximaNovaBold';text-transform:uppercase;margin:46px 0 21px;line-height:40px}
+.vip_subscription-popup h4.modal-title span{display:block;font-size:27px;font-family:'ProximaNovaRegular';color:#fff}
+.vip_subscription-popup .modal-body > p{font-size:17px;margin-bottom:40px;margin-top:41px;line-height:21px;color:#fff}
+.vip_subscription-popup .btn.btn-default{background:-webkit-linear-gradient(#f9e080,#9a7c06);font-size:25px;font-family:'ProximaNovaBold';width:133px;text-transform:uppercase;line-height:28px}
+.modal-body-ub{background:url(../images/vip-subs-img.jpg) no-repeat;background-size:cover;width:100%;padding:43px 20px;color:#fff;text-align:center}
+.modal-body-ub .modal-title{line-height:1.5;font-family:'ProximaNovaBold';font-size:26px;color:#dfb843;margin:0 0 10px}
+.modal-body-ub p{margin:12px 0;font-size:16px}
+._u_btn{margin:41px 0 0}
+._u_btn button{background:-webkit-linear-gradient(#d51515,#6c0909);border:0;color:#fff;font-family:'ProximaNovaBold';width:158px;line-height:33px;font-size:18px}
+.go-to-main-event a{background:#f2f2f2;padding:6px 17px 5px;border-radius:30px;text-transform:uppercase;font-size:12px;font-family:'ProximaNovaBold'}
+.aiel-overview #pool_box,.aiel-overview .tournament-participant-list,.aiel-overview .tab-content{color:#ebe9e9}
+.aiel-mid{padding-bottom:20px}
+.league-aiel-section{background:url(../images/aiel-bg-banner.jpg) no-repeat;background-size:cover;width:100%;float:left;padding:8px 20px 20px;color:#fff}
+.ubl-head h1{font-family:'ProximaNovaBold';line-height:35px;color:#fff;text-transform:uppercase;font-size:28px;margin-top:20px}
+.ubl-head span{color:#faa120}
+.rt-right-info{display:block;width:100%;float:left;padding-left:26px}
+.aiel-informatin-box .lgl img{width:270px;margin:8px 0 0}
+.aiel-informatin-box .aiel-ch img{width:217px}
+.aiel-informatin-box .aiel-ch{width:292px;float:left;display:inline-block}
+.rts-info{width:auto;margin-left:292px;margin-top:22px;float:none}
+.rts-info p{font-size:18px;margin-bottom:18px;line-height:25px}
+.rts-info p span{display:block;color:#f7ad22;font-style:italic}
+.ubl-head{width:100%;float:left;margin:0 0 20px}
+.aiel-date{width:100%;float:left;text-align:center;margin-top:10px}
+.aiel-date p{color:#4caf50;text-transform:uppercase;margin:13px 0 0;font-family:'ProximaNovaBold';letter-spacing:3px}
+.aiel-date a,.join-qualifier{background:#a00404;color:#fff;padding:9px 57px;display:inline-block;border-radius:30px;font-size:22px;margin-top:12px;border-radius:30px;font-size:20px;font-family:'ProximaNovaBold';text-transform:uppercase;border:2px solid #f1b202;cursor:pointer}
+.aiel-date a:hover,.join-aiel:hover{background:#111}
+.open-qualifiers{width:100%;float:left;margin:28px 0 0}
+.open-qualifiers h2{text-align:center;color:#fff;font-size:37px;font-family:'ProximaNovaBold';margin:3px 0 24px}
+.open-tbl{border:1px solid #a00404}
+.open-tbl table th{font-family:'ProximaNovaBold';text-transform:uppercase;font-weight:400;color:#d8971e;text-align:center;padding:11px 3px;border-bottom:2px solid #f7ad22;background:#000;font-size:14px}
+.open-tbl table td{text-transform:uppercase;font-weight:400;color:#fff;text-align:center;padding:11px 3px;border-bottom:1px solid #3b3b3b;background:#121212;font-size:14px}
+.pr_1{background:#ddb164;color:#111;display:inline-block;width:55px;border-radius:4px;position:relative}
+.pr_1:before{width:6px;height:6px;border-radius:100%;background:#000;position:absolute;left:5px;top:7px;content:''}
+.aiel-overview{width:100%;float:left;margin:40px 0 0}
+.aiel-overview .tab-component{background:#000;padding:33px;font-size:16px}
+.aiel-overview #Overview .tab-component p span{color:#fff;display:inline-block;margin:0 4px 0 0;background:#a00404;padding:1px 24px;font-size:15px;border-radius:30px;font-family:'ProximaNovaBold'}
+.alert{font-size:15px}
+.aiel-overview .ovr-cnt h3{margin:3px 0 10px;color:#e9a319;font-size:26px;font-family:'ProximaNovaBold'}
+.aiel-overview table._tps tr th,.aiel-overview table._tps tr td{padding:3px 8px;background-color:#1e1717;vertical-align:middle}
+.aiel-overview .table-bordered td,.aiel-overview .table-bordered th{border:1px solid #383838}
+.aiel-overview .ovr-cnt p{text-transform:uppercase;margin:14px 0 40px;font-size:16px;color:#efefef;display:inline-block;margin-right:20px}
+#Overview .tab-component{text-align:center}
+.aiel-overview .ovr-cnt p.prz{font-size:40px;margin:0;padding:0}
+.aiel-overview .ovr-cnt p.prz span{font-size:17px;text-transform:uppercase;color:#c78605;margin-left:30px}
+.aiel-overview .ovr-cnt p.prz2{text-transform:uppercase;font-size:15px}
+.aiel-yellow-bx{background-image:linear-gradient(to right top,#e5a516,#e8b224,#ebbe31,#eecb3e,#f0d74b);padding:20px;color:#111}
+.aiel-yellow-bx h3{font-size:24px;font-family:'ProximaNovaBold';margin:0 0 26px;text-transform:uppercase}
+.aiel-pr span{margin-right:0;display:inline-block;font-family:'ProximaNovaBold';position:absolute;left:13px;font-size:19px;top:5px;color:#000}
+.aiel-pr{font-family:'ProximaNovaBold';font-size:26px;position:relative;padding-bottom:12px;background:url(../images/aiel-trophy-icon.png) no-repeat 0 4px;padding-left:44px}
+.aiel-pr sup{display:none}
+.responsive-aiel-bx{width:100%;float:left;display:none}
+.responsive-aiel-bx ul{list-style:none;padding:0;width:100%;float:left}
+.responsive-aiel-bx ul li{width:100%;float:left;margin:7px 0;background:#ffb51c;border-radius:8px 8px 0 8px;padding:15px 0 0 15px}
+.responsive-aiel-bx ul li h3{color:#111;font-family:'ProximaNovaBold';font-size:16px;margin:0 0 20px}
+.t_id{font-size:14px;float:left;margin:-14px 0 0;color:#000}
+.aiel-dt{float:right;width:auto;color:#8c0303;font-size:14px;margin:-11px 11px 2px 0;font-family:ShentoxSemiBold}
+.aiel-typerw{width:100%;float:left;border-top:1px solid #8c0303}
+.aiel-typerw p{margin:0;float:left;color:#000;font-size:14px;text-align:center;line-height:19px;margin-top:8px}
+.aiel-typerw p.aiel-join{float:right;margin:0}
+.aiel-typerw p.aiel-join a{background:#8c0303 url(../img/aiel-mb-bg.png) left top no-repeat;color:#fff;text-transform:uppercase;line-height:27px;display:inline-block;padding:0 20px 0 69px;font-family:'ProximaNovaBold';font-size:14px;margin-top:6px}
+.aiel-typerw p span{display:block;font-family:'ProximaNovaBold';font-size:16px}
+.aiel-typerw p.typ{width:67%;text-align:left;padding-left:4px}
+.taurnament-update-score tr .btn-button1{background:linear-gradient(to left,#970404,#2d1717);color:var(--white);text-transform:uppercase;font-size:12px;font-family:'ProximaNovaBold';padding:3px 10px 2px;cursor:pointer;margin-top:20px;border:0}
+.ups-note{font-family:'ProximaNovaBold';color:#900;margin-bottom:14px}
+.ups-all--{text-align:center}
+.ups-all-- .btn-button1{background:linear-gradient(to left,#970404,#2d1717);color:var(--white);text-transform:uppercase;font-size:17px;font-family:'ProximaNovaBold';padding:8px 17px 7px;margin-top:0;border:0;cursor:pointer;border-radius:3px}
+.complete.disabled,.complete.disabled:hover{background:#5c5a5a!important;border:0!important;color:#fff5f5!important;cursor:not-allowed}
+.aiel-tournament-winners{width:100%;float:left;margin:30px 0 0}
+.aiel-tournament-winners h2{font-family:'ProximaNovaBold';text-transform:uppercase;font-size:24px;text-align:center;margin-bottom:20px}
+.aiel-tournament-winners ._tms{width:100%;float:left;text-align:center;padding-top:10px;box-shadow:0 0 4px 0 #000;position:relative;background:#504d4d;border:1px solid #545454;min-height:134px; margin-bottom: 20px}
+#tile-1 .tab-pane{padding:0;height:auto;border:1px solid #ebb52b;margin-top:-2px}
+#tile-1 .nav-tabs{text-align:center;width:100%;display:block;position:relative;border:none!important;background:none;border-radius:0}
+#tile-1 .nav-tabs li{margin:0!important;display:inline-block}
+#tile-1 .nav-tabs li a{position:relative;margin-right:0!important;padding:3px 20px!important;font-size:19px;border:none!important;color:#fff}
+#tile-1 .nav-tabs a:hover{background:none;border:none}
+#tile-1 .slider{display:inline-block;width:30px;height:4px;border-radius:3px;background-color:#e9a319;position:absolute;bottom:0;transition:all .4s linear}
+#tile-1 .nav-tabs .active{background-color:transparent!important;border:none!important;color:#111!important}
+.aiel-overview .slider:before{position:absolute;content:"";height:30px;width:100%;left:0;bottom:-28px;background-color:#e9a319;-webkit-transition:.4s;transition:.4s}
+.mb-dx-app{display:none;width:100%;float:left;background:#1c0306;padding:6px 12px}
+.league-aiel-section .group-chat{height:328px}
+.league-aiel-section #pool_checkin p.alert.text-dark{background:#9c0404;color:#fff!important;margin:9px 0;font-family:'ProximaNovaBold'}
+.aiel-overview #single_pool_schedule{background:#1e1717;border:1px solid #2e2e2e}
+.aiel-overview p._psd{background-color:#000}
+.aiel-overview #single_pool_participants_modal h4 span{background-color:#e9a319;color:#111}
+.aiel-overview #single_pool_participants_modal h4:after{background-color:#e9a319}
+.aiel-overview #pool_participants,.aiel-overview #final_pool_participants{background-color:#1e1717;border:1px solid #323232;padding:10px 14px 8px}
+.aiel-overview ._pool-participant{width:100%;height:50px;margin-bottom:6px;background-color:#000;box-shadow:1px 1px 2px #000}
+.aiel-overview p._pp-name a{color:#fff}
+.aiel-overview p._pp-username a{color:#fff}
+.league-aiel-section .group-chat-heading,.league-aiel-section .tournament-game-wrap h3{background-color:#e9a319;color:#000}
+.league-aiel-section .btn-primary{color:#fff;background-color:#a00404;border-color:#a00404;margin:-9px -7px 0 1px}
+.lbl-text-bb{margin:11px 0 0;display:block;float:right}
+.organiser-login{background:url(../images/organiser-bg.jpg) center top no-repeat;background-attachment:fixed;background-size:100%;padding:30px 0;float:left;width:100%}
+.org-login-app{width:520px;margin:0 auto}
+.org-form-step-wrap{width:100%;float:left;position:relative;height:1176px;margin-top:20px; background:#a00404;border-radius:7px;border:17px solid #000;overflow:hidden}
+.form-step-component{background:#a00404;transition:ease-out all .4s;width:100%;float:left;position:absolute;padding: 16px 30px;}
+#step_1 p{font-size: 13px;margin-bottom: 14px;color: #111!important;}
+#game-setting .s-data select option{ color:#fff} 
+.org-ub-tab{border-bottom:1px solid #fff;padding:0;margin:0 0 14px;list-style:none;width:100%;float:left}
+.org-ub-tab li{float:left;    font-family: 'ProximaNovaBold';cursor:pointer;text-align:center;color:#fff;position:relative;text-transform:uppercase;width:33.333%;padding:7px;font-size:14px}
+.org-form-step-wrap h3{font-size: 25px; margin: 0 0 12px; color:#fff; font-family: 'ProximaNovaBold'}
+.org-ub-tab li:before{position:absolute;left:50%;bottom:-4px;width:8px;height:8px;background:#fff;border-radius:100%;content:'';margin-left:-4px}
+.org-ub-tab li.active{background:#f79e1a;color:#111}
+.org-ub-tab li.active:before,.org-ub-tab li.dd:before{background:#a00404}
+.org-ub-tab li.dd,#organizer p{color:#fff}
+.org-form-fields{width:100%;float:left;margin:10px 0; color:#fff}
+.org-form-fields em{font-size:20px;color:#b70303;margin-left:-2px}
+.org-form-fields.mandate select{padding-left:10px}
+.org-form-fields.mandate:before{position: absolute; left: 5px;  top: 0px; content: '*'; font-size: 18px; color: #fff;}
+.input-fields:focus{outline:none}
+.input-fields{border: 1px solid #dbdbdb; font-size: 15px; width: 100%; border-radius: 5px; height: 33px; padding: 5px 10px;}
+textarea.input-fields{border:0;border-bottom:1px solid #cecccc;height:56px;font-size:14px;width:100%;line-height:16px}
+.org-select{-webkit-appearance: none;  background: none; font-size: 14px; color: #fff; padding: 6px 6px 10px 10px; height: 37px; outline: 0; width: 100%;
+    border: 1px solid rgb(255 255 255 / 72%); background: url(../images/arrow-btn-org.png) no-repeat scroll right 5px center; border-radius: 4px;}
+.org-select option{ color:#000}
+.lb2{    display: block;  font-family: 'ProximaNovaBold'; margin-bottom: 3px;}
+.org-form-fields{position:relative}
+.uploaded_image .logo_image{border-radius:100%;width:40px;position:absolute;right:0;z-index:1;top:2px}
+.doc-sheet{border: 1px dashed #ffffff; width: 100%; float: left; position: relative; padding: 10px 22px 27px 19px; height: 48px; font-size: 15px; border-radius: 3px;}
+.doc-sheet span{display:block;margin-bottom:5px;position:relative;z-index:2}
+.org-form-fields .b-upload-btn{    background: #e3bd4b; border: 0; border-radius: 30px; font-size: 13px; color: #000000; position: absolute; right: 11px; top: 10px; padding: 3px 10px;}
+.form-step-btn{width:100%;float:left;margin:11px 0 0;text-align:right}
+.cancel_profile{float:left;background:#f2f2f2;border:1px solid #bbb;padding:8px 18px 7px;border-radius:2px;font-family:'ProximaNovaBold';text-transform:uppercase;color:#111}
+.moderate-event-components{background:#060201;background:linear-gradient(90deg,rgba(6,2,1,1) 0%,rgba(12,2,3,1) 35%,rgba(50,8,12,1) 100%);width:100%;float:left;border-radius:10px;margin-top:25px}
+.model-tab-content .nav-tabs .nav-item.show .nav-link,.model-tab-content .nav-tabs .nav-link.active{background-color:#900;border-color:#900;color:#fff}
+.model-tab-content .modal-body > ul{padding-left:0}
+.model-tab-content .nav-tabs .nav-link{border:1px solid transparent;border-top-left-radius:.25rem;border-top-right-radius:.25rem;color:#fff;font-family:'ProximaNovaBold';text-transform:uppercase}
+.model-tab-content .close{position:absolute;right:0;top:0;background:#900;color:#fff;opacity:1;box-shadow:none;width:30px;height:30px;text-align:center;border-radius:30px;cursor:pointer;font-size:17px;padding-top:6px}
+.model-tab-content  .modal-body{background:url(../images/vip-subs-img.jpg) top repeat;background-size:100%}
+.rm-label{color:#fff;font-size:14px}
+.model-tab-content .form-control{font-size:1rem;line-height:1.5;color:#fff;background-color:#4c0002;background-clip:padding-box;border:0;border-bottom:1px solid #cccccc52;border-radius:0;margin-top:6px}
+.model-tab-content .tab-content{margin-top:20px}
+.model-tab-content .form-control:focus,.model-tab-content .form-control:active{background-color:#4c0002}
+.model-tab-content .btn-button{background:#900;color:#fff;text-transform:uppercase;font-family:'ProximaNovaBold';font-size:14px}
+.model-tab-content .nav-tabs{border-bottom:1px solid red}
+.md-i{float:left;width:90px;text-align:center;padding:17px 15px}
+.mdr-bx{width:auto;margin-left:90px;border-left:1px solid red;float:none;padding:10px 20px 10px 30px}
+.mdr-bx .row{clear:none}
+.mdr-bx p{margin:3px 0;color:#efa7a8;font-family:'ProximaNovaBold';text-transform:uppercase;font-size:15px}
+.mdr-bx p span{color:#fff;font-family:'ProximaNovaRegular';text-transform:none;margin-right:40px}
+.update-rm-pass{color:#fff;text-transform:uppercase;border:2px solid #fff;padding:5px 20px 2px;border-radius:30px;font-size:13px;display:inline-block;margin:22px 0 0}
+.update-rm-pass:focus,.update-rm-pass:active{color:#111;background:#fff}
+.update-rm-pass:hover{color:#111;background:#fff}
+.ev-noti{background:#fff;color:#a00405;padding:7px 6px 7px 17px;border-radius:30px;font-family:'ProximaNovaBold';margin:10px 0}
+.ev-noti a{background:#a00405;color:#fff;padding:2px 16px;margin:-2px 0 0;border-radius:30px;font-family:'ProximaNovaRegular';float:right;text-transform:uppercase}
+.form-step-btn .back-btn{    border: 0; cursor: pointer; margin: 7px 20px 0 0; width: auto; background: none;}
+.form-step-btn .back-btn img{transform: rotate(180deg);}
+.form-step-btn .next-btn-arrow{    border: 2px solid rgb(255 255 255 / 50%); border-radius: 3px;float:right;background:#9f0404 url(../images/next-btn.png) right 13px no-repeat;color:#fff;padding:7px 39px 8px 19px;border-radius:3px;font-family:'ProximaNovaBold';text-transform:uppercase;cursor:pointer}
+.no-rganizer-data {  text-align: center; max-width: 520px; margin: 0 auto;  background: #fff;  padding: 61px 30px;  box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 28%); border-radius: 5px;}
+.no-rganizer-data figure img{width:98px;margin-bottom:23px}
+.no-rganizer-data h3{font-size: 20px; line-height: 30px;}
+.form-step-btn .next-btn-arrow:hover{background:#a00404 url(../images/next-btn.png) right 13px no-repeat}
+.org-form-notes{width:100%;float:left;margin:32px 0 0;color:#838383;font-size:15px}
+.form-main-form{width:100%;float:left;position:relative;    max-height: 1146px;}
+.form-step-component.last{background:#f2f0ea url(../images/patern-bg.jpg) top center no-repeat;height:700px;background-size:100% 100%}
+.form-step-component.last h2{font-weight:500;text-transform:uppercase;font-size:56px;margin:80px 0 16px}
+.contineu-btn a{display:inline-block;background:#a00404;color:#fff;padding:10px 20px 12px;text-transform:uppercase;border-radius:4px}
+.contineu-btn{margin-top:40px}
+.bottom-login-area{width:100%;float:left;text-align:center;margin:13px 0 20px;color:#fff}
+.pool-chekin-wrapper .text-dark{background:#a00404;color:#fff!important;font-family:'ProximaNovaBold';margin-top:12px;padding:2px}
+.bottom-login-area a{color:#fff;text-decoration:underline;font-weight:600}
+#updateTournamentClanMember img{border-radius:50%;border:2px solid #FFF3}
+strong.member-gamer-id{text-transform:none;font-weight:400}
+.modal-body-ub table.table tr td{text-align:left}
+.form-step-component .error,.form-step-component .error2 { color: #ffc876!important;}
+.organizer-haed-info{width:100%;float:left;position:relative}
+.organizer-haed-info h1{color:#fff;font-size:30px;text-transform:uppercase;padding-right:120px;line-height:40px;margin:34px 0 27px}
+.organizer-haed-info .org-btn-link{left:50%;margin-right:-50%;transform:translate(-55%,-50%);background:#fff;color:#8c0e0f;border:2px solid #fff;padding:7px 18px;font-size:16px;border-radius:4px;position:absolute;bottom:34px;text-transform:uppercase;font-family:'ProximaNovaBold'}
+.organizer-haed-info figure.mb{display:none}
+.org-btn-link:hover{background:#f78303;color:#fff}
+.organizer-welcome-info{width:100%;float:left;background:#f6f3f3;padding:50px 0}
+.organizer-welcome-info h4{text-transform:uppercase;color:#929292;font-family:'ProximaNovaAltLight';font-size:20px;margin:0}
+.organizer-welcome-info h2{font-size:25px;margin-bottom:30px;font-family:'ProximaNovaBold'}
+.organizer-welcome-info h2 small{font-size:25px;display:block}
+.organizer-welcome-info h2 span{color:#aa0606;position:relative}
+.organizer-welcome-info h2 span:before{background:#aa0606;height:4px;width:111%;left:0;position:absolute;bottom:-11px;content:''}
+.organizer-welcome-info p{font-size:18px;margin:25px 0}
+.org-fig{width:90%;float:right;position:relative;margin:0;padding:0}
+.org-fig:before{width:97%;background:#fff;height:15px;content:'';position:absolute;bottom:-15px}
+.org-fig:after{height:99%;background:#fff;width:15px;content:'';position:absolute;left:-15px;bottom:-15px}
+.organizer--info{width:100%;float:left;padding:30px 0}
+.organizer--info h2{font-size:30px;margin-bottom:40px;font-family:'ProximaNovaBold';text-align:center;text-transform:uppercase}
+.organizer--info h2 span{color:#aa0606;position:relative}
+.organizer--info.grey{background:#f2f1f1}
+.organizer--info .org h3{font-size:22px;font-family:'ProximaNovaBold';margin:2px 0 13px}
+.organizer--info .org figure img{width:100%;margin-bottom:20px}
+.organizer--info .org p{text-align:justify;font-size:18px;line-height:26px}
+.organizer--info ul{padding:0;margin:50px 0 0;list-style:none}
+.organizer--info ul li{float:left;width:33.333%;text-align:center;padding:20px 22px 29px 20px}
+.organizer--info .head-txt h2{margin-bottom:7px}
+.organizer--info .head-txt p{font-size:16px;line-height:21px}
+.organizer--info ul li h3{font-size:20px;color:#aa0606;font-family:'ProximaNovaBold';margin-bottom:15px;text-transform:uppercase}
+.organizer--info ul li h3 span{display:block;color:#111}
+.organizer--info ul li p{font-size:17px;line-height:25px}
+.organizer--info ul li figure img{width:50px;margin-bottom:13px}
+select[name='choose_clan_member']{color:#FFF;background-color:#000;font-size:14px;padding:2px 0 2px 5px;border-radius:25px}
+.choose-game-select{width:100%;float:left;margin:0 0 30px}
+.choose-game-select button{color:#5c5b5b;margin:1px;width:32.333%;font-size:13px;text-transform:uppercase;font-family:'ProximaNovaBold';padding:8px 2px;border:1px solid #f3f3f3;background:#cdcdcd;border-radius:6px;cursor:pointer}
+.choose-game-select button input[type="radio"]{display:none}
+.choose-game-select button.active{background:#9f0404;color:#fff}
+.tournament-create{width:100%;float:left;background:#f7f3f4 url(../images/organiser-bg.jpg) center top no-repeat;padding:50px 0 0;    background-size: 100% 100%;}
+.tournament-create .org-form-step-wrap{border:0}
+.tournament-create .org-login-app{width:700px;margin:0 auto}
+.tournament-create .org-form-step-wrap h3{margin:0 0 36px}
+.tournament-create .org-form-step-wrap h3.gm{    font-size: 17px; margin: 14px 0 19px; color: #fff; font-family: 'ProximaNovaBold'; text-transform: uppercase;}
+.tournament-create h2{font-size:27px;font-family:'ProximaNovaBold';margin:13px 0 1px; color:var(--white)}
+.tournament-create .org-ub-tab li{width:auto;margin-left:8px;color:#fff;font-family:'ProximaNovaBold'}
+.sc .input-fields{padding-left:30px}
+.sc .org-form-fields span{position:absolute;left:0;top:0;color:#898989;background:#ededed;width:22px;text-align:center;padding:6px}
+.tournament-create .org-ub-tab li:first-child{margin:0}
+.tournament-create .org-ub-tab li.active{color:#111}
+.tournament-create .form-step-component{padding:30px 16px;background-size:100%}
+.tournament-create .create-app-process{padding:0 40px 32px;width:100%;float:left}
+.tournament-create .form-main-form{width:100%;float:left;position:relative;}
+.tournament-create .org-form-step-wrap{background:none}
+#create-tournament-model-view button.close{position:absolute;z-index:4;top:6px;right:6px;cursor:pointer}
+#create-tournament-model-view .modal-dialog{max-width:629px}
+.tournament-create .create-app-process#game-setting{color: #fff;}
+.tournament-create table.widefat tr:nth-child(even) { background-color: #f79e1a; color: #111;}
+.widefat.striped{width:100%}
+.widefat.striped th{font-size:16px;padding:10px 0}
+.widefat.striped td label{padding-right:10px}
+.note--{width:100%;float:left;margin:16px 0 15px;color:#fff}
+.create-app-process-final{width:100%;float:left;text-align:center;padding:34px 25px 0}
+.create-app-process-final h4{font-size:28px;text-transform:uppercase;margin:5px 0 35px}
+.create-app-process-final p{font-size:15px;color:#8f8e8e}
+.create-app-process-final p a{color:#a00405;text-decoration:underline}
+.create-app-process-final p.ts-link{color:#000;margin-top:64px}
+.create-app-process-final p.ts-link b{text-decoration:underline}
+.create-app-process-final p button{cursor:pointer;background:#6cd04a;color:#111;border:0;font-size:13px;padding:7px 20px 5px;display:inline-block;border-radius:3px;margin-top:30px;margin-bottom:30px}
+.tournament-flow-gm{clear:both;margin-top:30px;display:block;width:100%;float:left}
+.checkbox_btn{display:block;position:relative;padding-left:25px;margin-bottom:0;cursor:pointer;font-size:14px;text-transform:uppercase;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.checkbox_btn input{position:absolute;opacity:0;cursor:pointer;height:0;width:0}
+.checkbox_btn .checkmark3{position:absolute;top:0;left:0;height:20px;width:20px;background-color:#fff;border-radius:100%;border:1px solid #ccc}
+.checkbox_btn input:checked ~ .checkmark3{background-color:#f79e1a}
+.checkbox_btn .checkmark3:after{content:"";position:absolute;display:none}
+.checkbox_btn input:checked ~ .checkmark3:after{display:block}
+.checkbox_btn .checkmark3:after{left:3px;top:3px;width:12px;height:12px;background:#f79e1a;border-radius:7px}
+.col-option .checkbox_btn{float:left;margin-left:20px;margin-top:2px}
+.c-radio .checkbox_btn { float: left; margin-left:10px; margin-top: 2px; padding:0px;}
+.c-radio .checkbox_btn i{ position: relative; z-index: 1; color: #000; font-style: normal;font-family: 'ProximaNovaBold'; display: inline-block; padding: 0px 15px;width: 100%;}
+.c-radio .checkbox_btn .checkmark3 { position: absolute; top: -6px;  left: 0; background-color: #fff; border-radius: 2px; border: 1px solid #ccc; width: 100%; height: 33px;display: block;}
+
+
+
+.sp-part{    float: left; text-transform: uppercase; font-family: 'ProximaNovaBold'; font-size: 14px;}
+.sp-part img{    width: 60px;}
+.org-create-option-rw{width:100%;margin:13px 0 5px;color:#fff;float:left;border-bottom:1px solid rgb(255 255 255 / 26%);padding-bottom:17px}
+.bracket-pool{width:100%;float:left;text-transform:uppercase;position:relative;margin-bottom:10px;font-size:12px}
+.bracket-pool:before{background:#ccc;height:1px;content:'';width:100%;position:absolute;left:0;top:8px}
+.bracket-pool span{    background: #a00404; display: inline-block; position: relative; z-index: 1; padding-right: 8px; font-family: 'ProximaNovaBold';}
+.org-create-option-rw.match-type{border-bottom:0}
+#winners_list{height:125px;overflow:auto;width:100%;float:left}
+.bracket-size .lbl-text-bb{margin:11px 0 13px}
+.create-app-process-final .copy{color:#000;font-size:18px;margin-left:10px;font-weight:600;background:#f2f2f2;padding:10px 12px;border-radius:100%;cursor:pointer;border:1px solid #ccc}
+.create-app-process-final .copy:hover{background:#ab0606;color:#fff;border:1px solid #ab0606}
+.organize-gaming{color:#fff;background:#510a12;padding:40px 0;width:100%;float:left}
+.organize-gaming h3{font-family:'ProximaNovaBold';font-size:35px;margin:34px 0 15px}
+.organize-gaming h4{font-size:17px;margin-bottom:14px}
+.organize-gaming .btn.button{background:#000;color:#fff;text-transform:uppercase;padding:5px 16px 6px;font-size:14px;font-family:'ProximaNovaRegular';margin-top:14px}
+.manage-org-event{float: right; background: #9d0404; padding: 7px 20px; border-radius: 30px; font-family: 'ProximaNovaBold'; text-transform: uppercase;
+    margin-top: 7px; margin-left: 8px; border: 1px solid #9d0404; color: var(--white); transition: ease all 0.4s;}
+.manage-org-event:hover{background:#fff}
+#pool_checkin p.checkintime-over{position:absolute;display:block;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%);font-size:13px;font-family:'ProximaNovaBold';text-transform:uppercase;color:#fffefe;background:#9d0404;padding:8px 20px 7px;border-radius:30px}
+.aiel-yellow-bx.rank-tempo h3{margin:0 0 7px 0}
+.aiel-yellow-bx.rank-tempo .alert{padding-bottom:0}
+.aiel-overview #pool_schedule,.aiel-overview #final_pool_schedule,.aiel-overview #single_pool_schedule,.aiel-overview #pool_schedule,.aiel-overview #single_pool_schedule{background-color:#1e1717;padding:10px 15px 8px;margin-bottom:25px;border:1px solid #2a2929}
+.aiel-overview ._fph{color:#fff}
+.aiel-overview #pool_participants_modal h4 span,.aiel-overview #final_pool_participants_modal h4 span,.aiel-overview #single_pool_participants_modal h4 span,.aiel-overview .heading-bg span{background-color:#a00404}
+.aiel-overview #pool_participants_modal h4:after,.aiel-overview #final_pool_participants_modal h4:after,.aiel-overview #single_pool_participants_modal h4:after,.heading-bg:after{background-color:#a00404}
+.aiel-top-banner{width:100%;float:left}
+.aiel-tournament-timeline{width:100%;float:left;background:url(../images/aiel-poster-banner.jpg) top no-repeat;padding:75px 0 25px;margin-top:-45px;background-size:100%}
+.aiel-section-head h2{color:#fff;text-transform:uppercase;font-size:36px;font-family:'ProximaNovaBold';margin:9px 0 16px}
+.aiel-game-timeline-box,.aiel-section-head{width:100%;float:left}
+.aiel-b-logo{list-style:none;padding:0;margin:10px 0 0;border-bottom:1px solid #563333;width:100%;float:left}
+.aiel-b-logo li{width:20%;cursor:pointer;float:left;text-align:center;padding:23px 0;position:relative}
+.aiel-b-logo li img{height:45px}
+.aiel-b-logo li.active:before{background:#fff;height:5px;width:100%;content:'';position:absolute;left:0;bottom:-3px}
+.aiel-timeline-components{width:100%;float:left;margin:44px 0 55px}
+.aiel-news-app{width:100%;float:left;margin:20px 0 45px}
+.news-cmp-{background:#260000;color:#fff;margin:5px 0;box-shadow:0 0 12px 0 #3d0000}
+.news-cmp- h3{font-size:16px;padding:10px 20px;font-family:var(--Bold);color:var(--white)}
+.news-btn-more{padding:0 20px 10px}
+.news-btn-more a{color:#b5b5b5;display:block}
+.news-btn-more a .fa{float:right;margin:5px 0 0}
+.news-btn-more a:hover{color:#fff}
+.ovr-cmp-{color:var(--white);margin:12px 0;text-transform:uppercase}
+.ovr-cmp- h3{font-size:18px;padding:14px 0;font-family:var(--Bold);color:var(--white);height:82px;overflow:hidden}
+.aiel-overview_app span{display:block;color:#fa9f54;font-size:16px}
+.aiel-overview_app{font-size:18px}
+.aiel-timeline-wrap{width:100%;float:left;display:none}
+.aiel-timeline-wrap.activeLnk{display:block}
+.ovr-cmp- figure img{height:80px;object-fit:cover}
+.reg-qualifier{text-align:center;margin:9px 0 0;clear:both;width:100%;float:left;font-size:15px;border:1px solid red;padding:12px;background:linear-gradient(to left,#cd0101,#422);border-radius:30px}
+.reg-qualifier a{color:#850808;background:#f89f1f;border-radius:30px;font-family:'ProximaNovaBold';padding:4px 10px 3px;text-transform:uppercase;font-size:13px}
+table.two-axis tr td:first-of-type{background:#cadde1}
+.org-event-filter{width:100%;float:left;margin:48px 0 25px}
+.org-event-filter select{appearance:none;-moz-appearance:none;-o-appearance:none;-webkit-appearance:none;background:url(../images/dd-arrow2.jpg) no-repeat scroll right 8px center;width:180px;border:0;border-bottom:1px solid #111;text-transform:uppercase;padding:4px;font-size:16px;line-height:31px;display:inline-block;color:var(--graylight)}
+.org-event-filter select option{font-size:14px}
+.org-event-filter h2{font-size:29px;float:left;margin-right:30px;text-transform:uppercase}
+.organizer-dashboard{width:100%;float:left;background:#f6f3f3;padding:15px 0; min-height:450px;}
+.org-list-item-row{width:100%;float:left;border-radius:10px;overflow:hidden;background:#fff;margin:13px 0;box-shadow:0 0 4px 0 #000}
+.create-org-event{background:#3d3d3d url(../images/bg-btn12.jpg) right top no-repeat;padding-right:50px;color:#fff;text-transform:uppercase;line-height:35px;display:inline-block;padding-left:21px;border-radius:30px;font-family:'ProximaNovaBold';float:right;margin:7px 0 0}
+.create-org-event:hover{background:#bc000d url(../images/bg-btn12.jpg) right top no-repeat;color:#fff}
+.org-list-item-row figure img{width:100%;float:left;height:134px;object-fit:cover}
+.dbtn{background:#f6f3f3;padding:8px 10px 6px;font-size:12px;margin-top:10px}
+.org-list-item-row ul{width:100%;float:left;list-style:none;padding:0;margin:-38px 0 0}
+.org-list-item-row ul li:nth-child(1){background:#000;padding:3px}
+.org-list-item-row ul li img{height:31px}
+.org-list-item-row ul li{width:100%;float:left;border-bottom:1px solid #e2e1e1;font-size:16px;text-align:center;padding:9px 12px;text-transform:uppercase;color:#000;line-height:18px}
+.league-match-bx p.promo{    position: absolute; display: block;   top: 50%;  left: 50%; margin-right: -50%; transform: translate(-50%, -50%); font-size: 22px; font-family: 'ProximaNovaBold'; text-transform: uppercase; color: #9d0404;}
+.org-list-item-row ul li span{display:block;color:#1c1c1c;font-family:'ProximaNovaBold';font-size:17px}
+.org-list-item-row ul li a.org-join-now{display:inline-block;background:#bc000d;color:#fff;padding:7px 20px;border-radius:30px;font-family:'ProximaNovaBold';font-size:15px;}
+.org-list-item-row ul li a.org-join-now:hover{background:#333}
+.org-list-item-row ul li i{font-style:normal;font-size:16px;color:#bc000d;font-family:'ProximaNovaBold'}
+.org-list-item-row ul li.last{    font-family: 'ProximaNovaBold'; border: 0; margin-top: 0; font-size: 13px; padding: 3px 0;}
+.organizer-haed-section{width:100%;float:left;height:220px;border-bottom:6px solid #3d3d3d;position:relative}
+
+.org-wrap-bx{width:100%;float:left;margin:50px 0 0;z-index:2;position:relative}
+.dd-ratio{width: 100%; float: left; background: #585858; position: relative; color: #fff; text-align: center; padding: 2px 0 0; font-size: 9px; text-transform: uppercase;
+    font-family: 'ProximaNovaBold'; border-top: 1px solid #ccc;}
+.dd-ratio.tt25:before{background:#3fb70e;width:18%;height:100%;content:'';position:absolute;left:0;top:0}
+.org-profile{margin:53px 0 0 15px}
+.org-wrap-bx .org-profile img{width:150px;height:150px;border:2px solid red;float:left;background:#000;padding:0;text-align:center;position:relative}
+.org-wrap-bx h3{float:left;font-family:'ShentoxSemiBold';color:#fff;text-transform:uppercase;font-size:30px;margin:17px 0 0 24px}
+.org-social-info{position:absolute;right:0;bottom:62px}
+.org-social-info a{color:#fff;font-size:27px;display:inline-block;margin:0 5px}
+.clan_members_info_wrap{width:100%;float:left;background:#000;padding:30px 0 35px}
+.clan_members_info_wrap .ubl-head h2{text-transform:uppercase;color:#fff;font-family:'ProximaNovaBold';font-size:26px}
+.clan_members_info_wrap .ubl-head p{color:#9d9d9d;font-size:17px}
+.clan-pro-wrap{width:100%;float:left;margin:20px 0 0}
+.clan-pro-wrap ul{width:100%;display:flex;-o-display:flex;-webkit-display:flex;-moz-display:flex;float:left;list-style:none;padding:0;margin:0;display:flex}
+.clan-pro-wrap ul li{width:23%;margin:0 1%;text-align:center;position:relative;border:2px solid #ffa721;min-height:213px;color:#fff;margin-bottom:20px}
+.edit-post-records button{background:none;border:none;color:#CCC;cursor:pointer;transition-duration:.25s}
+.edit-post-records button:first-child{border-bottom:1px solid #FFF3}
+.edit-post-records button:hover{color:#FFF}
+._cpw{position:absolute;display:block;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%);color:#fff}
+._cpw h3{color:#fff;font-family:'ProximaNovaBold';white-space:nowrap;text-overflow:ellipsis;display:block;width:160px;overflow:hidden;font-size:17px;text-transform:uppercase;margin:13px 0 6px}
+#addTournamentClanMember .modal-body-ub{padding:21px 8px 10px}
+#addTournamentClanMember .modal-body-ub h5{text-align:left;color:#ffb61c}
+#addTournamentClanMember .modal-body-ub h4{font-family:'ProximaNovaBold';text-transform:uppercase}
+._cpw p span{display:block;text-transform:uppercase;color:#b5b0b0;font-size:15px}
+._cpw p{text-transform:uppercase;font-size:16px;margin:4px 0}
+.edit-post-records{position:absolute;right:0;top:0;border:1px solid #3d3d3d;width:35px;display:flex;flex-direction:column}
+.edit-post-records a{color:#d9d9d9;font-size:22px;display:inline-block;border-bottom:1px solid #3d3d3d;width:32px}
+.clan-add-model-btn{cursor:pointer;float:left;width:100%;text-align:center;position:relative;min-height:213px;color:#fff;padding-top:111px}
+.clan-add-model-btn span{font-size:50px;line-height:14px;color:#cdcdcd}
+.clan-add-model-btn p{font-size:15px;text-transform:uppercase;color:#ada9a9}
+#updateTournamentClanMember table.table tr td{vertical-align:middle;color:#EEE}
+.clan-pro-wrap ul li .ub-member{display:block;text-align:left;padding:4px 6px;position:absolute;top:-2px;background:#ffa721;color:#000;text-transform:uppercase;font-family:'ProximaNovaBold';font-size:12px;left:-2px;border-radius:0 0 16px 0}
+.clan-pro-wrap ul li figure img{border-radius:100%}
+.clan-pro-wrap ul li .ub-member.invited{background:#970404;color:#fff}
+.modal-backdrop.show{opacity:.7}
+.modal-body-ub{border:2px solid #6a0000}
+.clan-pro-wrap ul li .ub-member.clan-owner{background:#ffa721 url(../images/ub-crown-icon.png) no-repeat 3px 2px;padding-left:25px;background-size:19px}
+._game-maps,._platform-list{width:100%;float:left;border-bottom:1px solid rgb(255 255 255 / 26%);margin:10px 0 5px}
+#game-setting select option{ color:#111}
+.checkbox_btn label.error{position: absolute; bottom: -36px; width: 158px; color: #fff!important; font-size: 12px;}
+table.widefat th{font-size:16px;font-family:'ProximaNovaBold';padding:5px 9px!important}
+table.widefat td{font-size:15px;padding:4px 9px;border-top:1px solid #f2f2f2}
+.ct-tournament-rule-notes.text-secondary{    color: #fff!important;}
+table.widefat tr:nth-child(even){background-color:#f2f2f2}
+.aiel22-date{float:left;width:105px;height:408px;position:relative;color:#dbd2d2;border-right:3px solid #dbd2d2}
+.aiel22-date span{position:absolute;display:block;margin-top:-32px;top:50%;left:0;margin-right:-50%;font-family:Rajdhani;font-size:50px;transform:rotate(270deg)}
+.aiell22-timeline{float:left;color:#dbd2d2;height:408px;width:79px;position:relative;text-align:center}
+.aiel-22-wrap{width:100%;margin-left:0;border:1px solid red;min-height:408px;border-left:8px solid #fa9f1a}
+.aiel-22-wrap figure{position:relative}
+.aiel-22-wrap figure h3{position:absolute;left:0;padding:14px 11px;bottom:0;width:100%;background:#000;color:#fff;font-size:27px;font-family:'ProximaNovaBold'}
+.aiell22-timeline ul li.active{font-family:'ProximaNovaBold'}
+.prize-distribution-note{margin-top:-1px;width:100%;padding:2px 0;background:#a40000;float:left}
+.prize-distribution-note p{font-size:15px;text-align:center}
+.prize-distribution-note p a{color:#fff;text-decoration:underline}
+.aiel-events-wrap{width:auto;margin-left:224px;float:none}
+.aiel-22-wrap figure h3 span{font-family:"ProximaNovaRegular"}
+.aiel-22-wrap figure img{width:100%}
+.aiel-22-info{width:100%;float:left;padding:20px 10px;color:#fff}
+.aiel-22-info p{font-size:16px;text-transform:uppercase;margin:5px 0}
+.aiel-22-info p span{color:#e38409;font-family:'ProximaNovaBold'}
+.reg-are-on{float:right;text-align:center}
+.reg-are-on h4{font-size:15px;font-family:'ProximaNovaBold';margin:7px 0 0;padding:0;text-transform:uppercase}
+.reg-are-on a{background:#e38409;font-family:'ProximaNovaBold';color:#111;margin-top:10px;text-transform:uppercase}
+.ues-header .esp-logo img{width:239px}
+.ues-header{width:100%;float:left;padding:19px 0 0}
+.ues-header p{float:right;width:auto;margin:10px 10px 0 0}
+.ues-header p a{color:#fff;font-size:20px}
+.ues-prize{position:relative;font-size:29px;font-family:'ProximaNovaBold';padding-left:85px;position:relative;line-height:28px}
+.ues-prize:before{background:url(../images/esports-prize-m.png) no-repeat;width:72px;height:72px;position:absolute;left:-2px;top:-9px;content:''}
+.ues-prize span{display:block;font-family:'ProximaNovaRegular';text-transform:uppercase;font-size:23px;text-decoration:underline}
+.wrapper.ultimete-e-sports-wrapper{padding-top:76px}
+.ultimete-e-sports .ues-header{padding:8px 0 7px}
+.headersection.ultimete-e-sports.darkHeader{transform:translateY(0px)}
+.aiel-22-info p{font-size:13px;text-align:center}
+.aiel-22-info p span{display:block}
+#step_2 ._game-maps{border:none;display:flex;justify-content:flex-start;flex-wrap:wrap}
+._game-maps select {margin-right:5px;margin-bottom:5px;border-color:#CCC}
+._game-maps select:last-child {margin-right:0}
+.aiel-tab-list-item{float:left;height:408px;width:206px;position:relative}
+.aiel-tab-list-item ul{float:left;width:100%;padding:0}
+.aiel-tab-list-item ul li{width:100%;display:none;position:relative;opacity:.5;float:left;margin:0 0 5px;cursor:pointer;padding:4px;transition:ease all .4s}
+.aiel-tab-list-item ul li .aiel-list--bx{background:#060201;background:linear-gradient(90deg,rgba(6,2,1,1) 0%,rgba(12,2,3,1) 35%,rgba(50,8,12,1) 100%);padding:7px}
+.aiel-tab-list-item ul li .aiel-list--bx p{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;color:#fff;text-transform:uppercase;font-size:13px}
+.aiel-tab-list-item ul li .aiel-list--bx p span{color:#f7a901}
+.aiel-tab-list-item ul li.active{background:#fa9f1a}
+.aiel-tab-list-item ul li.active,.aiel-tab-list-item ul li:hover{opacity:1}
+.aiel-tab-list-item ul li.active:before{width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:15px solid #fa9f1a;position:absolute;right:-15px;content:'';top:50%;margin-top:-15px}
+.tjc-alert{text-align:center;color:#111;font-size:18px;padding:7px 8px 9px;border-radius:5px;margin-top:19px}
+.tjc-alert span{font-family:'ProximaNovaBold'}
+.tjc-alert.success{background:#b9cf83}
+.tjc-alert.error{background:#e7baba;color:#a00404!important}
+.taurnament-update-score .pnts-record{width:31%;margin:0 1%;text-align:left;float:left}
+.taurnament-update-score .table td,.taurnament-update-score .table th{padding:6px;vertical-align:middle;text-align:center}
+.taurnament-update-score .table td strong{font-family:'ProximaNovaRegular';display:block;font-size:13px;font-weight:400}
+.taurnament-update-score .table td{line-height:16px;font-size:15px}
+.pnts-record span{font-size:12px}
+.taurnament-update-score .form-control{display:block;width:100%;padding:3px 4px;font-size:14px;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:3px;margin:0}
+.taurnament-update-tab ul.nav{padding:0;margin:0}
+.taurnament-update-tab ul.nav li{float:left;margin:0 1px 2px 0;padding:0}
+.taurnament-update-tab ul.nav li a{color:#000;display:inline-block;background:#ebebeb;padding:3px 17px;border-radius:22px 0 16px;font-family:'ProximaNovaBold';font-size:15px;border:1px solid #ccc}
+.taurnament-update-tab ul.nav li a.active{border:1px solid #931f1d;background:#931f1d;color:#fff}
+.aiel-top-banner .carousel-item .mb{display:none}
+.section-we-provide{ background:url(../images/service-we-provide-bg.jpg) repeat; width:100%; float:left; padding:25px 0px 10px 0px;}
+.section-we-provide .aiel-section-head h2 { font-size: 30px; margin: 9px 0 16px; color: #f6a802; }
+.service-we-bx{ width:100%; float:left; padding:0px; margin:0px 0 15px 0; list-style:none}
+.service-we-bx li{ float:left; padding:25px 25px; width:33.333%; text-align:center; border-left:1px solid #4b4a4a}
+ .service-we-bx li h3{color: #939393; font-size: 20px;text-transform: uppercase;margin: 22px 0px 10px; padding: 0 40px;}
+ .service-we-bx li p{color: #ddd1d1; font-size: 16px; line-height: 20px;}
+.service-we-bx li:nth-child(4),.service-we-bx li:nth-child(5),.service-we-bx li:nth-child(6){ border-top:1px solid #4b4a4a}
+.service-we-bx li:nth-child(4),.service-we-bx li:nth-child(1){ border-left:0px;}
+.e-esports-components-vds{ width:100%; float:left; padding:30px 0px; background:#2e1111 url(../images/vds-img.jpg) left no-repeat;background-position: -120px 0;}
+.v-poster {    border: 5px solid rgb(255 255 255 / 27%); border-radius: 10px;overflow: hidden;}
+.e-esports-components-vds h4{text-align: center; color: #fff; text-transform: uppercase;  font-size: 20px;}
+.bold{font-family:'ProximaNovaBold';}
+.past-evn{ text-align:center;}
+.past-evn h5{ text-transform: uppercase; text-align: center; color: #f29400; font-size: 25px; margin: 25px 0 16px 0;}
+.past-evt{ background: url(../images/wns-prize-img.png) center 23px no-repeat; border: 1px solid #f29400; display: inline-block; width: 150px; height: 150px;color: #ffffff;
+    padding-top: 95px; border-radius: 100%; font-size: 21px; font-family: 'ProximaNovaBold';}
+.wns{    font-size: 20px; text-transform: uppercase; margin:27px 0 11px 0; color: #999;}
+.past-evn ul li{ display:inline-block; margin:0px 5px;}
+.past-evn ul li.win figure{  border:3px solid #f6a802;}
+.past-evn ul li img{width:132px; }
+.past-evn ul li.win img{width:163px; }
+.wts-video{ margin:60px 0 0 0}
+.e-esports-components-vds .carousel-control-next, .e-esports-components-vds .carousel-control-prev{ width:25px;}
+.e-esports-components-vds .carousel-control-prev {  left: -31px;}
+.e-esports-components-vds .carousel-control-next {  right: -31px;}
+.regtr-info { text-align:center; background:url(../images/regstr-bg.jpg) repeat; width:100%; float:left; padding:30px 0px;}
+.rgtr{max-width: 590px;  margin: 0 auto;}
+.regtr-info h3{  float: left; color: #fff; text-transform: uppercase; text-align: left; width: 61%; margin-top: 18px;}
+.regtr-info h3 span{ display:block ; color:#f6a802}
+.regtr-info a{ float:right}
+.ub-log-points-slide{ float: left; position: relative; width: 57%; height: 550px;}
+#ub-log-points{ position:absolute; left:50%; top:50%; margin-right:-50%; transform:translate(-50%, -50%); color:#fff}
+#ub-log-points h3{font-size: 32px; font-family: 'ProximaNovaBold'; text-transform: uppercase;}
+#ub-log-points h3 span{ text-decoration:underline; font-style:italic; color:#f9b015}
+
+.org-my-tournaments{ width:100%; float:left; background:#f7f3f4; padding:30px 0px;}
+.org-my-tournaments-list{ width:100%; float:left; border:1px solid #d8d8d8; border-radius:8px; padding:10px; margin:4px 0px;}
+.org-my-tournaments-list.eve{ background:#fff}
+.org-gm-fig{ float: left; border:1px solid #f5f4f4; width: 135px; text-align: center; background: #2b2b2b; padding: 27px 0px;border-radius: 6px;}
+.org-gm-content{    margin-top: 9px; float: none; margin-left: 161px; width: auto; display: block;}
+.org-gm-content .row{ clear:none}
+.org-gm-content h3{font-size: 20px; font-family: 'ProximaNovaBold'; margin: 0px 0px 9px 0px;}
+.status-op .sts{font-size:16px; font-family: 'ProximaNovaBold'; color:#111}
+.live-p{  font-family: 'ProximaNovaBold';  color: green; font-size: 16px;position: relative;}
+.live-p:before{    width: 8px; height: 8px; background: green; border-radius: 100%; position: absolute; right: -13px; top: 7px; content: '';}
+.dt-date{  text-align: right;    color: green;}
+.org-gm-content .m60{ margin-top:15px;}
+.org-gm-content ul{ padding:0px; margin:0px; list-style:none}
+.org-gm-content ul li{ float:left; font-size:16px; position:relative}
+.org-gm-content ul li+li{ margin-left:30px;}
+.mt-btn{background: url(../images/d_arrow.png) right no-repeat;    text-decoration: underline; display: inline-block; padding-right: 31px; float: right; font-family: 'ProximaNovaBold'; text-transform: uppercase;}
+.mt-btn:hover{ color:#111}
+.lan-p{color: #ff9e3d;font-family: 'ProximaNovaBold';}
+.status-op{ position:relative}
+.prm_d{ color: #c71010; line-height: 14px; position: absolute; bottom: -29px; left:0px;}
+.org-my-tournaments h2{    font-family: 'ProximaNovaBold'; margin-bottom: 20px; font-size: 28px;}
+.reg-p{ color:#111}
+.organizer-cover-info{ width:100%; float:left; background:url(../images/organizer-bg-img.jpg) center top no-repeat; background-size:cover; padding:20px 0px; border-bottom:4px solid #3d3d3d;}
+.organizer-cover-info p{    margin-bottom: 28px; margin-top: 20px;}
+.organizer-cover-info p a{ color:var(--white); background:url(../images/org-arrow12.jpg) left no-repeat; padding-left:30px;}
+.organizer-cover-info  h2{    font-size: 30px; color: var(--white); width: 100%; float: left; margin-top: 16px; }
+.organizer-overview-section{ width: 100%; float: left; background: #f7f3f4; padding: 20px 0px;}
+
+.ub-org-head{ font-size: 27px; margin-bottom: 20px; width: 100%; float: left;}
+.org-tab-section-area{ width:100%; float:left}
+.org-tab-section-area .nav-tabs .nav-item{ display:inline-block}
+.org-tab-section-area .nav-tabs {     border-bottom: 3px solid #000000; text-align: center; display: block; width: 100%; float: left;}
+.org-tab-section-area .nav-tabs>li{ width:20%; float:left;}
+.prize_distribute{ text-align:right;    margin-bottom: 20px;}
+.prize_distribute .button{  background: #9f0404;  color: #fff; font-family: 'ProximaNovaBold';}
+.org-tab-section-area .nav-tabs>li>a{    text-transform: uppercase; color: #5b595a; font-size: 16px; border: 0; background: no-repeat; position:relative; padding:8px 20px 20px}
+.org-tab-section-area .nav-tabs>li>a.active{ background:none; font-family:var(--bold); color:#a00404}
+.org-tab-section-area .nav-tabs>li>a.active:before{ background:#9e0404; height:7px; width:100%; position:absolute; left:0px; bottom:-4px; content:'';}
+.org-tab-section-area .tab-content{ width:100%; float:left;    padding: 20px 0px;}
+.t-table-info{ width:100%; float:left; margin-top:25px;}
+.t-table-info tr:nth-child(even) {background:#fff}
+.t-table-info tr:nth-child(odd) {background: #efebea}
+.t-table-info table {     border-collapse: inherit; border-radius: 10px; overflow: hidden; background: #e1e1e1;}
+.t-table-info tr th,.t-table-info tr td{     text-align: center; padding: 11px; font-size: 15px;}
+.t-table-info tr th{     text-transform: uppercase; font-size: 15px; font-weight: normal; font-family: var(--bold);}
+.btn_ { font-size: 16px; background: #c6c2c3; padding: 3px 20px; border-radius: 6px; }
+.btn_.grey{background: #c6c2c3; color:#111}
+.btn_.red{background: #ef0d0e; color:var(--white)}
+._t-bx-wrap{ width:100%; float:left}
+.s_bx{  width: 100%;  float: left;  padding: 20px;background: #fff; border-radius: 4px; box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 9%); height:100%}
+.s_bx .status-op { position: relative; float: left; margin:11px 0 0 15px;}
+.s_bx  .org-gm-fig { padding:10px;}
+.s_bx  h3{    font-size: 24px; margin: 41px 0 19px 0; font-family: var(--bold);}
+.s_bx  p{    font-size: 16px; font-style: italic; line-height: 20px;}
+.s_bx  p span{ font-family:var(--bold)}
+.pts{    width: 100%; float: left; font-size: 20px; font-family: var(--bold); margin: 0 0 14px 0;    position: relative;}
+.pts:before{ position: absolute; left: 0px; background: #ccc; content: ''; width: 100%; top: 14px; height: 1px;}
+.pts span{ background:#fff; position:relative;    padding-right: 10px;}
+.s_bx ul{ list-style:none; padding:0px; margin:0 0 44px 0; width:100%; float:left}
+.s_bx ul li{ float:left; margin-right:40px;    line-height: 23px;}
+.s_bx ul li+li{border-left: 1px solid #ccc; margin-left: 12px; padding-left: 40px;}
+.s_bx ul li span{ display:block; font-size:25px;}
+.lv-p{color: #ffa928;}
+.lv-a{color: green; font-size: 16px; position: relative;}
+.lv-a:before{width:6px; height:6px; background: green; border-radius: 100%; position: absolute; right: -13px; top: 7px; content: '';}
+.red-text{color: #db0808; text-align: center; margin: 32px 0 0 0; font-style: italic;}
+.reg-p-m{     color: #9d0404; margin-left: 10px; font-family: 'ProximaNovaBold';}
+.error_notes{ color: #ff3737; text-align: center;}
+
+._org_fields{width: 40px; height: 24px; margin: 0px 4px; border: 1px solid #ccc; text-align: center; font-size: 14px; background: #fff;}
+.sc-table .sc-player span{ display: inline-block; font-size: 12px; font-weight: normal; font-family: 'ProximaNovaRegular'; margin: 0px 4px;}
+.t_r_p span{ color:#9d0406; font-family: 'ProximaNovaBold'; display:block}
+.nm.chd-in{background: url(images/g-user.png) no-repeat; padding-left: 28px; padding-bottom: 4px; padding-top: 3px;}
+.nm.chd{background: url(images/g-user2.png) no-repeat; padding-left: 28px; padding-bottom: 4px; padding-top: 3px;}
+.t-select{ width: 105px; font-size: 14px; padding: 4px; border: 1px solid #ccc;}
+.artbi-table{ background:#000;height: 44px;}
+.arbitration-bx{  background: #9e0404; float: left; color: #fff; padding: 10px; font-size: 16px;}
+.report-tbl{color: #feba00; float: left; padding: 10px 45px 0 14px; font-size: 16px; }
+.artb-screenshot a{float: left; text-transform: uppercase; color: #e1dcdc; background: url(images/screenshot-w.png) right no-repeat;padding: 0px 27px 0px 0px;margin: 11px 0 0 0;}
+.btn22_.grey {background: #c6c2c3; color: #111; float: left; margin: 10px 0 0 37px; text-transform: uppercase; font-size: 13px;padding: 3px 10px 2px; border-radius: 3px;}
+.org-tab-section-area .nav-tabs.ins{ border:0px;}
+.org-tab-section-area .nav-tabs.ins>li>a.active:before{ display:none}
+.org-tab-section-area .nav-tabs.ins>li>a{ padding: 13px 20px 12px;}
+.t-table-info.sc-table{ margin:0px;}
+.org-tab-section-area .nav-tabs.ins>li{ width:auto; }
+.org-tab-section-area .nav-tabs.ins>li>a.active{ background:#efebea}
+.tab-content.scd{ padding:0px;}
+
+
+.tab-content.wts-bx{ background:#fff; padding:20px 20px 20px;}
+.org-tab-section-area .nav-tabs.ins.wh>li>a.active { background: #ffffff;}
+.tab-content._sec{ width:100%; float:left}
+.tab-content.wts-bx.S3 .tab-content._sec { PADDING-TOP: 0!IMPORTANT;}
+.tab-content.wts-bx.S3 .nav-tabs.ins.wh>li>a.active {background: #efebea;}
+.org-edits-btn{position: absolute; right: 0; bottom: 55px;}
+.org-edits-btn a{background: #a00404; color: #fff; text-transform: uppercase; font-family: 'ProximaNovaBold'; padding: 7px 15px; display: inline-block;border-radius: 5px;}
+.org-edits-btn a:hover{ background:#7e0101}
+.org-page-head{ position:relative}
+.org-page-head .create-org-event{ margin: 0; position: absolute; right: 0; top: 0;}
+.dt-s{     display: block; margin-bottom: 6px; color: #fff; font-family: 'ProximaNovaBold'; text-transform: uppercase; font-size: 13px;}
+.all-round textarea.input-fields { border: 1px solid #cecccc; padding-top: 10px;}
+._edt{ background: #000;  color: #fff;text-transform: uppercase; font-family: 'ProximaNovaBold'; float: right;}
+._edt:hover{ background:#a00404; color:#fff }
+
+#create-tournament-model-view .modal-content{background: #9e0404; color: #fff;}
+#create-tournament-model-view .create-app-process-final h4  span{   display: block; font-size: 16px; margin-top: 4px;}
+#create-tournament-model-view  .create-app-process-final p.ts2 {font-size: 17px; color: #ffffff;}
+#create-tournament-model-view  .create-app-process-final p.ts2  a{ color: #ffb923; font-family: 'ProximaNovaBold';}
+#create-tournament-model-view  .create-app-process-final .ts-link2{ margin: 44px 0 0 0;}
+#create-tournament-model-view  .create-app-process-final .ts-link2 b{ font-weight: normal; display: block; text-align: center; margin-bottom: 13px; text-transform: uppercase;  font-size: 14px;color: #fff;}
+#create-tournament-model-view  .create-app-process-final .ts-link2 #t_link{ background: #242424; color: #fff; text-decoration: none; padding: 6px 20px; display: inline-block; border-radius: 13px; font-size: 13px;}
+#create-tournament-model-view .create-app-process-final .copy {color: #ffffff; font-size: 13px; margin-left: 0px; background: #242424; padding: 8px 21px; border-radius: 15px;
+cursor: pointer; border: 0;}
+#create-tournament-model-view .create-app-process-final p button { cursor: pointer; background: #e9991c; color: #111; font-size: 15px; padding: 11px 40px 9px; display: inline-block; border-radius: 30px; margin-top: 47px;  margin-bottom: 30px; border: 1px solid #333; font-family: 'ProximaNovaBold';}
+.participant-search-form{    width: 100%; float: left; background: #fff; padding: 20px 20px 29px; border-radius: 0 0 12px 12px; position: relative;}
+.participant-search-form input[type="text"]{ width: 100%; border: 0px; font-size: 18px; padding-right:66px;}
+.t-table-info.MO{ margin: -10px 0 0 0; position: relative;}
+.participant-search-form .ser__{    background: url(../images/search-btn112.jpg) no-repeat 13px 4px; width: 65px; height: 42px; display: inline-block;
+    border: 0; position: absolute; border-left: 1px solid #e1e1e1; top: 15px;right: 0; cursor:pointer}
+.t-toggle{position: relative; font-size: 14px; margin-left: 3px; cursor: pointer;}	
+.t-toggle-b { position: absolute; left: 50%; width: 220px;  line-height: 14px; font-size: 13px; text-align: center; background: #333; color: #fff!important; padding: 6px 25px 10px; z-index: 99; bottom:19px; border-radius: 4px; transform-origin: 50% 0; transform: scaleY(0) translateZ(0); opacity: 0; transition: transform 0.3s,opacity .3s;
+    margin-left: -110px;}	
+	.t-toggle-b:before { position: absolute; background: url(../images/ang-bg3.png) no-repeat; content: ''; width: 16px; height: 18px; left: 50%; bottom: -12px;
+    margin-left: -5px;}
+	.t-toggle:hover .t-toggle-b { opacity: 1; transform: scaleY(1) translateZ(0px);}
+.custom-prize{
+    font-family: 'ProximaNovaBold';
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0px 0 0 0;
+}
+.custom-prize small{font-size: 14px; color: #111; font-family: 'ProximaNovaRegular';}
+.custom-prize span{ font-size: 29px; display: block; color: #a00404;}
+#game-setting .s-data select{ width: 48%; background: #a00404; color: #fff; font-size: 14px; padding: 8px 7px; border: 1px solid rgb(255 255 255 / 61%); margin-right: 5px;}
+._game-maps.s-data{ border:0px;}
+.org-form-fields.clan-size-p{margin-top:22px; border:0px; border-top:0; padding-top:14px;}
+._game-maps.s-data strong{ font-weight: normal; font-family: 'ProximaNovaBold'; font-size: 15px; display: block; margin-bottom: 4px;}
+
+.org-form-fields.clan-size-p .lbl-text-bb, .lbl-text-bb{  margin-top: 0; text-transform: uppercase;font-family: 'ProximaNovaBold'; float:left; font-size: 14px;  line-height: 14px; padding-top: 0;}
+.col-option.c-radio.mg-20{ margin-top:15px;}
+.col-option.c-radio.mg-20 .checkbox_btn { float: left;  margin-right: 10px; margin-top: 0px;  padding: 0px; margin-left: 0;}
+.org-form-fields.clan-size-p.mg-0{ margin-top:0px;}
+.org-create-option-rw._networks-wrap{ border:0px;}
+._platform-list{    border: 0; margin-bottom: 0;}
+.number-of-players-team{ margin-top:37px;}
+.number-of-players-team .lbl-text-bb{
+    float: left;
+    font-family: 'ProximaNovaBold';
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.rdb .c-radio .checkbox_btn i{padding: 0px 10px}
+.rdb .c-radio .checkbox_btn{ margin-left:6px;}
+
+.c-radio .checkbox_btn.first{ margin-left:0px;}
+.org-form-fields.rdb{    margin-bottom: 26px;}
+.org-form-fields.rdb .lb2{ margin-bottom:7px;}
+.participants-group-type-wrap input[type="radio"]{ display:none}
+._mds .sp-part{ width:100%; float:left;    margin-bottom: 8px;}
+.participants-group-type-wrap .checkbox_btn{    float: left;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 13px;
+    background: #fff;
+    height: 150px;
+    color: #000;
+    margin-left: 0;}
+.col-bxd{ width:100%; float:left; margin-bottom:23px;}
+.participants-group-type-wrap .checkbox_btn h4{    font-family: 'ProximaNovaBold';}
+.participants-group-type-wrap .checkbox_btn p{    text-transform: none;}
+.participants-group-type-wrap input[name="bracket_pool"]:checked + label { background-color: #f79e1a;}
+.mnp label{  font-family: 'ProximaNovaBold'; font-size:14px;}
+.mnp { margin-bottom:12px;}
+.bpsn-note{margin-bottom: 20px; margin-top: 27px;  background: #fff; color: #000; padding: 10px; border-radius: 30px; font-family: 'ProximaNovaBold'; padding-left: 20px;}
+.time-duration select option{ color:#111}
+.pool_state{ TEXT-ALIGN: CENTER; FONT-FAMILY: 'ProximaNovaBold'; font-size: 20px;}
+.pool_state span{ color:#ffb900}
+.notes{    text-align: center; color: #c29d34; text-decoration: underline; margin-bottom: 24px; font-family: 'ProximaNovaBold'; font-size: 16px;}
+.eye_view i{
+    margin-left: 7px;
+    color: #960404;
+    cursor: pointer;
+}
+.esports-service-banenr{ width:100%; float:left; background:url(../images/esposts-service-banner.jpg) center top no-repeat; padding:80px 0px;}
+.esports-service-banenr h1{-webkit-text-stroke: 2px #ededed; text-stroke: 2px #fff; font-size: 70px; text-transform: uppercase; color: #270a0e; font-family: 'ProximaNovaBold';}
+.esports-service-banenr  a.button{background: #ffa018; text-transform: uppercase; padding: 12px 59px; color: #111; font-size: 20px;}
+
+.section-we-provide.service{ background:#fff;}
+.section-we-provide.service .service-we-bx li img{filter: -webkit-filter: grayscale(1) invert(1); filter: grayscale(1) invert(1);}
+.section-we-provide.service .aiel-section-head h2 { color: #000000;}
+.section-we-provide.service .service-we-bx li{    border-left: 1px solid #dddddd;}
+.section-we-provide.service .service-we-bx li h3 {  color: #000000;  font-size: 18px; text-transform: uppercase; margin: 22px 0px 10px; font-family: 'ProximaNovaBold';}
+.section-we-provide.service .service-we-bx li p { color: #303030; font-size: 16px; line-height: 20px;}
+.section-we-provide.service .service-we-bx li:nth-child(4),.section-we-provide.service  .service-we-bx li:nth-child(5), .section-we-provide.service .service-we-bx li:nth-child(6) { border-top: 1px solid #dddddd;}
+.section-we-provide.service .service-we-bx li:nth-child(4),.section-we-provide.service  .service-we-bx li:nth-child(1) { border-left: 0px;}
+
+.service-engage-bx{ width:100%; float:left; background:url(../images/e-service-bg.jpg) center top no-repeat; height:140px;background-size: 100% 100%;    padding:32px 0px;}
+.service-engage-bx .che-bx{margin-left: 68px;background: url(../images/engagin-event-icon.jpg) no-repeat; color: var(--white); font-family: 'ProximaNovaBold'; font-size: 26px; padding-left: 119px;background-size: 100px; line-height: 29px; padding-right: 96px; padding-top: 10px; padding-bottom: 20px;}
+	
+.service-engage-bx .meb-bx{background: url(../images/brand-icon.jpg) no-repeat; color: var(--white); font-family: 'ProximaNovaBold'; font-size: 26px; padding-left: 97px;
+    background-size: 74px; line-height: 29px; padding-right: 96px; padding-top: 10px; padding-bottom: 20px; margin-left: 63px;}	
+.service-contact-bx{ width:100%; float:left; background:url(../images/esports-contact-bg.jpg) no-repeat;background-size: 100% 100%;    padding:32px 0px; border-top:1px solid #ffa018}
+.service-contact-bx h2{ color: #ffa018; text-transform: uppercase; font-family: 'ProximaNovaBold'; font-size: 31px; margin-bottom: 4px;}
+.service-contact-bx p{ color: var(--white); font-size: 20px;}	
+.service-contact-bx p a.button	{    background: #ffa018;  color: #7c1705; font-family: 'ProximaNovaBold'; text-transform: uppercase; margin-top: 17px;}
+.esports-data-table .complete-game { border: 1px solid #64110a; background-color: #000; color: #fff;}
+.esports-data-table .ub-tournament-game-table333 table th { background: #121212; color: #fff;}
+.esports-data-table .ub-tournament-game-table333 table tr td { color: #ffffff; background: #111;}
+.esports-data-table .ub-tournament-game-table333 table tr td.title-d a {  color: #fff;}
+.esports-data-table .ub-tournament-game-table333 table tr,.esports-data-table  .ub-tournament-game-table333 table th, .esports-data-table .ub-tournament-game-table333 table td { border: none; border-bottom:1px solid rgb(243 243 243 / 24%);}
+.esports-data-table .ub-tournament-game-table333 table ._gt-row .fee-d { color: #ffffff; background: #302f2f;}
+.esports-data-table .ub-tournament-game-table333 thead{ border-left:1px solid rgb(204 204 204 / 38%); border-right:1px solid rgb(204 204 204 / 38%);}
+.ultimete-e-sports-wrapper .participant-list-item .info p a { color: #fff; font-size: 14px; margin-top: 6px;}
+.ultimete-e-sports-wrapper ._3-in-row .participant-list-item .info { margin-left: 48px;}
+.allservice{width: 100%;text-align: center;float: left;margin-bottom: 20px;margin-top: 20px;}
+.allservice a{border: 1px solid #e62e2e;color: #ffffff;padding: 9px 28px;display: inline-block;border-radius: 4px;font-family: 'ProximaNovaBold';text-transform: uppercase;}
+.allservice a:hover{ text-decoration:none; background:#e62e2e; color:#fff}
+
+/* Responsive styles */
+@media screen and (max-width:767px) {
+	.org-edits-btn { position: relative; right: -19px; bottom: 0; float: left; margin: 6px 0 6px 0;}
+	.org-edits-btn a{  color: #fff; padding: 3px 9px 2px;}
+    .aiel-top-banner .carousel-item .mb{display:block}
+    .aiel-top-banner .carousel-item .dx,.tournament-flow-gm{display:none}
+    .org-profile{margin:0 0 -14px 15px;float:left}
+    .organize-gaming{text-align:center}
+    .organize-gaming h3{font-size:25px}
+    .organizer-haed-info{text-align:center}
+    .fig_head{display:inline-block;margin-top:20px}
+    .aiel-date a{padding:6px 57px}
+    .responsive-aiel-bx{display:block}
+    .aiel-overview{margin:7px 0 0}
+    .mb-dx-app{display:block}
+    .ubapp-dwn .ub2-app-download.mdn,.aiel-informatin-box .aiel-ch{display:none}
+    .rts-info{width:auto;margin-left:0;margin-top:17px;float:none;text-align:center}
+    .league-aiel-section{padding:8px 0 30px}
+    .aiel-informatin-box .lgl img{width:215px;margin:2px 0 0}
+    .rts-info p{font-size:16px;margin-bottom:14px;line-height:18px;float:left;width:50%}
+    #tile-1 .nav-tabs li a{padding:5px!important;font-size:16px}
+    .open-qualifiers h2{font-size:25px;margin:3px 0 9px}
+    .open-qualifiers table{width:850px}
+    .ubapp-dwn .ub2-app-download.dwnloand-apk{display:block}
+    ._mbapp{width:100%;float:left;text-align:center}
+    .footer-appliction ._mbapp img{max-width:185px}
+    .footer-appliction{padding-top:5px;padding-bottom:14px;background-size:120%}
+    ._ub-app-ft{margin:0}
+    ._ub-app-ft h3{padding-top:33px;padding-bottom:10px;float:left;width:100%;background-size:150px;margin-top:10px}
+    ._ub-app-ft ul li{font-size:13px;padding:8px 0 0;color:#000;background:none!important;line-height:18px}
+    .ubapp-dwn .ub2-app-download{border:0;padding:12px 6px;border-radius:10px;background:#a00404;color:#fff;font-size:16px;margin-right:0;margin-top:7px}
+    .scanbar{display:none}
+    ._ub-app-ft h3 span{font-size:12px}
+    #gameOnlinePlayers .leaderboard-tbl table tr td:nth-child(3){display:inline-block!important}
+    #gameOnlinePlayers .leaderboard-tbl table td{padding:5px 0}
+    .single-product .redeem-coins{width:100%}
+    .redeem-coins{margin:0 0 9px;float:left;width:100%;border-bottom:1px solid #e0e0e0;padding-bottom:3px}
+    .wp-orders{float:right;width:auto;margin-left:20px}
+    .gametab-list-container h2{font-size:28px}
+    .bonuscard-strip{background:url(../images/bonus-img-bg.png) no-repeat;position:absolute;right:10px;top:2px;display:block;width:99px;height:31px;text-align:center;padding:0;color:#111;padding-left:11px;font-size:14px;border-radius:0 17px 17px 0;line-height:32px;background-size:100% 100%}
+    .ub-join-btn a{font-size:15px;padding:2px 15px 4px;border:1px solid #fff}
+    ._ubs-join-btn,.cn-wrap{display:none}
+    .page-head-component-app h1{font-size:26px}
+    .page-head-component-app{margin:26px 0 0}
+    #gamesection .geme-category .tabs.tabcontent li a{padding:7px 5px;display:block;height:42px;margin:0 1px 0 0}
+    .venue-tid-wrap{text-align:center;margin-top:0;margin-bottom:20px}
+    .text-right.leave-tournament{text-align:center!important}
+    .user-login-profile:before{background:none}
+    .ub2-app-download{float:left}
+    .user-login-profile{position:absolute;width:44px;border:0;padding:0;border-radius:12px;right:0;top:-45px}
+    .ub2-app-download{position:relative;top:0;left:0;padding:10px 14px;margin:0 8px 0 0;font-size:13px;border-radius:10px;transform:none;text-align:center;display:block}
+    .ub-home-feature-component ul li{height:auto}
+    .app-qr-code a{display:block}
+    ._game_ch._ads._sec h2{margin-top:12px}
+    ._u-btn a small{color:#ffbc26}
+    .single-game h1.game-title{font-size:19px;width:100%;float:left}
+    .leave-tournament{display:none}
+    ._game_ch.face-off-wrapper h2{font-size:18px}
+    .ub-home-feature-component ul li{width:32%}
+    .game-tab-component .nav-tabs>li a{font-size:11px;padding:38px 0 10px;width:105px}
+    .game-tab-component .nav-tabs>li a:before{background:url(../images/ub-sprite-ic.png) -9px -6px no-repeat;position:absolute;left:50%;top:17px!important;width:30px;height:30px;transform:translateY(-16px)!important;margin-left:-20px}
+    .ourjourney-component .sw-row .sw-num{font-size:33px}
+    .ub-address{padding-bottom:30px}
+    #home6 h2{font-size:27px}
+    .game-nav{position:relative;left:0;z-index:5;background:#000;border-bottom:1px solid #000}
+    .ub2-game-re .tournament-pic figure img{object-fit:cover;height:127px}
+    .featured-game-wrap{display:none}
+    ._ft-filter{float:left;margin-right:0;margin-bottom:7px;width:auto}
+    ._ft-filter input[type="radio"]+label{width:auto;font-size:11px;padding:4px}
+    ._ft-filter label{font-size:12px;margin-right:7px;width:34px;float:left;margin-top:0;line-height:13px}
+    .p_left{float:left;width:100%}
+    .p_right{float:right;width:100%}
+    .p_100{padding-top:10px}
+    ._ubs_info_cnt h2,._ubs_info_cnt p,._u_btn{text-align:center}
+    ._ubs_info_cnt h2:before{left:50%;margin-left:-35px}
+    .ourjourney-component .bx-frame.midnone{border:0}
+    .ub-home-feature-component ul li a h3{bottom:5px;font-size:12px;padding-top:2px;background-size:100%}
+    .ubs-component2_wrap{padding-bottom:30px}
+    ._gtlm-wrap{overflow:hidden;width:100%;float:left}
+    ._gtlm-wrap.op{max-height:100%}
+    ._gtlm-wrap ._ft-wrap{display:block}
+    .game-changer-bx h3{font-size:23px}
+    .game-changer-bx ._umg{margin-bottom:11px;margin-top:15px}
+    .game-changer-bx p{line-height:27px;padding:0 4px 8px;font-size:16px;color:#111}
+    .modal-content.wh{min-height:420px}
+    .game-changer-bx{min-height:420px}
+    .game-changer-bx ._umg img{width:130px}
+    #stp3 ._umg{margin-top:64px}
+    .page-head-component-app.m2{margin:-51px 0 0;background:red;position:relative}
+    .page-head-component-app m2 _loby .container{padding:0}
+    .ch-tbl-text h4{width:auto;font-size:12px;white-space:nowrap;text-overflow:ellipsis;display:block;overflow:hidden}
+    .ch-tbl-text{width:100%;float:left}
+    .woocommerce-products-header h1.woocommerce-products-header__title{font-size:29px;margin:6px 0 0;text-align:center;border-bottom:0}
+    .woocommerce ul.products li.product,.woocommerce-page ul.products li.product{width:48%!important;margin:0 1% 20px!important;float:left!important;min-height:339px}
+    .woocommerce ul.products li.product .woocommerce-loop-product__title{white-space:nowrap;text-overflow:ellipsis;display:block;overflow:hidden}
+    .woocommerce div.product .product_title{font-size:24px}
+    .single-product.woocommerce div.product.product-type-simple .summary p.price ins,.single-product.woocommerce div.product.product-type-simple .summary span.price ins{margin-bottom:4px}
+    .single-product.woocommerce div.product.product-type-simple .summary p.price del,.single-product.woocommerce div.product.product-type-simple .summary span.price del{display:inline-block!important;font-size:15px!important;margin-top:12px!important}
+    .single-product.woocommerce div.product .summary input[type="text"]{width:46%;border:1px solid #ccc9c9;height:34px;padding:5px;margin-bottom:10px}
+    .single-product.woocommerce div.product .quantity{display:none}
+    .single-product.woocommerce div.product.product-type-simple .summary p.price ins,.single-product.woocommerce div.product.product-type-simple .summary span.price ins{font-size:21px}
+    .single_add_to_cart_button{padding:16px 60px 14px!important}
+    .woocommerce ul.products > li.product > a{display:block}
+    .woocommerce ul.products > a{display:none}
+    .woocommerce ul.products[class*=columns-] li.product,.woocommerce-page ul.products[class*=columns-] li.product{clear:none!important}
+    .leaderboard-shedule .nav-tabs .nav-item span{font-size:11px;margin-top:5px}
+    .leaderboard-shedule .tab-info-app-container .nav-tabs .nav-link{font-size:12px;margin-right:0;line-height:12px}
+    .leaderboard-shedule .nav-tabs .nav-item{text-align:center;float:left;width:50%}
+    .--prize-pool span{font-size:11px;font-family:'ProximaNovaRegular'}
+    .--prize-pool{width:100%;float:left;font-size:14px;text-transform:uppercase;color:#000;background:#fff url(../images/trophy-ic.png) no-repeat;padding-left:27px;padding-top:2px;background-size:20px;font-family:'ProximaNovaBold'}
+    .--ndays{font-size:13px;background:#fff url(../images/laoding-ic.png) 0 no-repeat;padding-left:26px;padding-top:0;line-height:18px;margin-bottom:12px;background-size:23px}
+    .--ndays span{color:#9f0507;font-size:11px}
+    ._p-game-filter{float:left;margin-right:0;width:auto;text-align:right;font-size:13px;line-height:30px}
+    .woocommerce select[name="productgamefilter"]{margin-right:10px;width:148px;float:right}
+    .woocommerce select[name="orderby"]{width:40%;left:0;margin-bottom:0}
+    .wp-orders a{float:left;font-size:13px;text-transform:uppercase;color:#ac1409;background:url(../img/order-cart.jpg) no-repeat;padding-left:25px;padding-bottom:2px;padding-top:0;background-size:22px}
+    .ballance-coins{float:left;font-size:13px;text-transform:uppercase;color:#ac1409;background:url(../img/b-coins.jpg) no-repeat;padding-left:26px;padding-bottom:2px;padding-top:2px;background-size:20px}
+    #gameOnlinePlayers .leaderboard-tbl table td h3{white-space:nowrap;text-overflow:ellipsis;display:block;overflow:hidden}
+    #gameOnlinePlayers .leaderboard-tbl{margin-top:0}
+    .featuredgame.P0{padding:14px 0 0}
+    .woocommerce .woocommerce-ordering{float:left!important}
+    .footer-appliction .ubapp-dwn{display:block;width:100%}
+    .ubl-head h1{line-height:32px;font-size:23px;margin-top:7px}
+    .open-tbl{display:none}
+    .organizer--info ul li{float:left;width:100%;text-align:center;padding:15px 0 6px}
+    .organizer-haed-info h1{font-size:23px;padding-right:0;line-height:31px;margin:21px 0 27px;text-align:center}
+    .organizer--info ul{margin-top:10px}
+    .organizer--info h2{font-size:24px}
+    .rankwise-prizes .col-md-3{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+    .aiel-overview .ovr-cnt p{margin:6px 0 0;font-size:14px;margin-right:0}
+    .organizer-haed-info .org-btn-link{border:1px solid #f78303;padding:4px 13px;font-size:13px;border-radius:4px;position:absolute;bottom:21px}
+    .organizer-haed-info figure.mb{display:block}
+    .organizer-haed-info figure.dx{display:none}
+    .logged-in .ub2-app-download{margin:2px -1px 0 0}
+    .aiel22-date,.aiel-tab-list-item ul li figure{display:none}
+    .aiel-tab-list-item{float:left;height:auto;width:100%;position:relative}
+    .aiell22-timeline ul{position:relative;top:0;padding:0;left:0;margin-right:0;transform:none;width:100%}
+    .aiel-tab-list-item ul{width:100%;display:-webkit-flex;flex-wrap:nowrap;align-items:stretch;white-space:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;height:62px;-webkit-overflow-scrolling:touch!important;position:relative;text-align:center}
+    .aiel-tab-list-item ul li{text-transform:uppercase;font-size:15px;white-space:initial;overflow:hidden;flex-wrap:nowrap;flex-shrink:0;width:auto;margin:0 5px 0 3px;display:none;margin:0 10px;cursor:pointer;position:relative;float:none}
+    .aiel-events-wrap{width:100%;margin-left:0;float:left}
+    .aiel-b-logo li img{height:25px;padding:0 5px}
+    .aiel-timeline-components{width:100%;float:left;margin:26px 0 15px}
+    .aiel-section-head h2{font-size:26px;margin:21px 0 0}
+    .aiel-tournament-timeline{background:#2f0000 url(../images/aiel-poster-banner.jpg) top no-repeat;padding:45px 0 25px;margin-top:-45px;background-size:100%}
+    .ues-header img{width:159px}
+    .aiell22-timeline ul li.active:before,.aiell22-timeline ul li.active:after{display:none}
+    .aiell22-timeline ul li.active{color:#f4ab22}
+    .aiel-22-wrap figure h3{position:relative;left:0;padding:14px 11px;bottom:0;width:100%;font-size:19px}
+    .aiel-22-info p{font-size:12px}
+    .reg-are-on h4{font-size:12px;margin:7px 0 0}
+    .aiel-22-wrap{min-height:auto;float:left}
+    .ues-header p{display:none}
+    .headersection.ultimete-e-sports{padding-top:0;padding-bottom:0;min-height:auto}
+    .wrapper.ultimete-e-sports-wrapper{padding-top:62px}
+    ._loggedin.ultimete-e-sports-wrapper .headersection.darkHeader{min-height:auto}
+    ._loggedin.ultimete-e-sports-wrapper .user-login-profile{top:-10px}
+    .ues-prize:before{display:none}
+    .ues-prize{padding:0;font-size:20px;line-height:18px;text-align:center}
+    .ultimete-e-sports-wrapper .ft-logo img{width:185px}
+    .ues-prize span{font-size:15px}
+    .ultimete-e-sports-wrapper .footer-middle{padding-bottom:0}
+    .ultimete-e-sports .ues-header{padding:12px 6px 10px}
+    .ultimete-e-sports .ues-header img{margin-top:5px}
+	.nvbar__{background: no-repeat; cursor:pointer; color: #fff;border: 0px;position: absolute;top: 21px;left: 0px;font-size: 20px; display:block}
+	.esp-logo{ padding-left:25px;} 
+    .org-wrap-bx .org-profile img{width:100px;height:100px}
+    .org-wrap-bx h3{font-size:18px;margin:8px 0 0 19px}
+    .organizer-haed-section{background-color:#f6f3f3!important;height:auto;border:0}
+    .org-social-info{bottom:3px}
+    .org-social-info a{color:#fff;font-size:17px;margin:0 3px}
+    .org-social-info a img{width:15px}
+    .tournament-create .org-login-app{width:100%}
+    .org-ub-tab{text-align:center}
+    .tournament-create{padding-top:13px}
+    .tournament-create .org-ub-tab li{width:49%;margin-left:0;font-size:12px;float:none;display:inline-block;padding:5px;border:1px solid #ccc;border-radius:30px;margin-bottom:5px}
+    .tournament-create .form-step-component{padding:30px 16px 13px}
+    .input-fields{margin-bottom:10px}
+    .tournament-create .create-app-process{padding:0 0 12px}
+    .tournament-create .org-form-step-wrap{height:688px}
+    .sp-part{font-size:12px}
+    .col-option .checkbox_btn{margin-left:7px;margin-top:0}
+    .checkbox_btn{font-size:13px;padding-top:2px}
+    .org-create-option-rw{margin:2px 0 1px;padding-bottom:5px}
+    #step_3 .org-form-fields{margin:2px 0}
+    #winners_list{height:82px}
+    .tournament-create #step_2 .form-main-form{height:562px}
+    .widefat.striped th{font-size:12px}
+    .doc-sheet{padding:15px 20px 27px 0;font-size:13px}
+    .widefat.striped td label{padding-right:4px}
+    table.widefat td{font-size:12px;padding:1px 5px}
+    .md-i{display:none}
+    .mdr-bx{width:100%;margin-left:0;border-left:0;float:left;padding:12px}
+    .ev-noti{padding:7px 6px 7px 7px;width:100%;float:left;text-align:center}
+    .ev-noti a{padding:2px 16px;margin:8px 0 7px;float:none;display:block}
+}
+
+@media only screen and (max-width: 767px) {
+    .ub-tournament-game-table333 table td .more-view-link{border:0;color:#fff;display:inline-block;position:absolute;left:0;width:100%;text-align:center;padding:6px;top:-6px;border-radius:0}
+    #table-no-resize thead{display:none}
+    .ub-tournament-game-table333 table tr td{border-bottom:1px solid #ede5e5}
+    .ub-tournament-game-table333 table tr{border:none;border-bottom:4px solid #fff}
+    #table-no-resize tbody td{border:none!important;display:block;font-size:.8125rem;padding:0;vertical-align:top;float:left\9;width:100%\9}
+    .ub-tournament-game-table333 table.bt tbody td:first-of-type .bt-content{padding-top:3px;padding-bottom:6px}
+    #table-no-resize tbody td:before{background:#56a2cf;content:attr(data-th) ": ";color:#fff;display:inline-block;font-weight:700;margin-right:10px;padding:2px 10px;width:6.5em}
+    #table-no-resize tbody td .bt-content{display:inline-block;padding:2px 5px}
+    #table-no-resize tbody td:first-of-type:before,#table-no-resize tbody td:first-of-type .bt-content{padding-top:10px}
+    #table-no-resize tbody td:last-of-type:before,#table-no-resize tbody td:last-of-type .bt-content{padding-bottom:10px}
+    table.two-axis tr td:first-of-type,table.two-axis tr:nth-of-type(2n+2) td:first-of-type,table.two-axis tr td:first-of-type:before{background:#3584b3;color:#fff}
+    table.two-axis tr td:first-of-type{border-bottom:1px solid #e4ebeb}
+    table.two-axis tr td:first-of-type:before{padding-bottom:10px}
+    .clan-pro-wrap ul li{width:48%;float:left}
+    .clan-pro-wrap ul{display:block}
+    .clan-pro-wrap ul li figure img{width:75px}
+    .go-to-main-event a{padding:6px 7px 5px;font-size:11px}
+    ._cpw h3{width:120px}
+    .bt-wrapper.active{margin-top:1.5em}
+    .bt-wrapper.active table{margin:0}
+    .ub-tournament-game-table333 table{width:100%}
+    .ub-tournament-game-table333 .table{margin:30px 0;border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #e0e0e0}
+    .ub-tournament-game-table333 .table caption{color:#333;font-style:italic;font-size:85%;line-height:1;padding:1em 0;text-align:center}
+    .ub-tournament-game-table333 .table td,.ub-tournament-game-table333 .table th{border-left:1px solid #e0e0e0;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.5em 1em;font-weight:400}
+    .ub-tournament-game-table333 .table td:first-child,.ub-tournament-game-table333 .table th:first-child{border-left-width:0}
+    .ub-tournament-game-table333 .table thead,.ub-tournament-game-table333 .table tfoot{background-color:#f05050;color:#fff;text-align:left;vertical-align:bottom}
+    .ub-tournament-game-table333 .table thead td,.ub-tournament-game-table333 .table tfoot td,.ub-tournament-game-table333 .table thead th,.ub-tournament-game-table333 .table tfoot th{border-color:#fff}
+    .ub-tournament-game-table333 .table td{background-color:transparent}
+    .ub-tournament-game-table333 .table_striped tr:nth-child(2n-1) td{background-color:#ececec}
+    .ub-tournament-game-table333 .table_bordered td{border-bottom:1px solid #e0e0e0}
+    .ub-tournament-game-table333 .table_bordered tbody > tr:last-child > td,.ub-tournament-game-table333 .table_bordered thead > tr:last-child > td{border-bottom-width:0}
+    .ub-tournament-game-table333 .table_horizontal td,.ub-tournament-game-table333 .table_horizontal th{border-width:0 0 1px;border-bottom:1px solid #e0e0e0}
+    .ub-tournament-game-table333 .table_horizontal tbody > tr:last-child > td,.ub-tournament-game-table333 .table_horizontal thead > tr:last-child > td{border-bottom-width:0}
+	.section-we-provide .aiel-section-head h2{ font-size:21px;}
+.service-we-bx li h3 { font-size: 17px;padding: 0 0px;}
+.service-we-bx>li {padding: 15px 20px; width:100%; margin:0px; border-left:0px; border-bottom:1px solid #4b4a4a} 
+.service-we-bx>li:last-child{ border:0px;}
+.service-we-bx li p { font-size: 14px; line-height: 17px;}
+.service-we-bx li:nth-child(4),.service-we-bx li:nth-child(5),.service-we-bx li:nth-child(6){ border-top:0}
+.service-we-bx li:nth-child(4),.service-we-bx li:nth-child(1){ border-left:0;}
+.wts-video { margin: 0 0 30px 0;}
+.past-evn h5 { font-size: 17px; margin: 13px 0 13px 0;}
+.past-evn ul{ padding:0px;}
+.past-evn ul li.win img { width: 114px;}
+.past-evn ul li img {width: 86px;}
+.regtr-info { text-align:center}
+.regtr-info h3 {  text-align: center; width: 100%; margin-top: 18px; font-size: 18px; margin-bottom: 20px;}
+.regtr-info a { float: none;}
+.e-esports-components-vds .carousel-control-next, .e-esports-components-vds .carousel-control-prev { width: 54px;}
+.aiel-overview #Overview .tab-component p span { margin: 4px 4px 0 0; padding: 1px 11px; font-size:13px;}
+.section-we-provide.service .service-we-bx li { border-left: 0; border-bottom: 1px solid #dddddd;}
+.service-engage-bx .meb-bx,.service-engage-bx .che-bx{margin-left: 0;  background: none;  font-size: 19px; padding-left: 0; line-height: 19px; padding-right: 0;padding-top: 10px; padding-bottom: 20px; text-align: center;}
+.service-engage-bx { background: #000000; height: auto;    padding: 30px 0px 13px;}
+.service-contact-bx h2 { font-size: 21px; margin-bottom: 4px;}
+.esports-service-banenr{ padding:25px 0px;}
+.esports-service-banenr h1{ font-size:50px;}
+.esports-service-banenr a.button { padding: 9px 28px; font-size: 20px;}
+.ultimete-e-sports .menu-ues-main-menu-container{    position: fixed;
+    left: -240px;
+    top: 0px;
+    width: 200px;
+    background: #333;
+    height: 100%;
+    margin: 0;
+    transition: ease all 0.4s;}
+.ultimete-e-sports .menu-ues-main-menu-container.OP{ left:0px;}
+.ultimete-e-sports .menu-ues-main-menu-container ul{     display: block!important; padding:20px 0 0 0!important}
+.ultimete-e-sports#menu-ues-main-menu li { width:100%; float:left}
+.ultimete-e-sports #menu-ues-main-menu li a { padding: 2px 10px; color: #fff; display: block;}
+.headersection.ultimete-e-sports.darkHeader { transform: none;}
+.ub-log-points-slide{ display:none}
+}

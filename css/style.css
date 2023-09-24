@@ -1009,7 +1009,7 @@ body {
   #FOOTER
 \*-----------------------------------*/
 
-.footer { color: var(--roman-silver); }
+.footer { color:  #0f9690; }
 
 .footer-top { padding-block-end: var(--section-padding); }
 
@@ -1044,7 +1044,7 @@ body {
 
 .footer-list-title {
   position: relative;
-  color: var(--silver);
+  color: #0f9690;
   font-family: var(--ff-oxanium);
   text-transform: uppercase;
   font-weight: var(--fw-800);
@@ -1095,7 +1095,7 @@ body {
   padding: 12px 20px;
   padding-inline-end: 60px;
   font-size: var(--fs-9);
-  color: var(--white);
+  color: #0f9690;
 }
 
 .footer-btn {
@@ -1105,7 +1105,7 @@ body {
   height: 100%;
   width: 53px;
   background-color: var(--marigold);
-  color: var(--xiketic);
+  color: #0f9690;
   display: grid;
   place-content: center;
 }
@@ -1126,7 +1126,7 @@ body {
 
 .copyright-link {
   display: inline-block;
-  color: var(--marigold);
+  color: #0f9690;
 }
 
 

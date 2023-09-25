@@ -2,22 +2,37 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"></script>
+
 									<title>GLITCH BGMI TOURNAMENT|GLITCH GAMES </title>
 									<link rel="stylesheet" href="https://code-glitchers.github.io/style.css">	
 									<link rel="stylesheet" href="css/style.css">	
 		
                                     <link rel="stylesheet" href="style.css">	
-
-<meta name="description" content="🎮 Calling all BGMI gamers in India! Join the BGMI Community for exciting tournaments and challenges hosted by Glitch Games. Let's play together!">
-<link rel="canonical" href="tournaments.html">
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="GLITCH BGMI TOURNAMENT|GLITCH GAMES ">
-<meta property="og:description" content="🎮 Calling all BGMI gamers in India! Join the BGMI Community for exciting tournaments and challenges hosted by Glitch Games. Let's play together!">
-<meta property="og:url" content="https:/bgmi-tournament.github.io">
-<meta property="og:image" content="https://bgmi-tournament.github.io/images/banner.png">
-<meta property="og:image:secure_url" content="https://bgmi-tournament.github.io/images/banner.png">
-
+									<script type="module">
+										// Import the functions you need from the SDKs you need
+										import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+										import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+										// TODO: Add SDKs for Firebase products that you want to use
+										// https://firebase.google.com/docs/web/setup#available-libraries
+									  
+										// Your web app's Firebase configuration
+										// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+										const firebaseConfig = {
+										  apiKey: "AIzaSyCfuEyhkQA4AE3cmD9Rbv3zqHlTfxKQSzk",
+										  authDomain: "ciphertube-ff50c.firebaseapp.com",
+										  databaseURL: "https://ciphertube-ff50c-default-rtdb.firebaseio.com",
+										  projectId: "ciphertube-ff50c",
+										  storageBucket: "ciphertube-ff50c.appspot.com",
+										  messagingSenderId: "903954319756",
+										  appId: "1:903954319756:web:c0793370f50dff31156ea9",
+										  measurementId: "G-SDHZBPZLRM"
+										};
+									  
+										// Initialize Firebase
+										const app = initializeApp(firebaseConfig);
+										const analytics = getAnalytics(app);
+									  </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZX15XB19P"></script>
 <script>
@@ -27,6 +42,16 @@
 
   gtag('config', 'G-4ZX15XB19P');
 </script>
+
+<meta name="description" content="🎮 Calling all BGMI gamers in India! Join the BGMI Community for exciting tournaments and challenges hosted by Glitch Games. Let's play together!">
+<link rel="canonical" href="index.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GLITCH BGMI TOURNAMENT|GLITCH GAMES ">
+<meta property="og:description" content="🎮 Calling all BGMI gamers in India! Join the BGMI Community for exciting tournaments and challenges hosted by Glitch Games. Let's play together!">
+<meta property="og:url" content="https:/bgmi-tournament.github.io">
+<meta property="og:image" content="https://bgmi-tournament.github.io/images/banner.png">
+<meta property="og:image:secure_url" content="https://bgmi-tournament.github.io/images/banner.png">
 
 <meta property="og:image:width" content="1349">
 <meta property="og:image:height" content="310">
@@ -52,32 +77,6 @@
       }
     }
     </script>
-	<script type="module">
-		// Import the functions you need from the SDKs you need
-		import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
-		import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
-		// TODO: Add SDKs for Firebase products that you want to use
-		// https://firebase.google.com/docs/web/setup#available-libraries
-	  
-		// Your web app's Firebase configuration
-		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-		const firebaseConfig = {
-		  apiKey: "AIzaSyCfuEyhkQA4AE3cmD9Rbv3zqHlTfxKQSzk",
-		  authDomain: "ciphertube-ff50c.firebaseapp.com",
-		  databaseURL: "https://ciphertube-ff50c-default-rtdb.firebaseio.com",
-		  projectId: "ciphertube-ff50c",
-		  storageBucket: "ciphertube-ff50c.appspot.com",
-		  messagingSenderId: "903954319756",
-		  appId: "1:903954319756:web:c0793370f50dff31156ea9",
-		  measurementId: "G-SDHZBPZLRM"
-		};
-	  
-		// Initialize Firebase
-		const app = initializeApp(firebaseConfig);
-		const analytics = getAnalytics(app);
-	  </script>
-	  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"></script>
-
   <style> header {
     background: linear-gradient(
     180deg,
@@ -180,47 +179,56 @@
   background: #0f9690;
   color: #fff;
   text-decoration: none;
-}</style>				
-								
-								<script>	 document.getElementById('login-reg-btn').addEventListener('click', function() {
-									window.location.href = 'login.html';
-								});</script>			
-											<div class="ub_signup">
-												<button id="login-reg-btn">Login / Register</button>
-											</div>
-											<div class="ub_signup">
-											<div id="username-display" style="display: none;"></div>
-								
-								
-									</div>
-									<div class="ub_signup">
-										<!-- Add a logout button -->
-										<button id="logout-btn" style="display: none;">Logout</button>
-									</div>
-											<script>
-												// Check if the username cookie exists
-												const usernameCookie = document.cookie.split('; ').find(row => row.startsWith('username_cookie='));
-												if (usernameCookie) {
-													const username = usernameCookie.split('=')[1];
-													const usernameDisplay = document.getElementById('username-display');
-													usernameDisplay.style.display = 'block';
-													usernameDisplay.textContent = `Welcome, ${username}!`;
-													document.getElementById('login-reg-btn').style.display = 'none';
-								
-													document.getElementById('logout-btn').style.display = 'block';
-												}
-											 // Add click event listener to the logout button to clear the username cookie and reload the page
-											 document.getElementById('logout-btn').addEventListener('click', function() {
-											document.cookie = 'username_cookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-											location.reload();
-										});
-								
-										// Add click event listener to the "Login / Register" button to redirect to login.html
-										document.getElementById('login-reg-btn').addEventListener('click', function() {
-											window.location.href = 'login.html';
-										});
-											</script>
-								
+}</style>	
+<script>	 document.getElementById('login-reg-btn').addEventListener('click', function() {
+	window.location.href = 'login.html';
+});</script>			
+			<div class="ub_signup">
+				<button id="login-reg-btn">Login / Register</button>
+			</div>
+			<div class="ub_signup">
+				<!-- Add a logout button -->
+				<button id="logout-btn" style="display: none;">Logout</button>
+			</div>
+			<div class="ub_signup">
+			<div id="username-display" style="display: none;"></div>
+			<style>
+				/* CSS to style the username-display div */
+				#username-display {
+					display: none;
+					font-size: 18px;
+					font-weight: bold;
+					margin-bottom: 10px;
+				}
+			</style>
+
+	</div>
+	
+			<script>
+				// Check if the username cookie exists
+				const usernameCookie = document.cookie.split('; ').find(row => row.startsWith('username_cookie='));
+				if (usernameCookie) {
+					const username = usernameCookie.split('=')[1];
+					const usernameDisplay = document.getElementById('username-display');
+					usernameDisplay.style.display = 'block';
+					usernameDisplay.textContent = `Welcome, ${username}!`;
+					document.getElementById('login-reg-btn').style.display = 'none';
+
+					document.getElementById('logout-btn').style.display = 'block';
+				}
+			 // Add click event listener to the logout button to clear the username cookie and reload the page
+			 document.getElementById('logout-btn').addEventListener('click', function() {
+            document.cookie = 'username_cookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+            location.reload();
+        });
+
+        // Add click event listener to the "Login / Register" button to redirect to login.html
+        document.getElementById('login-reg-btn').addEventListener('click', function() {
+            window.location.href = 'login.html';
+        });
+			</script>
+
+
 
 </div>
 
@@ -261,206 +269,226 @@
 </div>
 												</div>
 
-												<img src="images/banner.png" alt="bgmi-tournament">
-												<div class="container"><br>
-													<br><a class="fontb" href="https://bgmi-tournament.github.io/">Home</a> / Battlegrounds Mobile India</div>
-												<section id="gameTitle">
-													<div class="container">
-														<div class="row">
+												
+
+
+
+
+												<div class="_ubssingleinfo _t " style="background: url(&quot;images/banner.png&quot;) center top / cover no-repeat; --darkreader-inline-bgcolor: rgba(0, 0, 0, 0);" data-darkreader-inline-bgcolor=""><div class="container">
+													<div class="_ubs-head-title"><div class="_ub-t">
+															<!--<h1>Battlegrounds Mobile India</h1>--></div><div class="gamenoeslider csgo-gamepage-slide">
+																<div id="gameslider" class="carousel slide" data-ride="carousel">
+																		<div class="carousel-inner"><div class="carousel-item"><div class="ub2-game-best"><p><strong>Ajinkya Kedar AK</strong>  won a challange match against <strong>Preet Kumar</strong></p></div></div><div class="carousel-item active"><div class="ub2-game-best"><p><strong>Pankaj Choudhary</strong>  won a challange match against <strong>Rajesh k</strong></p></div></div><div class="carousel-item"><div class="ub2-game-best"><p><strong>Harman dhaliwal</strong>  won a challange match against <strong>Kulwinder Singh</strong></p></div></div><div class="carousel-item"><div class="ub2-game-best"><p><strong>vivek kumar</strong>  won a challange match against <strong>Monu Gupta</strong></p></div></div><div class="carousel-item"><div class="ub2-game-best"><p><strong>Monu Gupta</strong>  won a challange match against <strong>vivek kumar</strong></p></div></div></div>
+																		<ol class="carousel-indicators">
+																			<li data-target="#gameslider" data-slide-to="0" class=""></li>
+																			<li data-target="#gameslider" data-slide-to="1" class="active"></li>
+																			<li data-target="#gameslider" data-slide-to="2" class=""></li>
+																			<li data-target="#gameslider" data-slide-to="3" class=""></li>
+																		</ol>
+																</div>    
+															</div></div>
+												</div></div>
 															
+												<h2 class="game-title text-center">Battlegrounds Mobile India <span class="fontb">Tournaments</span></h1>
+													<script>
+														document.addEventListener("DOMContentLoaded", function () {
+														  const carouselItems = document.querySelectorAll(".carousel-item");
+														  let currentIndex = 0;
+														
+														  function showItem(index) {
+															carouselItems.forEach((item, i) => {
+															  if (i === index) {
+																item.classList.add("active");
+															  } else {
+																item.classList.remove("active");
+															  }
+															});
+														  }
+														
+														  function nextItem() {
+															currentIndex = (currentIndex + 1) % carouselItems.length;
+															showItem(currentIndex);
+														  }
+														
+														  setInterval(nextItem, 3000); // Change item every 3 seconds (adjust as needed)
+														});
+														</script>
+														
+
+
+<style>
+
+													/* Style the overall container */
+													.gaming-tour {
+														background-color: white; /* Background color */
+														font-family: Arial, sans-serif;
+														margin: 20px;
+														color: #0f9690; /* Font color */
+														border: 3px solid #0eb5bb;
+														border-radius: 5px;
+														box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+														overflow: hidden; /* Ensure child elements stay within the container */
+													}
+													
+													/* Style the table */
+													.gaming-game-table {
+														width: 100%;
+														border-collapse: collapse;
+														animation: table-fade 1s ease-in-out infinite alternate; /* Animation */
+													}
+													
+													/* Style the table header row */
+													.gaming-game-table thead th {
+														background-color: #f2f2f2;
+														border: 3px solid #0eb5bb;
+														padding: 8px;
+														text-align: left;
+														font-weight: bold;
+														color: #1dbd9a; /* Font color */
+													}
+													
+													/* Style the table data rows */
+													.gaming-game-table tbody .tournaments-row {
+														border: 1px solid #ddd;
+													}
+													
+													/* Style the table data cells */
+													.gaming-game-table tbody td {
+														border: 1px solid #ddd;
+														padding: 8px;
+														text-align: left;
+														color: #fff; /* Font color */
+													}
+													
+													/* Style links within the table */
+													.gaming-game-table a {
+														text-decoration: none;
+														color: #007bff;
+														font-weight: bold;
+													}
+													
+													/* Hover effect for links */
+													.gaming-game-table a:hover {
+														text-decoration: underline;
+													}
+													
+													/* Keyframe animation for the table */
+													@keyframes table-fade {
+														0% {
+															background-color: #ffffff; /* Initial background color */
+														}
+														100% {
+															background-color: #030303; /* Alternate background color */
+														}
+													}
+												</style>						
+<STYLE>
+.gamernet {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Link background color */
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+	text-decoration: none;
+}
+
+
+    background-color: #0056b3; /* Hover background color */
+</STYLE>
+
+
+
+
+
+
+
+
+												<div class="gaming-tour">
+													<div class="gaming-container">
+														<div class="tables-wrap">
+															<div class="gaming-table-information">
+																<div class="gaming-game-table">
+																	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mt-0">
+																		<thead>
+																			<tr>
+																				<th width="4%" class="series-type-header">&nbsp;</th>
+																				<th width="4%" class="tid-header">TID</th>
+																				<th width="25%" class="title-header">Title</th>
+																				<th width="15%" class="type-header" style="text-align: center">Type</th>
+																				<th width="12%" class="platform-header" style="text-align: center">Platform</th>
+																				<th width="15%" class="start-time-header">Start Time</th>
+																				<th width="6%" class="participants-header" style="text-align: center">Participants</th>
+																				<th width="10%" class="reg-fee-header">Reg. Fee</th>
+																				<th width="10%" class="prize-pool-header">Prize Pool</th>
+																				<th width="11%" class="action-header">&nbsp;</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<!-- Your table rows go here -->
+																			<tr class="tournaments-row">
+																				<td class="sderies-type-data" data-th="&nbsp;"><rdx class="fontb">FUN</rdx></td>
+																				<td class="tid-data" data-th="TID"><rdx class="fontb">775437</rdx></td>
+																				<td class="ditle-data" data-th="Title"><rdx class="fontb">Erangel - Battle Royale</rdx></td>
+																				<td class="type-data" style="text-align: center" data-th="Type"><rdx class="fontb">Solo - Battle Royale</rdx></td>
+																				<td class="platform-data" style="text-align: center" data-th="Platform"><rdx class="fontb">BGMI MOBILE</rdx></td>
+																				<td class="start-time-data" data-th="Start Time"><rdx class="fontb">tomorrow, 12:00</rdx> PM</td>
+																				<td class="participants-data" style="text-align: center" data-th="Participants"><rdx class="fontb">122/150</rdx></td>
+																				<td class="reg-fee-data" style="text-align: center" data-th="Reg. Fee"><rdx class="fontb">Free</rdx></td>
+																				<td class="prize-pool-data" style="text-align: center" data-th="Prize Pool"><rdx class="fontb">200Coins</rdx></td>
+																				<td class="action-data" data-th="&nbsp;"><a  class="gamernet" href="https://api.whatsapp.com/send?phone=+919482040101&text=Hello%2C%20I%20want%20to%20join%20TID%20" target="_blank">Join</a> <!--  HTML code -->
+</td>
+																			</tr>
+																			<!-- Repeat this structure for each table row -->
+																		</tbody>
+																	</table>
+																</div>
+															</div>
 														</div>
 													</div>
-												</section>
-												<div class="col-lg-12">
-													<div class="_game_ch face-off-wrapper">
-														<h2>Battlegrounds Mobile India <net class="fontb">Tournaments</span></h2>
-														<ul class="_cttabs">
-																																<li rel="tab2" class="active tab_last">Free 2 Play Tournaments</li>
-																																						</ul>
-														<div class="_ct_tab_container">
-															<div class="ub-game-lbl-app">
-																<span class="solo">Battle Royale</span>
-																<span class="_v">Bracket</span>
-															</div>
-							
-																																<h3 class="tab_drawer_heading m2" rel="tab2">Free 2 Play Tournaments</h3>
-																<div id="tab2" class="_cttab_content" style="display: block;"><div class="game-related-post-tournament _game_ch _ub_filter">
-									<!--<div class="row">
-										<div class="col-lg-12">
-											<h2>Free 2 Play <span>Tournaments</span></h2>
-										</div>
-									</div>--><div class="_ft-filters-wrap">
-										<div class="_ft-filters"><div class="day-filter-wrap">
-												<label>Filter by: </label>
-												<select name="day_filter">
-													<option value="all">All</option>
-													<option value="today">Today</option>
-													<option value="tomorrow">Tomorrow</option>
-													<option value="thisweek">This week</option>
-												</select>
-											</div></div>
-									</div><div class="row featured-game-wrap free"><div class="col-sm-6 col-md-3 _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes">
-															<div class="ub2-game-re bg-white _gt-fun">
-																<div class="tournament-pic">
-																	<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-23-sep-2023-prize-200-coins.html">
-																		<figure><img alt="" class="img-responsive" src="https://bgmi-tournament.github.io/wp-content/uploads/2018/04/battle-grounds-mobile-game-banner-revised-1349x310-261x134.jpg"></figure>
-																		<span class="_tid">ID: 38287</span>
-																		<div class="_ts-type"><i>Solo - Battle Royale</i><small><img src="https://bgmi-tournament.github.io/wp-content/themes/blackfyre/images/icon-bgmi_mobile.png"></small></div>
-																	</a>
-																</div><div class="ub2-game-rebx">
-																	<h3><a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-23-sep-2023-prize-200-coins.html">Erangel - Battle Royale</a></h3>
-																	<div class="ub2-register-date">
-																		<span>25<sup class="date-ordinal-indicator">th</sup> Sep<span class="start-time"><i class="fa fa-clock-o"></i>12:00 PM</span></span>
-																	</div>
-																	<!--<p class="_gm_fee">Registration Fee: <span> Free</span></p>--><p>Players: <span>61/150</span></p><div class="ub_2_btn network_id_not_found" '="">
-																		<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-23-sep-2023-prize-200-coins.html" class="_sif ">Join - <span class="_t-reg-fee">Free</span></a>
-																	</div><div class="_gpt-prize"><p>Prize: <span class="pr"><span class="ub-coin-icon">200</span><sub>Coins</sub></span></p></div></div>
-															</div>
-														</div><div class="col-sm-6 col-md-3 _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes">
-															<div class="ub2-game-re bg-white _gt-fun">
-																<div class="tournament-pic">
-																	<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-22-sep-2023-prize-200-coins.html">
-																		<figure><img alt="" class="img-responsive" src="https://bgmi-tournament.github.io/wp-content/uploads/2018/04/battle-grounds-mobile-game-banner-revised-1349x310-261x134.jpg"></figure>
-																		<span class="_tid">ID: 38280</span>
-																		<div class="_ts-type"><i>Solo - Battle Royale</i><small><img src="https://bgmi-tournament.github.io/wp-content/themes/blackfyre/images/icon-bgmi_mobile.png"></small></div>
-																	</a>
-																</div><div class="ub2-game-rebx">
-																	<h3><a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-22-sep-2023-prize-200-coins.html">Erangel - Battle Royale</a></h3>
-																	<div class="ub2-register-date">
-																		<span>25<sup class="date-ordinal-indicator">th</sup> Sep<span class="start-time"><i class="fa fa-clock-o"></i>3:00 PM</span></span>
-																	</div>
-																	<!--<p class="_gm_fee">Registration Fee: <span> Free</span></p>--><p>Players: <span>32/150</span></p><div class="ub_2_btn network_id_not_found" '="">
-																		<a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-22-sep-2023-prize-200-coins.html" class="_sif ">Join - <span class="_t-reg-fee">Free</span></a>
-																	</div><div class="_gpt-prize"><p>Prize: <span class="pr"><span class="ub-coin-icon">200</span><sub>Coins</sub></span></p></div></div>
-															</div>
-														</div><div class="col-sm-6 col-md-3 _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes">
-															<div class="ub2-game-re bg-white _gt-fun">
-																<div class="tournament-pic">
-																	<a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023/battlegrounds-mobile-india-tournament-fun-series-24-sep-2023-prize.html">
-																		<figure><img alt="" class="img-responsive" src="https://bgmi-tournament.github.io/wp-content/uploads/2018/04/battle-grounds-mobile-game-banner-revised-1349x310-261x134.jpg"></figure>
-																		<span class="_tid">ID: 38302</span>
-																		<div class="_ts-type"><i>Solo - Battle Royale</i><small><img src="https://bgmi-tournament.github.io/wp-content/themes/blackfyre/images/icon-bgmi_mobile.png"></small></div>
-																	</a>
-																</div><div class="ub2-game-rebx">
-																	<h3><a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023/battlegrounds-mobile-india-tournament-fun-series-24-sep-2023-prize.html">BGMI BATTLE CUP - Qualifier #3</a></h3>
-																	<div class="ub2-register-date">
-																		<span>25<sup class="date-ordinal-indicator">th</sup> Sep<span class="start-time"><i class="fa fa-clock-o"></i>4:00 PM</span></span>
-																	</div>
-																	<!--<p class="_gm_fee">Registration Fee: <span> Free</span></p>--><p>Players: <span>3/150</span></p><div class="ub_2_btn network_id_not_found" '="">
-																		<a  class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023/battlegrounds-mobile-india-tournament-fun-series-24-sep-2023-prize.html" class="_sif ">Join - <span class="_t-reg-fee">Free</span></a>
-																	</div><div class="_gpt-prize"><p>Prize: <span class="pr">Qualifier</span></p></div></div>
-															</div>
-														</div><div class="col-sm-6 col-md-3 _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes">
-															<div class="ub2-game-re bg-white _gt-fun">
-																<div class="tournament-pic">
-																	<a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-20-sep-2023-prize-200-coins.html">
-																		<figure><img alt="" class="img-responsive" src="https://bgmi-tournament.github.io/wp-content/uploads/2018/04/battle-grounds-mobile-game-banner-revised-1349x310-261x134.jpg"></figure>
-																		<span class="_tid">ID: 38257</span>
-																		<div class="_ts-type"><i>Solo - Battle Royale</i><small><img src="https://bgmi-tournament.github.io/wp-content/themes/blackfyre/images/icon-bgmi_mobile.png"></small></div>
-																	</a>
-																</div><div class="ub2-game-rebx">
-																	<h3><a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-20-sep-2023-prize-200-coins.html">Sanhok - Battle Royale</a></h3>
-																	<div class="ub2-register-date">
-																		<span>25<sup class="date-ordinal-indicator">th</sup> Sep<span class="start-time"><i class="fa fa-clock-o"></i>6:00 PM</span></span>
-																	</div>
-																	<!--<p class="_gm_fee">Registration Fee: <span> Free</span></p>--><p>Players: <span>65/150</span></p><div class="ub_2_btn network_id_not_found" '="">
-																		<a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-20-sep-2023-prize-200-coins.html" class="_sif ">Join - <span class="_t-reg-fee">Free</span></a>
-																	</div><div class="_gpt-prize"><p>Prize: <span class="pr"><span class="ub-coin-icon">200</span><sub>Coins</sub></span></p></div></div>
-															</div>
-														</div><div class="col-sm-6 col-md-3 _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes">
-															<div class="ub2-game-re bg-white _gt-fun">
-																<div class="tournament-pic">
-																	<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023">
-																		<figure><img alt="" class="img-responsive" src="https://bgmi-tournament.github.io/wp-content/uploads/2018/04/battle-grounds-mobile-game-banner-revised-1349x310-261x134.jpg"></figure>
-																		<span class="_tid">ID: 38205</span>
-																		<div class="_ts-type"><i>Solo - Battle Royale</i><small><img src="https://bgmi-tournament.github.io/wp-content/themes/blackfyre/images/icon-bgmi_mobile.png"></small></div>
-																	</a>
-																</div><div class="ub2-game-rebx">
-																	<h3><a class="fontb" href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023">BGMI  WEEKLY BATTLE CUP</a></h3>
-																	<div class="ub2-register-date">
-																		<span>26<sup class="date-ordinal-indicator">th</sup> Sep<span class="start-time"><i class="fa fa-clock-o"></i>4:00 PM</span></span>
-																	</div>
-																	<!--<p class="_gm_fee">Registration Fee: <span> Free</span></p>--><p>Players: <span>169</span></p><div class="ub_2_btn network_id_not_found" '="">
-																		<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023" class="_sif ">Join - <span class="_t-reg-fee">Free</span></a>
-																	</div><div class="_gpt-prize"><p>Prize: <span class="pr"><i class="fa fa-inr"></i> 500</span></p></div></div>
-															</div>
-														</div></div><div class="_gtlm-wrap"><div class="mobile-datalist-table _gt-row _gt-fun _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes">
-														<div class="_stype"><span class="t-s-z">Solo - Battle Royale</span> <span class="_u_date">25<sup class="date-ordinal-indicator">th</sup> Sep <span class="_ts-time">12:00 PM</span></span></div>
-														<div class="_ub_tournament_list_l">
-															<h3><a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-23-sep-2023-prize-200-coins.html">Erangel - Battle Royale</a></h3>
-															 <p class="_p_row"><span class="tid">TID: 38287</span></p>
-															<div class="_ub_prize-mob">
-																<span class="_u">PRIZE</span><span class="_r">200<span class="ub-coin-icon"></span></span><span class="_u_player"><i class="fa fa-user-circle-o" aria-hidden="true"></i> 61/150</span>
-															</div>
-														</div>
-														<div class="_ub_tournament_list_R"><div class="_u-btn Join">
-																<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-23-sep-2023-prize-200-coins.html" class="_sif ">Join <small><span class="_t-reg-fee">Free</span></small></a><small>
-															</small></div><small>
-														</small></div><small>
-													</small></div><div class="mobile-datalist-table _gt-row _gt-fun _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes"><small>
-														<div class="_stype"><span class="t-s-z">Solo - Battle Royale</span> <span class="_u_date">25<sup class="date-ordinal-indicator">th</sup> Sep <span class="_ts-time">3:00 PM</span></span></div>
-														<div class="_ub_tournament_list_l">
-															<h3><a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-22-sep-2023-prize-200-coins.html">Erangel - Battle Royale</a></h3>
-															 <p class="_p_row"><span class="tid">TID: 38280</span></p>
-															<div class="_ub_prize-mob">
-																<span class="_u">PRIZE</span><span class="_r">200<span class="ub-coin-icon"></span></span><span class="_u_player"><i class="fa fa-user-circle-o" aria-hidden="true"></i> 32/150</span>
-															</div>
-														</div>
-														<div class="_ub_tournament_list_R"><div class="_u-btn Join">
-																<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-22-sep-2023-prize-200-coins.html" class="_sif ">Join <small><span class="_t-reg-fee">Free</span></small></a><small>
-															</small></div><small>
-														</small></div><small>
-													</small></small></div><div class="mobile-datalist-table _gt-row _gt-fun _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes"><small><small>
-														<div class="_stype"><span class="t-s-z">Solo - Battle Royale</span> <span class="_u_date">25<sup class="date-ordinal-indicator">th</sup> Sep <span class="_ts-time">4:00 PM</span></span></div>
-														<div class="_ub_tournament_list_l">
-															<h3><a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023/battlegrounds-mobile-india-tournament-fun-series-24-sep-2023-prize.html">BGMI BATTLE CUP - Qualifier #3</a></h3>
-															 <p class="_p_row"><span class="tid">TID: 38302</span></p>
-															<div class="_ub_prize-mob">
-																<span class="_u">PRIZE</span><span class="_r">Qualifier</span><span class="_u_player"><i class="fa fa-user-circle-o" aria-hidden="true"></i> 3/150</span>
-															</div>
-														</div>
-														<div class="_ub_tournament_list_R"><div class="_u-btn Join">
-																<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023/battlegrounds-mobile-india-tournament-fun-series-24-sep-2023-prize.html" class="_sif ">Join <small><span class="_t-reg-fee">Free</span></small></a><small>
-															</small></div><small>
-														</small></div><small>
-													</small></small></small></div><div class="mobile-datalist-table _gt-row"></div><div class="mobile-datalist-table _gt-row _gt-fun _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes"><small><small><small>
-														<div class="_stype"><span class="t-s-z">Solo - Battle Royale</span> <span class="_u_date">25<sup class="date-ordinal-indicator">th</sup> Sep <span class="_ts-time">6:00 PM</span></span></div>
-														<div class="_ub_tournament_list_l">
-															<h3><a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-20-sep-2023-prize-200-coins.html">Sanhok - Battle Royale</a></h3>
-															 <p class="_p_row"><span class="tid">TID: 38257</span></p>
-															<div class="_ub_prize-mob">
-																<span class="_u">PRIZE</span><span class="_r">200<span class="ub-coin-icon"></span></span><span class="_u_player"><i class="fa fa-user-circle-o" aria-hidden="true"></i> 65/150</span>
-															</div>
-														</div>
-														<div class="_ub_tournament_list_R"><div class="_u-btn Join">
-																<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-20-sep-2023-prize-200-coins.html" class="_sif ">Join <small><span class="_t-reg-fee">Free</span></small></a><small>
-															</small></div><small>
-														</small></div><small>
-													</small></small></small></small></div><div class="mobile-datalist-table _gt-row _gt-fun _ft-wrap _Solo-Battle-Royale" game_mode="Battle Royale" team_size="solo" type="ranking" day="" thisweek="yes"><small><small><small>
-														<div class="_stype"><span class="t-s-z">Solo - Battle Royale</span> <span class="_u_date">26<sup class="date-ordinal-indicator">th</sup> Sep <span class="_ts-time">4:00 PM</span></span></div>
-														<div class="_ub_tournament_list_l">
-															<h3><a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023">BGMI  WEEKLY BATTLE CUP</a></h3>
-															 <p class="_p_row"><span class="tid">TID: 38205</span></p>
-															<div class="_ub_prize-mob">
-																<span class="_u">PRIZE</span><span class="_r"><i class="fa fa-inr"></i> 500</span><span class="_u_player"><i class="fa fa-user-circle-o" aria-hidden="true"></i> 171/450</span>
-															</div>
-														</div>
-														<div class="_ub_tournament_list_R"><div class="_u-btn Join">
-																<a href="https://bgmi-tournament.github.io/tournament/battlegrounds-mobile-india-tournament-fun-series-26-sep-2023" class="_sif ">Join <small><span class="_t-reg-fee">Free</span></small></a><small>
-															</small></div><small>
-														</small></div><small>
-													</small></small></small></small></div></div></div></div><small><small><small>
-																																						</small></small></small></div><small><small><small>
-													</small></small></small></div><small><small><small>
-												</small></small></small></div>
+												</div>
+                                
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+			
 
 
 
 
 
-											      </div>   
+
+
+
+
+
+
+
+
+												
 												 
-												  <footer class="footer">
+												<footer class="footer">
 
 													<div class="footer-top">
 													  <div class="container">
@@ -660,7 +688,11 @@
 												
 												
 												
-											
+												
+												
+												  <!-- 
+													- #BACK TO TOP
+												  -->
 												
 												  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
 													<ion-icon name="caret-up"></ion-icon>

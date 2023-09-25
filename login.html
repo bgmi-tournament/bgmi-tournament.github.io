@@ -54,30 +54,7 @@ gtag('config', 'G-4ZX15XB19P');
 }
 }
 </script>
-<script type="module">
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-apiKey: "AIzaSyCfuEyhkQA4AE3cmD9Rbv3zqHlTfxKQSzk",
-authDomain: "ciphertube-ff50c.firebaseapp.com",
-databaseURL: "https://ciphertube-ff50c-default-rtdb.firebaseio.com",
-projectId: "ciphertube-ff50c",
-storageBucket: "ciphertube-ff50c.appspot.com",
-messagingSenderId: "903954319756",
-appId: "1:903954319756:web:c0793370f50dff31156ea9",
-measurementId: "G-SDHZBPZLRM"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-</script>
 <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"></script>
 </head>
 <body>
@@ -286,104 +263,35 @@ const analytics = getAnalytics(app);
      <h2>Sign In</h2> 
 
      <div class="form"> 
-
-		<form id="phoneLoginForm">
-			<label for="phoneNumber">USERNAME:</label>
-			<div class="inputBox"> <input type="tel" id="phoneNumber" required></div>
+		<form id="phoneLoginForm" action="http://cubex.atwebpages.com/bgmi/index.php" method="POST">
+			<label for="username">USERNAME:</label>
+			<div class="inputBox"> <input type="text" id="username" name="username" required></div>
 			<label for="phoneNumber">Phone Number:</label>
-			<div class="inputBox"> <input type="tel" id="phoneNumber" required></div>
-			<button type="button" id="sendVerificationCode">Send Verification Code</button>
-			<label for="verificationCode">Verification Code:</label>
-			<div class="inputBox"> <input type="text" id="verificationCode" required></div>
-			<button type="button" id="verifyCode">Verify Code</button>
+			<div class="inputBox"> <input type="tel" id="phoneNumber" name="phoneNumber" required></div>
+<br>
+<br>
+			<input type="submit" value="Register">
+		</form>
 
-		  </form>
-		  <button type="button" id="signOut">Sign Out</button>
-<!-- Add this div to display the login status -->
-<div id="loginStatus"></div>
-<p id="loggedInAs">Not Logged In</p>
-<!-- Include Firebase phone auth script -->
-<script src="https://www.gstatic.com/firebasejs/9.6.2/firebase-auth.js"></script>
-<!-- Your JavaScript code goes here -->
-<script>
-  const auth = firebase.auth();
-
-  // Function to handle phone number login
-  function loginWithPhoneNumber(phoneNumber, appVerifier) {
-	signInWithPhoneNumber(auth, phoneNumber, appVerifier)
-	  .then((confirmationResult) => {
-		// SMS sent. Prompt user to type the code from the message.
-		const verificationCode = prompt("Enter the verification code: ");
-		return confirmationResult.confirm(verificationCode);
-	  })
-	  .then((userCredential) => {
-		// User signed in successfully with phone number.
-		const user = userCredential.user;
-		console.log("Phone number user logged in: ", user);
-	  })
-	  .catch((error) => {
-		console.error("Error logging in with phone number: ", error);
-	  });
-  }
-
-  // Function to display the "Logged In As" information
-  function displayLoggedInAs() {
-	onAuthStateChanged(auth, (user) => {
-	  const loggedInAsElement = document.getElementById("loggedInAs");
-	  if (user) {
-		loggedInAsElement.textContent = `Logged In As: ${user.phoneNumber}`;
-	  } else {
-		loggedInAsElement.textContent = "Not Logged In";
-	  }
-	});
-  }
-
-  // Call displayLoggedInAs to display the initial "Logged In As" status
-  displayLoggedInAs();
-
-  // Add event listeners to the form elements
-  const sendVerificationCodeButton = document.getElementById("sendVerificationCode");
-  const verifyCodeButton = document.getElementById("verifyCode");
-  const phoneNumberInput = document.getElementById("phoneNumber");
-  const verificationCodeInput = document.getElementById("verificationCode");
-
-  sendVerificationCodeButton.addEventListener("click", () => {
-	const phoneNumber = phoneNumberInput.value;
-	const appVerifier = new firebase.auth.RecaptchaVerifier("phoneLoginForm", {
-	  size: "invisible",
-	  callback: (response) => {
-		// reCAPTCHA solved, allow signInWithPhoneNumber.
-		loginWithPhoneNumber(phoneNumber, appVerifier);
-	  }
-	});
-	signInWithPhoneNumber(auth, phoneNumber, appVerifier)
-	  .then((confirmationResult) => {
-		// SMS sent. Verification code prompt will appear.
-		// Handle verification code input separately.
-	  })
-	  .catch((error) => {
-		console.error("Error sending verification code: ", error);
-	  });
-  });
-
-  verifyCodeButton.addEventListener("click", () => {
-	const verificationCode = verificationCodeInput.value;
-	const confirmationResult = firebase.auth.PhoneAuthProvider.credential(confirmationResult.verificationId, verificationCode);
-	signInWithCredential(auth, confirmationResult)
-	  .then((userCredential) => {
-		// User signed in successfully with phone number.
-		const user = userCredential.user;
-		console.log("Phone number user logged in: ", user);
-	  })
-	  .catch((error) => {
-		console.error("Error verifying code and logging in: ", error);
-	  });
-  });
-</script>
       </div> 
 
      </div> 
-
+<style>/* CSS for the Register button */
+	input[type="submit"] {
+		background-color: #007bff; /* Background color */
+		color: #fff; /* Text color */
+		padding: 10px 20px; /* Padding around the text */
+		border: none; /* Remove border */
+		border-radius: 5px; /* Rounded corners */
+		cursor: pointer; /* Add a pointer cursor on hover */
+		font-size: 16px; /* Font size */
+	}
+	
+	/* Hover effect */
+	input[type="submit"]:hover {
+		background-color: #0056b3; /* Darker background color on hover */
+	}
+	</style>
     </div> 
 
    </div> 

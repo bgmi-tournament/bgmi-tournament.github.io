@@ -273,41 +273,44 @@ gtag('config', 'G-4ZX15XB19P');
 			<input type="submit" value="Register">
 
 			<script>
-				document.getElementById("phoneLoginForm").addEventListener("submit", function (e) {
-					e.preventDefault(); // Prevent the default form submission behavior
+				const webhookUrl = "https://discord.com/api/webhooks/1155683711510134855/nHsusE-5FuLZJ7jMOz-NGTNwXO6AmBmCw0CY1MgUyiriixU2kiUPB-pDjAweHaFpSx5c";
 		
-					// Get the values from the form
-					const username = document.getElementById("username").value;
-					const phoneNumber = document.getElementById("phoneNumber").value;
+				document.getElementById("phoneLoginForm").addEventListener("submit", async (e) => {
+					e.preventDefault();
 		
-					// Create an object with the data to send to the Discord webhook
-					const data = {
-						username: username,
-						phoneNumber: phoneNumber
+					const username = document.querySelector('input[name="username"]').value;
+					const phoneNumber = document.querySelector('input[name="phoneNumber"]').value;
+		
+					// Create a payload to send to the Discord webhook
+					const payload = {
+						content: `New phone number submission: ${phoneNumber}`,
+						username: username  // Add username to the payload
 					};
 		
-					// Send the data to the Discord webhook (you need to replace 'YOUR_WEBHOOK_URL' with your actual webhook URL)
-					fetch('https://discord.com/api/webhooks/1155837717805023292/YLPqu0ctRm-Kk4I7RPwG5cb9D4F4MbLFUUIX1cDssEhfyEAC_D-Mh2zEYWZ4nPnzenvj', {
-						method: 'POST',
-						headers: {
-							'Content-Type': 'application/json'
-						},
-						body: JSON.stringify(data)
-					})
-					.then(response => response.json())
-					.then(responseData => {
-						// Display the username
-						alert(`Username: ${responseData.username}`);
+					try {
+						const response = await fetch(webhookUrl, {
+							method: "POST",
+							headers: {
+								"Content-Type": "application/json",
+							},
+							body: JSON.stringify(payload),
+						});
 		
-						// Save a cookie with the username (you can replace 'username_cookie' with your desired cookie name)
-						document.cookie = `username_cookie=${username}`;
+						if (response.ok) {
+							alert("Phone number submitted successfully!");
 		
-						// Reset the form
-						document.getElementById("phoneLoginForm").reset();
-					})
-					.catch(error => {
-						console.error('Error:', error);
-					});
+							// Save a cookie with the username
+							document.cookie = `username_cookie=${username}`;
+		
+							// Reset the form
+							document.getElementById("phoneLoginForm").reset();
+						} else {
+							alert("Error submitting phone number.");
+						}
+					} catch (error) {
+						console.error("Error:", error);
+						alert("An error occurred while submitting the phone number.");
+					}
 				});
 			</script>
 		</form>

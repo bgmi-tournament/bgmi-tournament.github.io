@@ -187,14 +187,23 @@
 				<button id="login-reg-btn">Login / Register</button>
 			</div>
 			<div class="ub_signup">
+				<!-- Add a logout button -->
+				<button id="logout-btn" style="display: none;">Logout</button>
+			</div>
+			<div class="ub_signup">
 			<div id="username-display" style="display: none;"></div>
-
+			<style>
+				/* CSS to style the username-display div */
+				#username-display {
+					display: none;
+					font-size: 18px;
+					font-weight: bold;
+					margin-bottom: 10px;
+				}
+			</style>
 
 	</div>
-	<div class="ub_signup">
-        <!-- Add a logout button -->
-        <button id="logout-btn" style="display: none;">Logout</button>
-    </div>
+	
 			<script>
 				// Check if the username cookie exists
 				const usernameCookie = document.cookie.split('; ').find(row => row.startsWith('username_cookie='));
@@ -209,7 +218,9 @@
 				}
 			 // Add click event listener to the logout button to clear the username cookie and reload the page
 			 document.getElementById('logout-btn').addEventListener('click', function() {
-            document.cookie = 'username_cookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+				const expirationDate = new Date('2024-01-01');
+            document.cookie = `username_cookie=; expires=${expirationDate.toUTCString()}; path=/;`;
+
             location.reload();
         });
 

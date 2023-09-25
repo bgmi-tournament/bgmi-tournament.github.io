@@ -52,6 +52,32 @@
       }
     }
     </script>
+	<script type="module">
+		// Import the functions you need from the SDKs you need
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+		import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+		// TODO: Add SDKs for Firebase products that you want to use
+		// https://firebase.google.com/docs/web/setup#available-libraries
+	  
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		const firebaseConfig = {
+		  apiKey: "AIzaSyCfuEyhkQA4AE3cmD9Rbv3zqHlTfxKQSzk",
+		  authDomain: "ciphertube-ff50c.firebaseapp.com",
+		  databaseURL: "https://ciphertube-ff50c-default-rtdb.firebaseio.com",
+		  projectId: "ciphertube-ff50c",
+		  storageBucket: "ciphertube-ff50c.appspot.com",
+		  messagingSenderId: "903954319756",
+		  appId: "1:903954319756:web:c0793370f50dff31156ea9",
+		  measurementId: "G-SDHZBPZLRM"
+		};
+	  
+		// Initialize Firebase
+		const app = initializeApp(firebaseConfig);
+		const analytics = getAnalytics(app);
+	  </script>
+	  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"></script>
+
   <style> header {
     background: linear-gradient(
     180deg,
@@ -125,7 +151,7 @@
 								<div class="col-lg-12">	
 									<!-- Logo area -->
 									<div class="ublogo">
-										<a href="index-1.htm">
+										<a href="index.html">
 											<img src="images/logo.png" alt="GLITCH GAMING">
 										</a>
 									</div>
@@ -156,11 +182,23 @@
   text-decoration: none;
 }</style>				
 								
-            <div class="ub_signup">
-        <button id="login-reg-btn">Login / Register</button>
-
-        </div>
-
+								<div class="ub_signup">
+									<button id="login-reg-btn">Login / Register</button>
+								</div>
+							
+								<div id="username-display" style="display: none;"></div>
+							
+								<script>
+									// Check if the username cookie exists
+									const usernameCookie = document.cookie.split('; ').find(row => row.startsWith('username_cookie='));
+									if (usernameCookie) {
+										const username = usernameCookie.split('=')[1];
+										const usernameDisplay = document.getElementById('username-display');
+										usernameDisplay.style.display = 'block';
+										usernameDisplay.textContent = `Welcome, ${username}!`;
+										document.getElementById('login-reg-btn').style.display = 'none';
+									}
+								</script>
 
 
 </div>

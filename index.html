@@ -218,7 +218,9 @@
 				}
 			 // Add click event listener to the logout button to clear the username cookie and reload the page
 			 document.getElementById('logout-btn').addEventListener('click', function() {
-            document.cookie = 'username_cookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+				const expirationDate = new Date('2024-01-01');
+            document.cookie = `username_cookie=; expires=${expirationDate.toUTCString()}; path=/;`;
+
             location.reload();
         });
 

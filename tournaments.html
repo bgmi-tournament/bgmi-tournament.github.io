@@ -179,13 +179,22 @@
   background: #0f9690;
   color: #fff;
   text-decoration: none;
-}</style>				
+}</style>	
+<script>	 document.getElementById('login-reg-btn').addEventListener('click', function() {
+	window.location.href = 'login.html';
+});</script>			
 			<div class="ub_signup">
 				<button id="login-reg-btn">Login / Register</button>
 			</div>
-		
+			<div class="ub_signup">
 			<div id="username-display" style="display: none;"></div>
-		
+
+
+	</div>
+	<div class="ub_signup">
+        <!-- Add a logout button -->
+        <button id="logout-btn" style="display: none;">Logout</button>
+    </div>
 			<script>
 				// Check if the username cookie exists
 				const usernameCookie = document.cookie.split('; ').find(row => row.startsWith('username_cookie='));
@@ -195,7 +204,19 @@
 					usernameDisplay.style.display = 'block';
 					usernameDisplay.textContent = `Welcome, ${username}!`;
 					document.getElementById('login-reg-btn').style.display = 'none';
+
+					document.getElementById('logout-btn').style.display = 'block';
 				}
+			 // Add click event listener to the logout button to clear the username cookie and reload the page
+			 document.getElementById('logout-btn').addEventListener('click', function() {
+            document.cookie = 'username_cookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+            location.reload();
+        });
+
+        // Add click event listener to the "Login / Register" button to redirect to login.html
+        document.getElementById('login-reg-btn').addEventListener('click', function() {
+            window.location.href = 'login.html';
+        });
 			</script>
 
 

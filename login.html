@@ -272,47 +272,52 @@ gtag('config', 'G-4ZX15XB19P');
 <br>
 			<input type="submit" value="Register">
 
-			<script>
-				const webhookUrl = "https://discord.com/api/webhooks/1155683711510134855/nHsusE-5FuLZJ7jMOz-NGTNwXO6AmBmCw0CY1MgUyiriixU2kiUPB-pDjAweHaFpSx5c";
-		
-				document.getElementById("phoneLoginForm").addEventListener("submit", async (e) => {
-					e.preventDefault();
-		
-					const username = document.querySelector('input[name="username"]').value;
-					const phoneNumber = document.querySelector('input[name="phoneNumber"]').value;
-		
-					// Create a payload to send to the Discord webhook
-					const payload = {
-						content: `New phone number submission: ${phoneNumber}`,
-						username: username  // Add username to the payload
-					};
-		
-					try {
-						const response = await fetch(webhookUrl, {
-							method: "POST",
-							headers: {
-								"Content-Type": "application/json",
-							},
-							body: JSON.stringify(payload),
-						});
-		
-						if (response.ok) {
-							alert("Phone number submitted successfully!");
-		
-							// Save a cookie with the username
-							document.cookie = `username_cookie=${username}`;
-		
-							// Reset the form
-							  window.location.href = "index.html";
-						} else {
-							alert("Error submitting phone number.");
-						}
-					} catch (error) {
-						console.error("Error:", error);
-						alert("An error occurred while submitting the phone number.");
-					}
-				});
-			</script>
+			
+    <script>
+        const webhookUrl = "https://discord.com/api/webhooks/1155683711510134855/nHsusE-5FuLZJ7jMOz-NGTNwXO6AmBmCw0CY1MgUyiriixU2kiUPB-pDjAweHaFpSx5c";
+
+        document.getElementById("phoneLoginForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+
+            const username = document.querySelector('input[name="username"]').value;
+            const phoneNumber = document.querySelector('input[name="phoneNumber"]').value;
+
+            // Create a payload to send to the Discord webhook
+            const payload = {
+                content: `New phone number submission: ${phoneNumber}`,
+                username: `New user Registered: ${username}`,
+            };
+
+            try {
+                const response = await fetch(webhookUrl, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(payload),
+                });
+
+                if (response.ok) {
+                    alert("Phone number submitted successfully!");
+
+                    // Save a cookie with the username
+                    document.cookie = `username_cookie=${username}`;
+
+                    // Redirect to index.html
+                    window.location.href = "index.html";
+                } else {
+                    const responseData = await response.json();
+                    alert(`Error submitting phone number: ${responseData.message}`);
+
+                    // Display an additional alert with the error message containing the username
+                    alert(`An error occurred while submitting the phone number: ${username}`);
+                }
+            } catch (error) {
+                console.error("Error:", error);
+                alert(`An error occurred while submitting the phone number: ${error.message}`);
+            }
+        });
+    </script>
 		</form>
 
       </div> 
